@@ -1,0 +1,289 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "local",
+        "tag": "local",
+        "strategy": "prefer_ipv4",
+        "detour": "direct"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "local"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+     "type": "tproxy",
+      "tag": "in",
+     "listen": "0.0.0.0",
+     "listen_port": 7895,
+      "domain_strategy": "prefer_ipv4",
+      "tcp_fast_open": true,
+      "sniff": true,
+      "sniff_override_destination": true
+    },
+{
+  "type": "socks",
+  "tag": "socksin",
+  "listen": "127.0.0.1",
+  "listen_port": 20170,
+  "sniff": true,
+  "sniff_override_destination": false
+}
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "proxy",
+      "outbounds": [
+        "Best-Ping",
+        "gb05",
+        "gb07",
+        "gb10"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "Best-Ping",
+      "outbounds": [
+        "gb05",
+        "gb07",
+        "gb10"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "30m",
+      "tolerance": 50
+    },
+   {
+   "type": "trojan",
+   "tag": "gb05",
+   "server": "uk-05.allhubb.info",
+   "server_port": 8443,
+   "password": "ed936760213a436f",
+   "tls": {
+    "enabled": true,
+    "server_name": "uk-05.allhubb.info",
+    "alpn": [
+     "h3",
+     "h2",
+     "http/1.1"
+    ],
+    "utls": {
+     "enabled": true,
+     "fingerprint": "android"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "gb07",
+   "server": "www.speedtest.net",
+   "server_port": 443,
+   "uuid": "60587168-e545-4040-8e77-b5824cac24b3",
+   "tls": {
+    "enabled": true,
+    "server_name": "uk-07.pezesh-kian.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "uk-07.pezesh-kian.com"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "gb10",
+   "server": "www.speedtest.net",
+   "server_port": 443,
+   "uuid": "15945ed1-6b2a-46cb-acfc-dd852c9f9109",
+   "tls": {
+    "enabled": true,
+    "server_name": "uk-10.pezesh-kian.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "uk-10.pezesh-kian.com"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "network": "udp",
+        "port": [
+          19302
+        ],
+        "outbound": "proxy"
+      },
+      {
+        "port_range": [
+          "10000:65535",
+          "6000:7000",
+          "3074:3174"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "network": "udp",
+        "port": [
+          4378,
+          4379,
+          4380
+        ],
+        "outbound": "direct"
+      },
+       {
+       "domain": [
+"ubisoft-avatars.akamaized.net",
+"r6addonslive.akamaized.net",
+"r6s1.battleye.com",
+"cdn.battleye.com",
+"rbspsxp-mim.vivox.com",
+"rbspsxp.vivox.com",
+"rbspsxp.www.vivox.com",
+"0d2ae42d-4c27-4cb7-af6c-2099062302bb-prod.s3.amazonaws.com"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "rule_set": [
+          "geosite-category-games"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
+      },
+      {
+        "protocol": "bittorrent",
+        "outbound": "direct"
+      },
+      {
+        "rule_set": [
+          "geosite-ir",
+          "geosite-microsoft",
+		  "geosite-google",
+          "geosite-steam"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "inbound": ["socksin"],
+        "outbound": "proxy"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "geosite-ir",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-youtube",
+        "format": "binary",
+        "url": "https://github.com/SagerNet/sing-geosite/raw/refs/heads/rule-set/geosite-youtube.srs",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "geoip-cloudflare",
+        "format": "binary",
+        "url": "https://github.com/Chocolate4U/Iran-sing-box-rules/raw/refs/heads/rule-set/geoip-cloudflare.srs",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-microsoft",
+        "format": "binary",
+        "url": "https://github.com/Chocolate4U/Iran-sing-box-rules/raw/refs/heads/rule-set/geosite-microsoft.srs",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-instagram",
+        "format": "binary",
+        "url": "https://github.com/Chocolate4U/Iran-sing-box-rules/raw/refs/heads/rule-set/geosite-instagram.srs",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-category-games",
+        "format": "binary",
+        "url": "https://github.com/Chocolate4U/Iran-sing-box-rules/raw/refs/heads/rule-set/geosite-category-games.srs",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "geoip-google",
+        "format": "binary",
+        "url": "https://github.com/Chocolate4U/Iran-sing-box-rules/raw/refs/heads/rule-set/geoip-google.srs",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-steam",
+        "format": "binary",
+        "url": "https://github.com/Chocolate4U/Iran-sing-box-rules/raw/refs/heads/rule-set/geosite-steam.srs",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-google",
+        "format": "binary",
+        "url": "https://github.com/SagerNet/sing-geosite/raw/refs/heads/rule-set/geosite-google.srs",
+        "download_detour": "direct"
+      }
+    ],
+    "final": "proxy",
+    "auto_detect_interface": true,
+    "default_mark": 666
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "0.0.0.0:9090",
+      "external_ui": "yacd",
+      "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+      "external_ui_download_detour": "direct",
+      "secret": "",
+      "default_mode": "rule"
+    }
+  }
+}
