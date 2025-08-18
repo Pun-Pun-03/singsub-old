@@ -203,6 +203,12 @@
         "outbound": "direct"
       },
       {
+        "domain_suffix": [
+          "live-video.net"
+      ],
+        "outbound": "direct"
+      },
+      {
         "inbound": ["socksin"],
         "outbound": "proxy"
       }
