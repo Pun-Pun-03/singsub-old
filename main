@@ -197,7 +197,6 @@
         "rule_set": [
           "geosite-ir",
           "geosite-microsoft",
-		  "geosite-google",
           "geosite-steam"
         ],
         "outbound": "direct"
