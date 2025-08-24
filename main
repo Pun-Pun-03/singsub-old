@@ -180,12 +180,6 @@
         "outbound": "direct"
       },
       {
-        "rule_set": [
-          "geosite-category-games"
-        ],
-        "outbound": "direct"
-      },
-      {
         "ip_is_private": true,
         "outbound": "direct"
       },
