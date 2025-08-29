@@ -61,76 +61,110 @@
       "interval": "30m",
       "tolerance": 50
     },
-   {
-   "type": "trojan",
-   "tag": "gb05",
-   "server": "uk-05.allhubb.info",
-   "server_port": 8443,
-   "password": "ed936760213a436f",
-   "tls": {
+{
+  "server": "uk-01.allhubb.info",
+  "server_port": 8443,
+  "tag": "GB1",
+  "type": "trojan",
+  "attach": "",
+  "password": "5d1e05a10f56f589",
+  "tls": {
+    "enabled": true,
+    "server_name": "uk-01.allhubb.info",
+    "alpn": [
+      "h3",
+      "h2",
+      "http/1.1"
+    ],
+    "utls": {
+      "enabled": true,
+      "fingerprint": "firefox"
+    }
+  },
+},
+{
+  "server": "uk-02.allhubb.info",
+  "server_port": 8443,
+  "tag": "GB2",
+  "type": "trojan",
+  "attach": "",
+  "password": "6448145a43e28cc4",
+  "tls": {
+    "enabled": true,
+    "server_name": "uk-02.allhubb.info",
+    "alpn": [
+      "h3",
+      "h2",
+      "http/1.1"
+    ],
+    "utls": {
+      "enabled": true,
+      "fingerprint": "random"
+    }
+  },
+},
+{
+  "server": "uk-03.allhubb.info",
+  "server_port": 8443,
+  "tag": "GB3",
+  "type": "trojan",
+  "attach": "",
+  "password": "1ce1df7962f71c6f",
+  "tls": {
+    "enabled": true,
+    "server_name": "uk-03.allhubb.info",
+    "alpn": [
+      "h2",
+      "http/1.1"
+    ],
+    "utls": {
+      "enabled": true,
+      "fingerprint": "chrome"
+    }
+  },
+},
+{
+  "server": "uk-04.allhubb.info",
+  "server_port": 8443,
+  "tag": "GB4",
+  "type": "trojan",
+  "attach": "",
+  "password": "196c508ba016785e",
+  "tls": {
+    "enabled": true,
+    "server_name": "uk-04.allhubb.info",
+    "alpn": [
+      "h3",
+      "h2",
+      "http/1.1"
+    ],
+    "utls": {
+      "enabled": true,
+      "fingerprint": "randomized"
+    }
+  },
+},
+{
+  "server": "uk-05.allhubb.info",
+  "server_port": 8443,
+  "tag": "GB5",
+  "type": "trojan",
+  "attach": "",
+  "password": "ed936760213a436f",
+  "tls": {
     "enabled": true,
     "server_name": "uk-05.allhubb.info",
     "alpn": [
-     "h3",
-     "h2",
-     "http/1.1"
+      "h3",
+      "h2",
+      "http/1.1"
     ],
     "utls": {
-     "enabled": true,
-     "fingerprint": "android"
+      "enabled": true,
+      "fingerprint": "android"
     }
-   }
   },
-  {
-   "type": "vless",
-   "tag": "gb07",
-   "server": "www.speedtest.net",
-   "server_port": 443,
-   "uuid": "60587168-e545-4040-8e77-b5824cac24b3",
-   "tls": {
-    "enabled": true,
-    "server_name": "uk-07.pezesh-kian.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "uk-07.pezesh-kian.com"
-    },
-    "max_early_data": 2560,
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "gb10",
-   "server": "www.speedtest.net",
-   "server_port": 443,
-   "uuid": "15945ed1-6b2a-46cb-acfc-dd852c9f9109",
-   "tls": {
-    "enabled": true,
-    "server_name": "uk-10.pezesh-kian.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "uk-10.pezesh-kian.com"
-    },
-    "max_early_data": 2560,
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+},
     {
       "type": "direct",
       "tag": "direct"
@@ -166,19 +200,6 @@
         ],
         "outbound": "direct"
       },
-       {
-       "domain": [
-"ubisoft-avatars.akamaized.net",
-"r6addonslive.akamaized.net",
-"r6s1.battleye.com",
-"cdn.battleye.com",
-"rbspsxp-mim.vivox.com",
-"rbspsxp.vivox.com",
-"rbspsxp.www.vivox.com",
-"0d2ae42d-4c27-4cb7-af6c-2099062302bb-prod.s3.amazonaws.com"
-        ],
-        "outbound": "direct"
-      },
       {
         "ip_is_private": true,
         "outbound": "direct"
@@ -193,12 +214,6 @@
           "geosite-microsoft",
           "geosite-steam"
         ],
-        "outbound": "direct"
-      },
-      {
-        "domain_suffix": [
-          "live-video.net"
-      ],
         "outbound": "direct"
       },
       {
