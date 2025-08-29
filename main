@@ -61,8 +61,8 @@
         "GB4",
         "GB5"
       ],
-      "url": "https://www.gstatic.com/generate_204",
-      "interval": "30m",
+      "url": "http://dynamodb.eu-west-2.amazonaws.com/",
+      "interval": "10m",
       "tolerance": 50
     },
 {
