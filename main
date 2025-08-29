@@ -7,7 +7,7 @@
       {
         "address": "local",
         "tag": "local",
-        "strategy": "prefer_ipv4",
+        "strategy": "prefer_ipv6",
         "detour": "direct"
       }
     ],
