@@ -62,7 +62,7 @@
         "GB5"
       ],
       "url": "http://dynamodb.eu-west-2.amazonaws.com/",
-      "interval": "10m",
+      "interval": "30m",
       "tolerance": 50
     },
 {
