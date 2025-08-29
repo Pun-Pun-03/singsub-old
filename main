@@ -70,7 +70,6 @@
   "server_port": 8443,
   "tag": "GB1",
   "type": "trojan",
-  "attach": "",
   "password": "5d1e05a10f56f589",
   "tls": {
     "enabled": true,
@@ -84,14 +83,13 @@
       "enabled": true,
       "fingerprint": "firefox"
     }
-  },
+  }
 },
 {
   "server": "uk-02.allhubb.info",
   "server_port": 8443,
   "tag": "GB2",
   "type": "trojan",
-  "attach": "",
   "password": "6448145a43e28cc4",
   "tls": {
     "enabled": true,
@@ -105,14 +103,13 @@
       "enabled": true,
       "fingerprint": "random"
     }
-  },
+  }
 },
 {
   "server": "uk-03.allhubb.info",
   "server_port": 8443,
   "tag": "GB3",
   "type": "trojan",
-  "attach": "",
   "password": "1ce1df7962f71c6f",
   "tls": {
     "enabled": true,
@@ -125,14 +122,13 @@
       "enabled": true,
       "fingerprint": "chrome"
     }
-  },
+  }
 },
 {
   "server": "uk-04.allhubb.info",
   "server_port": 8443,
   "tag": "GB4",
   "type": "trojan",
-  "attach": "",
   "password": "196c508ba016785e",
   "tls": {
     "enabled": true,
@@ -146,14 +142,13 @@
       "enabled": true,
       "fingerprint": "randomized"
     }
-  },
+  }
 },
 {
   "server": "uk-05.allhubb.info",
   "server_port": 8443,
   "tag": "GB5",
   "type": "trojan",
-  "attach": "",
   "password": "ed936760213a436f",
   "tls": {
     "enabled": true,
@@ -167,7 +162,7 @@
       "enabled": true,
       "fingerprint": "android"
     }
-  },
+  }
 },
     {
       "type": "direct",
