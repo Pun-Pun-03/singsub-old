@@ -44,18 +44,22 @@
       "tag": "proxy",
       "outbounds": [
         "Best-Ping",
-        "gb05",
-        "gb07",
-        "gb10"
+        "GB1",
+        "GB2",
+        "GB3",
+        "GB4",
+        "GB5"
       ]
     },
     {
       "type": "urltest",
       "tag": "Best-Ping",
       "outbounds": [
-        "gb05",
-        "gb07",
-        "gb10"
+        "GB1",
+        "GB2",
+        "GB3",
+        "GB4",
+        "GB5"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "30m",
