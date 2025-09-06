@@ -101,7 +101,7 @@
     ],
     "utls": {
       "enabled": true,
-      "fingerprint": "random"
+      "fingerprint": "chrome"
     }
   }
 },
@@ -140,7 +140,7 @@
     ],
     "utls": {
       "enabled": true,
-      "fingerprint": "randomized"
+      "fingerprint": "chrome"
     }
   }
 },
