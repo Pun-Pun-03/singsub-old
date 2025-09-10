@@ -215,6 +215,12 @@
         "outbound": "direct"
       },
       {
+        "domain_suffix": [
+          "deserver.top"
+      ],
+        "outbound": "direct"
+      },
+      {
         "inbound": ["socksin"],
         "outbound": "proxy"
       }
