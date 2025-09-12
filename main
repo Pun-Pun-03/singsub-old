@@ -67,22 +67,7 @@
       "interval": "30m",
       "tolerance": 50
     },
-  {
-   "type": "shadowsocks",
-   "tag": "Bee1",
-   "server": "tawaguard.xyz",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "mGZNEE4Ed3CvxVQe9IVFYr"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "Bee2",
-   "server": "tawaguard.xyz",
-   "server_port": 855,
-   "method": "chacha20-ietf-poly1305",
-   "password": "Wb0sTCjdB7pssm1lhwJJTP"
-  },
+
 {
   "server": "uk-01.allhubb.info",
   "server_port": 8443,
@@ -161,7 +146,25 @@
       "enabled": true,
       "fingerprint": "android"
     }
-  }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "Bee1",
+    "detour": "GB1",
+   "server": "tawaguard.xyz",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "mGZNEE4Ed3CvxVQe9IVFYr"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "Bee2",
+    "detour": "GB4",
+   "server": "tawaguard.xyz",
+   "server_port": 855,
+   "method": "chacha20-ietf-poly1305",
+   "password": "Wb0sTCjdB7pssm1lhwJJTP"
+  },
 },
     {
       "type": "direct",
