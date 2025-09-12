@@ -44,9 +44,10 @@
       "tag": "proxy",
       "outbounds": [
         "Best-Ping",
+        "Bee1",
+        "Bee2",
         "GB1",
         "GB2",
-        "GB3",
         "GB4",
         "GB5"
       ]
@@ -55,9 +56,10 @@
       "type": "urltest",
       "tag": "Best-Ping",
       "outbounds": [
+        "Bee1",
+        "Bee2",
         "GB1",
         "GB2",
-        "GB3",
         "GB4",
         "GB5"
       ],
@@ -65,6 +67,22 @@
       "interval": "30m",
       "tolerance": 50
     },
+  {
+   "type": "shadowsocks",
+   "tag": "Bee1",
+   "server": "tawaguard.xyz",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "mGZNEE4Ed3CvxVQe9IVFYr"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "Bee2",
+   "server": "tawaguard.xyz",
+   "server_port": 855,
+   "method": "chacha20-ietf-poly1305",
+   "password": "Wb0sTCjdB7pssm1lhwJJTP"
+  },
 {
   "server": "uk-01.allhubb.info",
   "server_port": 8443,
@@ -96,25 +114,6 @@
     "server_name": "uk-02.allhubb.info",
     "alpn": [
       "h3",
-      "h2",
-      "http/1.1"
-    ],
-    "utls": {
-      "enabled": true,
-      "fingerprint": "chrome"
-    }
-  }
-},
-{
-  "server": "uk-03.allhubb.info",
-  "server_port": 8443,
-  "tag": "GB3",
-  "type": "trojan",
-  "password": "1ce1df7962f71c6f",
-  "tls": {
-    "enabled": true,
-    "server_name": "uk-03.allhubb.info",
-    "alpn": [
       "h2",
       "http/1.1"
     ],
