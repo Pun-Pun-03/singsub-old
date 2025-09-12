@@ -150,7 +150,6 @@
   {
    "type": "shadowsocks",
    "tag": "Bee1",
-    "detour": "GB1",
    "server": "tawaguard.xyz",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -159,7 +158,6 @@
   {
    "type": "shadowsocks",
    "tag": "Bee2",
-    "detour": "GB4",
    "server": "tawaguard.xyz",
    "server_port": 855,
    "method": "chacha20-ietf-poly1305",
