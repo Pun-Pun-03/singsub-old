@@ -56,15 +56,15 @@
       "type": "urltest",
       "tag": "Best-Ping",
       "outbounds": [
-        "Bee1",
-        "Bee2",
         "GB1",
         "GB2",
         "GB4",
-        "GB5"
+        "GB5",
+        "Bee1",
+        "Bee2"
       ],
-      "url": "http://dynamodb.eu-west-2.amazonaws.com/",
-      "interval": "30m",
+      "url": "https://google.co.uk/gen_204/",
+      "interval": "10m",
       "tolerance": 50
     },
 
