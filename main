@@ -44,12 +44,12 @@
       "tag": "proxy",
       "outbounds": [
         "Best-Ping",
-        "Bee1",
-        "Bee2",
         "GB1",
         "GB2",
         "GB4",
-        "GB5"
+        "GB5",
+        "Bee1",
+        "Bee2"
       ]
     },
     {
