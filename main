@@ -146,7 +146,8 @@
       "enabled": true,
       "fingerprint": "android"
     }
-  },
+  }
+},
   {
    "type": "shadowsocks",
    "tag": "Bee1",
@@ -162,9 +163,8 @@
    "server_port": 855,
    "method": "chacha20-ietf-poly1305",
    "password": "Wb0sTCjdB7pssm1lhwJJTP"
-  }
-},
-    {
+  },
+{
       "type": "direct",
       "tag": "direct"
     },
