@@ -25,8 +25,8 @@
      "listen": "0.0.0.0",
      "listen_port": 7895,
      "domain_strategy": "prefer_ipv4",
-     "tcp_fast_open": false,
-     "sniff": false,
+     "tcp_fast_open": true,
+     "sniff": true,
      "sniff_override_destination": false
     },
 {
@@ -183,33 +183,7 @@
         "outbound": "proxy"
       },
       {
-        "port_range": [
-          "10000:65535",
-          "6000:7000",
-          "3074:3174"
-        ],
-        "outbound": "direct"
-      },
-      {
-        "network": "udp",
-        "port": [
-          4378,
-          4379,
-          4380
-        ],
-        "outbound": "direct"
-      },
-      {
-        "ip_is_private": true,
-        "outbound": "direct"
-      },
-      {
-        "protocol": "bittorrent",
-        "outbound": "direct"
-      },
-      {
         "rule_set": [
-          "geosite-ir",
           "geosite-steam"
         ],
         "outbound": "direct"
@@ -228,70 +202,13 @@
     "rule_set": [
       {
         "type": "remote",
-        "tag": "geosite-ir",
-        "format": "binary",
-        "url": "https://cdn.jsdelivr.net/gh/Chocolate4U/Iran-sing-box-rules@rule-set/geosite-ir.srs",
-        "download_detour": "direct"
-      },
-      {
-        "type": "remote",
-        "tag": "geosite-youtube",
-        "format": "binary",
-        "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geosite@refs/heads/rule-set/geosite-youtube.srs",
-        "download_detour": "direct"
-      },
-      {
-        "type": "remote",
-        "tag": "geoip-cloudflare",
-        "format": "binary",
-        "url": "https://cdn.jsdelivr.net/gh/Chocolate4U/Iran-sing-box-rules@refs/heads/rule-set/geoip-cloudflare.srs",
-        "download_detour": "direct"
-      },
-      {
-        "type": "remote",
-        "tag": "geosite-microsoft",
-        "format": "binary",
-        "url": "https://cdn.jsdelivr.net/gh/Chocolate4U/Iran-sing-box-rules@refs/heads/rule-set/geosite-microsoft.srs",
-        "download_detour": "direct"
-      },
-      {
-        "type": "remote",
-        "tag": "geosite-instagram",
-        "format": "binary",
-        "url": "https://cdn.jsdelivr.net/gh/Chocolate4U/Iran-sing-box-rules@refs/heads/rule-set/geosite-instagram.srs",
-        "download_detour": "direct"
-      },
-      {
-        "type": "remote",
-        "tag": "geosite-category-games",
-        "format": "binary",
-        "url": "https://cdn.jsdelivr.net/gh/Chocolate4U/Iran-sing-box-rules@refs/heads/rule-set/geosite-category-games.srs",
-        "download_detour": "direct"
-      },
-      {
-        "type": "remote",
-        "tag": "geoip-google",
-        "format": "binary",
-        "url": "https://cdn.jsdelivr.net/gh/Chocolate4U/Iran-sing-box-rules@refs/heads/rule-set/geoip-google.srs",
-        "download_detour": "direct"
-      },
-      {
-        "type": "remote",
         "tag": "geosite-steam",
         "format": "binary",
         "url": "https://cdn.jsdelivr.net/gh/Chocolate4U/Iran-sing-box-rules@refs/heads/rule-set/geosite-steam.srs",
         "download_detour": "direct"
-      },
-      {
-        "type": "remote",
-        "tag": "geosite-google",
-        "format": "binary",
-        "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geosite@refs/heads/rule-set/geosite-google.srs",
-        "download_detour": "direct"
       }
     ],
     "final": "proxy",
-    "auto_detect_interface": true,
     "default_mark": 666
   },
   "experimental": {
