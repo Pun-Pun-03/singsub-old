@@ -25,7 +25,7 @@
      "listen": "0.0.0.0",
      "listen_port": 7895,
      "domain_strategy": "prefer_ipv4",
-     "tcp_fast_open": true,
+     "tcp_fast_open": false,
      "sniff": false,
      "sniff_override_destination": false
     },
