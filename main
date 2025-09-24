@@ -26,15 +26,15 @@
      "listen_port": 7895,
      "domain_strategy": "prefer_ipv4",
      "tcp_fast_open": true,
-     "sniff": true,
-     "sniff_override_destination": true
+     "sniff": false,
+     "sniff_override_destination": false
     },
 {
   "type": "socks",
   "tag": "socksin",
   "listen": "127.0.0.1",
   "listen_port": 20170,
-  "sniff": true,
+  "sniff": false,
   "sniff_override_destination": false
 }
   ],
