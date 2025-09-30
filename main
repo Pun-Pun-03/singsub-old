@@ -40,36 +40,158 @@
   ],
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "Server-1",
-      "server": "azure-sto.edgeservers.org",
-      "server_port": 48172,
-      "method": "chacha20-ietf-poly1305",
-      "password": "51yloQC8D9w1Wae7FHtI65"
+      "server": "94.131.13.181",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": {
+        "enabled": true,
+        "server_name": "94.131.13.181"
+      }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "Server-2",
-      "server": "azure-sto.edgeservers.org",
-      "server_port": 48172,
-      "method": "chacha20-ietf-poly1305",
-      "password": "51yloQC8D9w1Wae7FHtI65"
+      "server": "638938755008242773.vienna-drc-tusacaf.info",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": {
+        "enabled": true,
+        "server_name": "638938755008242773.vienna-drc-tusacaf.info"
+      }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "Server-3",
-      "server": "azure-sto.edgeservers.org",
-      "server_port": 48172,
-      "method": "chacha20-ietf-poly1305",
-      "password": "51yloQC8D9w1Wae7FHtI65"
+      "server": "45.12.133.235",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": {
+        "enabled": true,
+        "server_name": "45.12.133.235"
+      }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "Server-4",
-      "server": "azure-sto.edgeservers.org",
-      "server_port": 48172,
-      "method": "chacha20-ietf-poly1305",
-      "password": "51yloQC8D9w1Wae7FHtI65"
+      "server": "185.231.205.5",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": {
+        "enabled": true,
+        "server_name": "185.231.205.5"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Server-5",
+      "server": "wetest.xn--vip-ob6fs36j.cloudflare.182682.xyz",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "wetest.xn--vip-ob6fs36j.cloudflare.182682.xyz"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Server-6",
+      "server": "638937918607957654.paris-drc-tusacaf.info",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": {
+        "enabled": true,
+        "server_name": "638937918607957654.paris-drc-tusacaf.info"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Server-8",
+      "server": "185.234.66.89",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": {
+        "enabled": true,
+        "server_name": "185.234.66.89"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Server-9",
+      "server": "185.231.205.188",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": {
+        "enabled": true,
+        "server_name": "185.231.205.188"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Server-11",
+      "server": "104.17.147.22",
+      "server_port": 443,
+      "uuid": "e66a4642-52fd-464c-8019-70bb3a26156f",
+      "tls": {
+        "enabled": true,
+        "server_name": "104.17.147.22"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Server-13",
+      "server": "151.101.3.8",
+      "server_port": 80,
+      "uuid": "91894e47-6068-448f-8d8f-bc6dc0c88a8a",
+      "tls": {
+        "enabled": true,
+        "server_name": "151.101.3.8"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Server-15",
+      "server": "638947655359334556.birjand-drc-tusaas.info",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": {
+        "enabled": true,
+        "server_name": "638947655359334556.birjand-drc-tusaas.info"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Server-16",
+      "server": "85.209.153.82",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": {
+        "enabled": true,
+        "server_name": "85.209.153.82"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Server-17",
+      "server": "91.98.22.20",
+      "server_port": 8443,
+      "uuid": "27e3937e-414f-4542-845d-d4d0cfb0889d",
+      "tls": {
+        "enabled": true,
+        "server_name": "91.98.22.20"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Server-18",
+      "server": "at-uk4-gcdn.hvps.ir",
+      "server_port": 80,
+      "uuid": "866d493d-0dcb-4c66-8b2e-08c7236e6d04",
+      "tls": {
+        "enabled": true,
+        "server_name": "at-uk4-gcdn.hvps.ir"
+      }
     },
     {
       "type": "selector",
@@ -79,7 +201,17 @@
         "Server-1",
         "Server-2",
         "Server-3",
-        "Server-4"
+        "Server-4",
+        "Server-5",
+        "Server-6",
+        "Server-8",
+        "Server-9",
+        "Server-11",
+        "Server-13",
+        "Server-15",
+        "Server-16",
+        "Server-17",
+        "Server-18"
       ]
     },
     {
@@ -89,7 +221,17 @@
         "Server-1",
         "Server-2",
         "Server-3",
-        "Server-4"
+        "Server-4",
+        "Server-5",
+        "Server-6",
+        "Server-8",
+        "Server-9",
+        "Server-11",
+        "Server-13",
+        "Server-15",
+        "Server-16",
+        "Server-17",
+        "Server-18"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m",
