@@ -12,7 +12,6 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 def extract_ss_details(ss_url):
-    """Extract cipher, password, server, and port from ss:// URL."""
     try:
         ss_part = ss_url.split("#")[0].replace("ss://", "")
         creds, server_info = ss_part.split("@")
@@ -26,17 +25,14 @@ def extract_ss_details(ss_url):
         return None
 
 def resolve_ips(hostname):
-    """Resolve hostname to a list of unique IP addresses."""
     try:
         addr_info = socket.getaddrinfo(hostname, None, socket.AF_INET)
-        ips = list(set(info[4][0] for info in addr_info))
-        return ips
+        return list(set(info[4][0] for info in addr_info))
     except Exception as e:
         logger.warning(f"Failed to resolve {hostname}: {str(e)}. Using hostname instead.")
         return [hostname]
 
 def fetch_config(url, server_number):
-    """Fetch config and extract details."""
     https_url = url.replace("ssconf://", "https://")
     try:
         response = requests.get(https_url, timeout=10)
@@ -48,7 +44,7 @@ def fetch_config(url, server_number):
             if details:
                 cipher, password, hostname, port = details
                 return {
-                    "name": f"Server-{server_number}",
+                    "tag": f"Server-{server_number}",
                     "cipher": cipher,
                     "password": password,
                     "hostname": hostname,
@@ -78,45 +74,18 @@ def main():
         sys.exit(1)
 
     # Resolve IPs
-    ip_to_config = {}
+    outbounds = []
     for cfg in configs:
         for ip in resolve_ips(cfg["hostname"]):
-            ip_to_config[ip] = {
-                "cipher": cfg["cipher"],
-                "password": cfg["password"],
-                "port": cfg["port"]
-            }
-
-    # Build outbounds
-    outbounds = []
-    for idx, (ip, details) in enumerate(ip_to_config.items(), 1):
-        outbounds.append({
-            "type": "shadowsocks",
-            "tag": f"Server-{idx}",
-            "server": ip,
-            "server_port": details["port"],
-            "method": details["cipher"],
-            "password": details["password"]
-        })
-
-    if not outbounds:
-        logger.error("No IPs resolved, fallback to hostnames")
-        for idx, cfg in enumerate(configs, 1):
             outbounds.append({
                 "type": "shadowsocks",
-                "tag": f"Server-{idx}",
-                "server": cfg["hostname"],
+                "tag": cfg["tag"],
+                "server": ip,
                 "server_port": cfg["port"],
                 "method": cfg["cipher"],
                 "password": cfg["password"]
             })
-
-    # Add selector
-    outbounds.append({
-        "type": "selector",
-        "tag": "Auto",
-        "outbounds": [o["tag"] for o in outbounds if o["type"] == "shadowsocks"]
-    })
+            break  
 
     # Load base config
     try:
@@ -126,14 +95,27 @@ def main():
         logger.error(f"Failed to load base_config.json: {str(e)}")
         sys.exit(1)
 
-    # Replace outbounds
-    base_config["outbounds"] = outbounds
+    new_tags = [o["tag"] for o in outbounds]
+
+    updated_outbounds = []
+    for ob in base_config["outbounds"]:
+        if ob["type"] in ("selector", "urltest"):
+            ob["outbounds"] = new_tags
+            updated_outbounds.append(ob)
+        elif ob["type"] in ("direct", "block"):
+            updated_outbounds.append(ob)
+        else:
+            pass
+
+    updated_outbounds = outbounds + updated_outbounds
+
+    base_config["outbounds"] = updated_outbounds
 
     # Save final config
     try:
-        with open("main", "w", encoding="utf-8") as f:
+        with open("ProjectAinita_Singbox.json", "w", encoding="utf-8") as f:
             json.dump(base_config, f, indent=2, ensure_ascii=False)
-        logger.info(f"Final config written with {len(outbounds)-1} servers + selector")
+        logger.info(f"Final config written with {len(outbounds)} new servers")
     except Exception as e:
         logger.error(f"Error writing final config: {str(e)}")
         sys.exit(1)
