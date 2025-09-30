@@ -20,157 +20,66 @@
   },
   "inbounds": [
     {
-     "type": "tproxy",
+      "type": "tproxy",
       "tag": "in",
-     "listen": "0.0.0.0",
-     "listen_port": 7895,
-     "domain_strategy": "prefer_ipv4",
-     "tcp_fast_open": true,
-     "sniff": true,
-     "sniff_override_destination": false
+      "listen": "0.0.0.0",
+      "listen_port": 7895,
+      "domain_strategy": "prefer_ipv4",
+      "tcp_fast_open": true,
+      "sniff": true,
+      "sniff_override_destination": false
     },
-{
-  "type": "socks",
-  "tag": "socksin",
-  "listen": "127.0.0.1",
-  "listen_port": 20170,
-  "sniff": false,
-  "sniff_override_destination": false
-}
+    {
+      "type": "socks",
+      "tag": "socksin",
+      "listen": "127.0.0.1",
+      "listen_port": 20170,
+      "sniff": false,
+      "sniff_override_destination": false
+    }
   ],
   "outbounds": [
     {
+      "type": "shadowsocks",
+      "tag": "Server-1",
+      "server": "4.223.100.248",
+      "server_port": 48172,
+      "method": "chacha20-ietf-poly1305",
+      "password": "51yloQC8D9w1Wae7FHtI65"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "Server-2",
+      "server": "135.225.124.80",
+      "server_port": 48172,
+      "method": "chacha20-ietf-poly1305",
+      "password": "51yloQC8D9w1Wae7FHtI65"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "Server-3",
+      "server": "4.223.106.151",
+      "server_port": 48172,
+      "method": "chacha20-ietf-poly1305",
+      "password": "51yloQC8D9w1Wae7FHtI65"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "Server-4",
+      "server": "4.223.106.240",
+      "server_port": 48172,
+      "method": "chacha20-ietf-poly1305",
+      "password": "51yloQC8D9w1Wae7FHtI65"
+    },
+    {
       "type": "selector",
-      "tag": "proxy",
+      "tag": "Auto",
       "outbounds": [
-        "Best-Ping",
-        "GB1",
-        "GB2",
-        "GB4",
-        "GB5",
-        "Bee1",
-        "Bee2"
+        "Server-1",
+        "Server-2",
+        "Server-3",
+        "Server-4"
       ]
-    },
-    {
-      "type": "urltest",
-      "tag": "Best-Ping",
-      "outbounds": [
-        "GB1",
-        "GB2",
-        "GB4",
-        "GB5",
-        "Bee1",
-        "Bee2"
-      ],
-      "url": "http://cp.cloudflare.com/",
-      "interval": "10m",
-      "tolerance": 50
-    },
-
-{
-  "server": "uk-01.allhubb.info",
-  "server_port": 8443,
-  "tag": "GB1",
-  "type": "trojan",
-  "password": "5d1e05a10f56f589",
-  "tls": {
-    "enabled": true,
-    "server_name": "uk-01.allhubb.info",
-    "alpn": [
-      "h3",
-      "h2",
-      "http/1.1"
-    ],
-    "utls": {
-      "enabled": true,
-      "fingerprint": "firefox"
-    }
-  }
-},
-{
-  "server": "uk-02.allhubb.info",
-  "server_port": 8443,
-  "tag": "GB2",
-  "type": "trojan",
-  "password": "6448145a43e28cc4",
-  "tls": {
-    "enabled": true,
-    "server_name": "uk-02.allhubb.info",
-    "alpn": [
-      "h3",
-      "h2",
-      "http/1.1"
-    ],
-    "utls": {
-      "enabled": true,
-      "fingerprint": "chrome"
-    }
-  }
-},
-{
-  "server": "uk-04.allhubb.info",
-  "server_port": 8443,
-  "tag": "GB4",
-  "type": "trojan",
-  "password": "196c508ba016785e",
-  "tls": {
-    "enabled": true,
-    "server_name": "uk-04.allhubb.info",
-    "alpn": [
-      "h3",
-      "h2",
-      "http/1.1"
-    ],
-    "utls": {
-      "enabled": true,
-      "fingerprint": "chrome"
-    }
-  }
-},
-{
-  "server": "uk-05.allhubb.info",
-  "server_port": 8443,
-  "tag": "GB5",
-  "type": "trojan",
-  "password": "ed936760213a436f",
-  "tls": {
-    "enabled": true,
-    "server_name": "uk-05.allhubb.info",
-    "alpn": [
-      "h3",
-      "h2",
-      "http/1.1"
-    ],
-    "utls": {
-      "enabled": true,
-      "fingerprint": "android"
-    }
-  }
-},
-  {
-   "type": "shadowsocks",
-   "tag": "Bee1",
-   "server": "tawaguard.xyz",
-   "server_port": 8080,
-   "method": "chacha20-ietf-poly1305",
-   "password": "mGZNEE4Ed3CvxVQe9IVFYr"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "Bee2",
-   "server": "tawaguard.xyz",
-   "server_port": 855,
-   "method": "chacha20-ietf-poly1305",
-   "password": "Wb0sTCjdB7pssm1lhwJJTP"
-  },
-{
-      "type": "direct",
-      "tag": "direct"
-    },
-    {
-      "type": "block",
-      "tag": "block"
     }
   ],
   "route": {
@@ -191,11 +100,13 @@
       {
         "domain_suffix": [
           "deserver.top"
-      ],
+        ],
         "outbound": "direct"
       },
       {
-        "inbound": ["socksin"],
+        "inbound": [
+          "socksin"
+        ],
         "outbound": "proxy"
       }
     ],
