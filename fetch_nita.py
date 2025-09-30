@@ -99,14 +99,16 @@ def main():
 
     updated_outbounds = []
     for ob in base_config["outbounds"]:
-        if ob["type"] in ("selector", "urltest"):
+        if ob["type"] == "urltest" and ob["tag"] == "Best-Ping":
             ob["outbounds"] = new_tags
+            updated_outbounds.append(ob)
+        elif ob["type"] == "selector" and ob["tag"] == "proxy":
+            ob["outbounds"] = ["Best-Ping"] + new_tags
             updated_outbounds.append(ob)
         elif ob["type"] in ("direct", "block"):
             updated_outbounds.append(ob)
         else:
             pass
-
     updated_outbounds = outbounds + updated_outbounds
 
     base_config["outbounds"] = updated_outbounds
