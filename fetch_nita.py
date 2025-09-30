@@ -113,7 +113,7 @@ def main():
 
     # Save final config
     try:
-        with open("ProjectAinita_Singbox.json", "w", encoding="utf-8") as f:
+        with open("main", "w", encoding="utf-8") as f:
             json.dump(base_config, f, indent=2, ensure_ascii=False)
         logger.info(f"Final config written with {len(outbounds)} new servers")
     except Exception as e:
