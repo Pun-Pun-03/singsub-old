@@ -73,18 +73,16 @@ def main():
         logger.error("No configs fetched!")
         sys.exit(1)
 
-    # Resolve IPs
     outbounds = []
     for cfg in configs:
-        for ip in resolve_ips(cfg["hostname"]):
-            outbounds.append({
-                "type": "shadowsocks",
-                "tag": cfg["tag"],
-                "server": ip,
-                "server_port": cfg["port"],
-                "method": cfg["cipher"],
-                "password": cfg["password"]
-            })
+        outbounds.append({
+            "type": "shadowsocks",
+            "tag": cfg["tag"],
+            "server": cfg["hostname"],   
+            "server_port": cfg["port"],
+            "method": cfg["cipher"],
+            "password": cfg["password"]
+        })
             break  
 
     # Load base config
