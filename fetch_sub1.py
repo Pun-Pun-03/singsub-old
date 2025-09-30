@@ -4,11 +4,10 @@ import json
 import sys
 
 try:
-    from singbox_converter import Converter
+    from singbox_converter import SingBoxConverter
 except Exception as e:
     print("PySingBoxConverter نصب نشده. لطفاً اجرا کنید: pip install PySingBoxConverter")
     sys.exit(1)
-
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
@@ -29,15 +28,17 @@ def fetch_subscription(url: str) -> str:
 
 def convert_to_singbox_outbounds(sub_text: str):
     """
-    از PySingBoxConverter برای تبدیل همه‌ی لینک‌ها به ساختار sing-box استفاده می‌کنیم.
-    خروجی شامل اوتباند‌هاست؛ آن‌ها را فیلتر می‌کنیم تا فقط vless/trojan باقی بمانند.
+    استفاده از PySingBoxConverter برای تبدیل لینک‌های ساب به ساختار sing-box
     """
     try:
-        conv = Converter()
-        # بیشتر کانورترها یک متد برای تبدیل کل متن ساب دارند و خروجی JSON ساختار sing-box می‌دهند.
-        # اینجا فرض می‌کنیم خروجی شامل کلید 'outbounds' باشد.
-        converted = conv.convert(sub_text, target="singbox")  # خروجی dict
-        outbounds = converted.get("outbounds", [])
+        converter = SingBoxConverter(
+            providers_config=None,
+            template=None,
+            fetch_sub_ua="clash.meta",
+            auto_fix_empty_outbound=True
+        )
+        config = converter.convert(sub_text, target="singbox")
+        outbounds = config.get("outbounds", [])
         return outbounds
     except Exception as e:
         logger.error(f"Converter failed: {e}")
@@ -46,7 +47,6 @@ def convert_to_singbox_outbounds(sub_text: str):
 def filter_vless_trojan(outbounds):
     """
     فقط vless و trojan را نگه می‌داریم، تا سقف MAX_SERVERS.
-    اگر تگ ندارد، با Server-1…Server-N پر می‌کنیم.
     """
     filtered = []
     n = 1
@@ -54,17 +54,14 @@ def filter_vless_trojan(outbounds):
         t = ob.get("type", "").lower()
         if t not in ("vless", "trojan"):
             continue
-        # اطمینان از وجود فیلدهای ضروری
         server = ob.get("server")
         port = ob.get("server_port")
         if not server or not port:
             continue
-        # برچسب
         tag = ob.get("tag")
         if not tag:
             tag = f"Server-{n}"
             ob["tag"] = tag
-        # پاکسازی‌های سبک: حذف فیلدهای ناشناخته یا ناسازگار ضروری نیست مگر مشکل ایجاد کند.
         filtered.append(ob)
         n += 1
         if len(filtered) >= MAX_SERVERS:
@@ -77,7 +74,6 @@ def update_base_outbounds(base_config, new_servers):
     - urltest با تگ Best-Ping فقط لیست تگ‌های سرورهای جدید را داشته باشد.
     - selector با تگ proxy با Best-Ping شروع شود و سپس تگ‌های جدید.
     - direct و block حفظ می‌شوند.
-    - سایر اوتباندهای قدیمی (سرورهای قبلی) حذف می‌شوند.
     """
     new_tags = [o["tag"] for o in new_servers]
     updated = []
@@ -94,7 +90,6 @@ def update_base_outbounds(base_config, new_servers):
         elif typ in ("direct", "block"):
             updated.append(ob)
         else:
-            # حذف سرورهای قدیمی
             continue
 
     base_config["outbounds"] = new_servers + updated
@@ -109,7 +104,6 @@ def main():
         logger.error("No valid vless/trojan servers after conversion")
         sys.exit(1)
 
-    # بارگذاری base و جایگزینی فقط outbounds با قواعد خواسته‌شده
     try:
         with open(BASE_FILE, "r", encoding="utf-8") as f:
             base_config = json.load(f)
