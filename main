@@ -42,7 +42,7 @@
     {
       "type": "shadowsocks",
       "tag": "Server-1",
-      "server": "4.223.100.248",
+      "server": "135.225.124.80",
       "server_port": 48172,
       "method": "chacha20-ietf-poly1305",
       "password": "51yloQC8D9w1Wae7FHtI65"
@@ -50,7 +50,7 @@
     {
       "type": "shadowsocks",
       "tag": "Server-2",
-      "server": "4.223.106.151",
+      "server": "135.225.124.80",
       "server_port": 48172,
       "method": "chacha20-ietf-poly1305",
       "password": "51yloQC8D9w1Wae7FHtI65"
@@ -58,7 +58,7 @@
     {
       "type": "shadowsocks",
       "tag": "Server-3",
-      "server": "4.223.106.151",
+      "server": "135.225.124.80",
       "server_port": 48172,
       "method": "chacha20-ietf-poly1305",
       "password": "51yloQC8D9w1Wae7FHtI65"
@@ -66,7 +66,7 @@
     {
       "type": "shadowsocks",
       "tag": "Server-4",
-      "server": "4.223.100.248",
+      "server": "135.225.124.80",
       "server_port": 48172,
       "method": "chacha20-ietf-poly1305",
       "password": "51yloQC8D9w1Wae7FHtI65"
@@ -75,6 +75,7 @@
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
+        "Best-Ping",
         "Server-1",
         "Server-2",
         "Server-3",
