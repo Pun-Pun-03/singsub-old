@@ -78,12 +78,11 @@ def main():
         outbounds.append({
             "type": "shadowsocks",
             "tag": cfg["tag"],
-            "server": cfg["hostname"],   
+            "server": cfg["hostname"],  
             "server_port": cfg["port"],
             "method": cfg["cipher"],
             "password": cfg["password"]
         })
-            break  
 
     # Load base config
     try:
