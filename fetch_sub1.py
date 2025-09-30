@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 SUB_URL = "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt"
 BASE_FILE = "base_config.json"
-OUT_FILE = "Project_Singbox.json"
+OUT_FILE = "main"
 MAX_SERVERS = 14
 
 def fetch_subscription(url: str) -> str:
@@ -35,9 +35,10 @@ def convert_to_singbox_outbounds(sub_text: str):
             providers_config=None,
             template=None,
             fetch_sub_ua="clash.meta",
-            auto_fix_empty_outbound=True
+            auto_fix_empty_outbound=True,
+            raw_subscription=sub_text
         )
-        config = converter.convert(sub_text, target="singbox")
+        config = converter.singbox_config
         outbounds = config.get("outbounds", [])
         return outbounds
     except Exception as e:
