@@ -5,7 +5,7 @@ import sys
 
 # اگر کتابخانه نصب نبود، خطا می‌دهیم تا کاربر نصب کند
 try:
-    from PySingBoxConverter import Converter  # نام پکیج طبق مستندات: PySingBoxConverter
+from singbox_converter import Converter  # نام پکیج طبق مستندات: PySingBoxConverter
 except Exception as e:
     print("PySingBoxConverter نصب نشده. لطفاً اجرا کنید: pip install PySingBoxConverter")
     sys.exit(1)
