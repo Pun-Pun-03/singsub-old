@@ -50,7 +50,7 @@
     {
       "type": "shadowsocks",
       "tag": "Server-2",
-      "server": "135.225.124.80",
+      "server": "4.223.106.151",
       "server_port": 48172,
       "method": "chacha20-ietf-poly1305",
       "password": "51yloQC8D9w1Wae7FHtI65"
@@ -66,20 +66,41 @@
     {
       "type": "shadowsocks",
       "tag": "Server-4",
-      "server": "4.223.106.240",
+      "server": "4.223.100.248",
       "server_port": 48172,
       "method": "chacha20-ietf-poly1305",
       "password": "51yloQC8D9w1Wae7FHtI65"
     },
     {
       "type": "selector",
-      "tag": "Auto",
+      "tag": "proxy",
       "outbounds": [
         "Server-1",
         "Server-2",
         "Server-3",
         "Server-4"
       ]
+    },
+    {
+      "type": "urltest",
+      "tag": "Best-Ping",
+      "outbounds": [
+        "Server-1",
+        "Server-2",
+        "Server-3",
+        "Server-4"
+      ],
+      "url": "http://cp.cloudflare.com/",
+      "interval": "10m",
+      "tolerance": 50
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
     }
   ],
   "route": {
