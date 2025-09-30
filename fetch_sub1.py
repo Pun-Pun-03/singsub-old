@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 SUB_URL = "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt"
 BASE_FILE = "base_config.json"
-OUT_FILE = "main"
+OUT_FILE = "Project_Singbox.json"
 MAX_SERVERS = 14
 
 def fetch_subscription(url: str) -> str:
@@ -26,7 +26,7 @@ def fetch_subscription(url: str) -> str:
         logger.error(f"Failed to fetch subscription: {e}")
         sys.exit(1)
 
-def convert_to_singbox_outbounds(sub_text: str):
+def convert_to_singbox_outbounds():
     """
     استفاده از PySingBoxConverter برای تبدیل لینک‌های ساب به ساختار sing-box
     """
@@ -35,8 +35,13 @@ def convert_to_singbox_outbounds(sub_text: str):
             providers_config=None,
             template=None,
             fetch_sub_ua="clash.meta",
-            auto_fix_empty_outbound=True,
-            raw_subscription=sub_text
+            auto_fix_empty_outbound=True
+        )
+        # لینک ساب رو به عنوان provider اضافه می‌کنیم
+        converter.add_provider(
+            name="sub1",
+            url=SUB_URL,
+            type="http"
         )
         config = converter.singbox_config
         outbounds = config.get("outbounds", [])
@@ -97,8 +102,8 @@ def update_base_outbounds(base_config, new_servers):
     return base_config
 
 def main():
-    sub_text = fetch_subscription(SUB_URL)
-    converted_outbounds = convert_to_singbox_outbounds(sub_text)
+    # گرفتن اوتباندها از کانورتر
+    converted_outbounds = convert_to_singbox_outbounds()
     servers = filter_vless_trojan(converted_outbounds)
 
     if not servers:
