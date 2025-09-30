@@ -3,12 +3,12 @@ import logging
 import json
 import sys
 
-# اگر کتابخانه نصب نبود، خطا می‌دهیم تا کاربر نصب کند
 try:
-from singbox_converter import Converter  # نام پکیج طبق مستندات: PySingBoxConverter
+    from singbox_converter import Converter
 except Exception as e:
     print("PySingBoxConverter نصب نشده. لطفاً اجرا کنید: pip install PySingBoxConverter")
     sys.exit(1)
+
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
