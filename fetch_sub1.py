@@ -9,7 +9,7 @@ from urllib.parse import urlparse, parse_qs, unquote
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-SUB_LINKS = ["https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt",
+SUB_LINKS = ["https://raw.githubusercontent.com/Pun-Pun-03/v2ray-collector-tel/refs/heads/main/sub.txt",
              "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_1.txt"
              ]
 BASE_CONFIG_PATH = "base_config.json"
