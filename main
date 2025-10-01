@@ -563,7 +563,7 @@
         "👉🆔@v2ray_configs_pool📡🇦🇺®️Australia©️Sydney🅿️ping:266.1ms",
         "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Montreal🅿️ping:7.05ms"
       ],
-      "url": "https://cp.cloudflare.com/cdn-cgi/trace",
+      "url": "https://cp.cloudflare.com/",
       "interval": "10m",
       "tolerance": 55
     },
