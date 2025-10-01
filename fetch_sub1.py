@@ -238,7 +238,7 @@ def build_config(outbounds):
 
 def main():
     outbounds = []
-    for sub_url in SUB_LINKS:
+    for sub_url in SUB_LINKS:   # روی همه لینک‌ها حلقه بزن
         raw_text = fetch_subscription(sub_url)
         links = extract_links(raw_text)
         for link in links:
@@ -246,7 +246,6 @@ def main():
             if outbound:
                 outbounds.append(outbound)
     build_config(outbounds)
-
 
 if __name__ == "__main__":
     main()
