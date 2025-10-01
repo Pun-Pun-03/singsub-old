@@ -13,6 +13,9 @@ BASE_CONFIG_PATH = "base_config.json"
 OUTPUT_PATH = "main"
 
 SUPPORTED_PROTOCOLS = ["vmess://", "vless://", "trojan://", "ss://", "hysteria2://", "hy2://"]
+VALID_TRANSPORT_TYPES = {
+    "tcp", "ws", "grpc", "http", "h2", "quic", "tls", "xtls", "kcp", "domain", "reality"
+}
 
 def fetch_subscription(url):
     try:
@@ -41,23 +44,28 @@ def extract_links(text):
 
 def create_transport_from_data(data):
     transport = {}
-    if data.get("net") and data["net"] != "tcp":
-        transport["type"] = data["net"]
+    net = data.get("net")
+    if net and net in VALID_TRANSPORT_TYPES and net != "tcp":
+        transport["type"] = net
         if data.get("path"):
             transport["path"] = data["path"]
         if data.get("host"):
             transport["headers"] = {"Host": data["host"]}
+    elif net and net not in VALID_TRANSPORT_TYPES:
+        logger.warning(f"Ignoring unknown transport type: {net}")
     return transport
 
 def create_transport_from_params(params):
     transport = {}
     type_ = params.get("type", ["tcp"])[0]
-    if type_ != "tcp":
+    if type_ in VALID_TRANSPORT_TYPES and type_ != "tcp":
         transport["type"] = type_
         if params.get("path"):
             transport["path"] = params["path"][0]
         if params.get("host"):
             transport["headers"] = {"Host": params["host"][0]}
+    elif type_ and type_ not in VALID_TRANSPORT_TYPES:
+        logger.warning(f"Ignoring unknown transport type: {type_}")
     return transport
 
 def convert_vmess(link):
