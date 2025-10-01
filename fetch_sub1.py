@@ -187,6 +187,17 @@ def convert_link(link):
     else:
         return None
 
+def remove_duplicate_tags(outbounds):
+    seen = set()
+    unique = []
+    for ob in outbounds:
+        if ob["tag"] not in seen:
+            seen.add(ob["tag"])
+            unique.append(ob)
+        else:
+            logger.warning(f"Skipping duplicate tag: {ob['tag']}")
+    return unique
+
 def build_config(outbounds):
     try:
         with open(BASE_CONFIG_PATH, "r", encoding="utf-8") as f:
@@ -223,6 +234,7 @@ def main():
         outbound = convert_link(link)
         if outbound:
             outbounds.append(outbound)
+    outbounds = remove_duplicate_tags(outbounds)
     build_config(outbounds)
 
 if __name__ == "__main__":
