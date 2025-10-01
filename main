@@ -148,17 +148,6 @@
     },
     {
       "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇱🇹®️Lithuania©️Vilnius🅿️ping:53.16ms",
-      "server": "94.131.13.163",
-      "server_port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "👉🆔@v2ray_configs_pool📡🇵🇱®️Poland©️Kolonia",
       "server": "45.144.51.23",
       "server_port": 8080,
@@ -285,41 +274,11 @@
     },
     {
       "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇳🇱®️The",
-      "server": "46.8.231.197",
-      "server_port": 3479,
-      "uuid": "70d8e055-9062-4184-a224-fe7e60f2527e",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
-      "server": "masterserver1.byte-server.ir",
-      "server_port": 1331,
-      "uuid": "34a89207-93fd-4df8-9cdf-355a0c3426e4",
-      "flow": ""
-    },
-    {
-      "type": "vless",
       "tag": "👉🆔@v2ray_configs_pool📡🇹🇷®️Turkey©️Yakuplu🅿️ping:121.24ms",
       "server": "188.132.183.15",
       "server_port": 8443,
       "uuid": "d03e1748-b8f2-45c7-bf86-6b3964c3e093",
       "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇳🇱®️The",
-      "server": "46.8.231.197",
-      "server_port": 3479,
-      "uuid": "e1f42192-01a2-40c8-9313-bc2383a41719",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
     },
     {
       "type": "vless",
@@ -338,22 +297,6 @@
     },
     {
       "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Montreal🅿️ping:7.17ms",
-      "server": "151.101.3.8",
-      "server_port": 80,
-      "uuid": "ce8cf26d-fce1-420d-854f-fc5fa71a3dd6",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-      "server": "146.19.90.2",
-      "server_port": 443,
-      "uuid": "33bdc1f3-a2ce-6a15-c286-d602b373063d",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
       "tag": "👉🆔@v2ray_configs_pool📡🇹🇷®️Turkey©️Yakuplu🅿️ping:90.46ms",
       "server": "ulta-tr.turkserver.ir",
       "server_port": 8443,
@@ -364,14 +307,6 @@
       "type": "vless",
       "tag": "👉🆔@v2ray_configs_pool📡🇸🇪®️Sweden©️Stockholm🅿️ping:15.23ms",
       "server": "138.124.116.112",
-      "server_port": 8080,
-      "uuid": "1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
-      "server": "89.208.96.180",
       "server_port": 8080,
       "uuid": "1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37",
       "flow": ""
@@ -427,17 +362,6 @@
     },
     {
       "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
-      "server": "services.dissertationhelpspecialist.com",
-      "server_port": 443,
-      "uuid": "1284a404-18a2-46f9-8c44-e7d87e44bd49",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:28.34ms",
       "server": "172.66.40.99",
       "server_port": 8880,
@@ -473,87 +397,10 @@
     },
     {
       "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-      "server": "185.236.232.72",
-      "server_port": 8880,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-      "server": "pqh38v4.avoipok.shop",
-      "server_port": 8880,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-      "server": "45.82.251.142",
-      "server_port": 8880,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-      "server": "pqh38v1.avoipok.shop",
-      "server_port": 8880,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:92.31ms",
       "server": "638943941066258806.belgrade-prx-dnraacp.info",
       "server_port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-      "server": "pqh24v7.vetrkot.com",
-      "server_port": 8880,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-      "server": "185.236.232.72",
-      "server_port": 8880,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-      "server": "pqh27v6.vetrkot.com",
-      "server_port": 8880,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
       "flow": "",
       "transport": {
         "type": "grpc"
@@ -587,57 +434,6 @@
     },
     {
       "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:28.44ms",
-      "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-      "server_port": 443,
-      "uuid": "44e16031-bde2-407a-b629-ae4b84e7e49f",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
-      "server": "v2ngfast.byte-server.ir",
-      "server_port": 1146,
-      "uuid": "34a89207-93fd-4df8-9cdf-355a0c3426e4",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
-      "server": "638938755008244100.vienna-drc-tusacaf.info",
-      "server_port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
-      "server": "masterserver1.byte-server.ir",
-      "server_port": 1331,
-      "uuid": "df574996-5eb5-4aab-a355-cb3573a89fe9",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
-      "server": "3.78.99.192",
-      "server_port": 22224,
-      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/telegram-channel-vlessconfig"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:27.87ms",
       "server": "104.17.148.22",
       "server_port": 8443,
@@ -646,25 +442,6 @@
       "transport": {
         "type": "grpc"
       }
-    },
-    {
-      "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-      "server": "pqh24v7.vetrkot.com",
-      "server_port": 8880,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-      "server": "51.81.155.59",
-      "server_port": 995,
-      "uuid": "3af4a906-3158-40ec-a2b9-70104c43f97e",
-      "flow": ""
     },
     {
       "type": "trojan",
@@ -711,7 +488,6 @@
         "👉🆔@v2ray_configs_pool📡🇷🇺®️Russia©️Moscow🅿️ping:24.59ms",
         "👉🆔@v2ray_configs_pool📡🇨🇭®️Switzerland©️Zurich🅿️ping:38.73ms",
         "👉🆔@v2ray_configs_pool📡🇱🇹®️Lithuania©️Vilnius🅿️ping:53.16ms",
-        "👉🆔@v2ray_configs_pool📡🇱🇹®️Lithuania©️Vilnius🅿️ping:53.16ms",
         "👉🆔@v2ray_configs_pool📡🇵🇱®️Poland©️Kolonia",
         "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
         "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Falkenstein🅿️ping:37.19ms",
@@ -725,43 +501,22 @@
         "👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:61.87ms",
         "👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:69.48ms",
         "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Montreal🅿️ping:7.17ms",
-        "👉🆔@v2ray_configs_pool📡🇳🇱®️The",
-        "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
         "👉🆔@v2ray_configs_pool📡🇹🇷®️Turkey©️Yakuplu🅿️ping:121.24ms",
-        "👉🆔@v2ray_configs_pool📡🇳🇱®️The",
         "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Falkenstein🅿️ping:36.39ms",
-        "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Montreal🅿️ping:7.17ms",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
         "👉🆔@v2ray_configs_pool📡🇹🇷®️Turkey©️Yakuplu🅿️ping:90.46ms",
         "👉🆔@v2ray_configs_pool📡🇸🇪®️Sweden©️Stockholm🅿️ping:15.23ms",
-        "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
         "👉🆔@v2ray_configs_pool📡🇮🇹®️Italy©️Milan🅿️ping:34.72ms",
         "👉🆔@v2ray_configs_pool📡🇫🇮®️Finland©️Helsinki🅿️ping:16.95ms",
         "👉🆔@v2ray_configs_pool📡🇳🇴®️Norway©️Oslo🅿️ping:14.46ms",
         "👉🆔@v2ray_configs_pool📡🇬🇧®️United",
         "👉🆔@v2ray_configs_pool📡🇫🇮®️Finland©️Helsinki🅿️ping:30.56ms",
-        "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
         "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:28.34ms",
         "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:28.29ms",
         "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:28.44ms",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
         "👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:92.31ms",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
         "👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:77.92ms",
         "👉🆔@v2ray_configs_pool📡🇧🇿®️Belize©️Belize",
-        "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:28.44ms",
-        "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
-        "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
-        "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
-        "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
         "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:27.87ms",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
         "👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:64.05ms",
         "👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:62.62ms",
         "👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:61.8ms",
@@ -784,7 +539,6 @@
         "👉🆔@v2ray_configs_pool📡🇷🇺®️Russia©️Moscow🅿️ping:24.59ms",
         "👉🆔@v2ray_configs_pool📡🇨🇭®️Switzerland©️Zurich🅿️ping:38.73ms",
         "👉🆔@v2ray_configs_pool📡🇱🇹®️Lithuania©️Vilnius🅿️ping:53.16ms",
-        "👉🆔@v2ray_configs_pool📡🇱🇹®️Lithuania©️Vilnius🅿️ping:53.16ms",
         "👉🆔@v2ray_configs_pool📡🇵🇱®️Poland©️Kolonia",
         "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
         "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Falkenstein🅿️ping:37.19ms",
@@ -798,43 +552,22 @@
         "👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:61.87ms",
         "👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:69.48ms",
         "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Montreal🅿️ping:7.17ms",
-        "👉🆔@v2ray_configs_pool📡🇳🇱®️The",
-        "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
         "👉🆔@v2ray_configs_pool📡🇹🇷®️Turkey©️Yakuplu🅿️ping:121.24ms",
-        "👉🆔@v2ray_configs_pool📡🇳🇱®️The",
         "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Falkenstein🅿️ping:36.39ms",
-        "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Montreal🅿️ping:7.17ms",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
         "👉🆔@v2ray_configs_pool📡🇹🇷®️Turkey©️Yakuplu🅿️ping:90.46ms",
         "👉🆔@v2ray_configs_pool📡🇸🇪®️Sweden©️Stockholm🅿️ping:15.23ms",
-        "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
         "👉🆔@v2ray_configs_pool📡🇮🇹®️Italy©️Milan🅿️ping:34.72ms",
         "👉🆔@v2ray_configs_pool📡🇫🇮®️Finland©️Helsinki🅿️ping:16.95ms",
         "👉🆔@v2ray_configs_pool📡🇳🇴®️Norway©️Oslo🅿️ping:14.46ms",
         "👉🆔@v2ray_configs_pool📡🇬🇧®️United",
         "👉🆔@v2ray_configs_pool📡🇫🇮®️Finland©️Helsinki🅿️ping:30.56ms",
-        "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
         "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:28.34ms",
         "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:28.29ms",
         "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:28.44ms",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
         "👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:92.31ms",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
         "👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:77.92ms",
         "👉🆔@v2ray_configs_pool📡🇧🇿®️Belize©️Belize",
-        "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:28.44ms",
-        "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
-        "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
-        "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
-        "👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt",
         "👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:27.87ms",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
-        "👉🆔@v2ray_configs_pool📡🇺🇸®️United",
         "👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:64.05ms",
         "👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:62.62ms",
         "👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:61.8ms",
