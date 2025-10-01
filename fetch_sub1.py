@@ -16,6 +16,7 @@ SUPPORTED_PROTOCOLS = ["vmess://", "vless://", "trojan://", "ss://", "hysteria2:
 VALID_TRANSPORT_TYPES = {
     "tcp", "ws", "grpc", "http", "h2", "quic", "tls", "xtls", "kcp", "domain", "reality"
 }
+PATH_SUPPORTED_TRANSPORTS = {"ws", "http"}
 
 def fetch_subscription(url):
     try:
@@ -47,7 +48,7 @@ def create_transport_from_data(data):
     net = data.get("net")
     if net and net in VALID_TRANSPORT_TYPES and net != "tcp":
         transport["type"] = net
-        if data.get("path"):
+        if net in PATH_SUPPORTED_TRANSPORTS and data.get("path"):
             transport["path"] = data["path"]
         if data.get("host"):
             transport["headers"] = {"Host": data["host"]}
@@ -60,7 +61,7 @@ def create_transport_from_params(params):
     type_ = params.get("type", ["tcp"])[0]
     if type_ in VALID_TRANSPORT_TYPES and type_ != "tcp":
         transport["type"] = type_
-        if params.get("path"):
+        if type_ in PATH_SUPPORTED_TRANSPORTS and params.get("path"):
             transport["path"] = params["path"][0]
         if params.get("host"):
             transport["headers"] = {"Host": params["host"][0]}
