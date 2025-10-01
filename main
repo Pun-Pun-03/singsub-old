@@ -41,40 +41,18 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "1-Meh-09",
-      "server": "51.89.230.196",
-      "server_port": 7035,
-      "uuid": "e265fc78-e269-46b2-9b6a-85f573dab3d5",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "filimo.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless",
-      "server": "51.89.230.196",
-      "server_port": 7035,
-      "uuid": "7d27c544-135d-41a2-bd84-713b8af4f3c2",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "filimo.com"
-        }
-      }
+      "server": "www.speedtest.net",
+      "server_port": 443,
+      "uuid": "25cff889-0921-40a9-814b-15d3af3bbc58",
+      "flow": ""
     },
     {
       "type": "trojan",
       "tag": "trojan",
-      "server": "176.32.39.29",
+      "server": "ru2.asc-sam.ir",
       "server_port": 443,
-      "password": "8OXD5VVt8s"
+      "password": "IM4e0ZQNPU"
     },
     {
       "type": "vless",
@@ -133,7 +111,6 @@
       "tag": "proxy",
       "outbounds": [
         "Best-Ping",
-        "1-Meh-09",
         "vless",
         "trojan",
         "%40mehrosaboran",
@@ -146,7 +123,6 @@
       "type": "urltest",
       "tag": "Best-Ping",
       "outbounds": [
-        "1-Meh-09",
         "vless",
         "trojan",
         "%40mehrosaboran",
