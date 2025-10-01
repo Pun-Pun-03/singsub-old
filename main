@@ -179,11 +179,7 @@
       "server": "91.98.47.15",
       "server_port": 12046,
       "uuid": "038a1850-444c-4f59-cbe0-367328542d04",
-      "flow": "",
-      "transport": {
-        "type": "xhttp",
-        "path": "/@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android"
-      }
+      "flow": ""
     },
     {
       "type": "vless",
@@ -285,14 +281,7 @@
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "1cd711ff-7aaa-453f-c5dc-9d3569ee3673",
-      "flow": "",
-      "transport": {
-        "type": "xhttp",
-        "path": "/@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam?ed=2048",
-        "headers": {
-          "Host": "Mahsazxshop.org"
-        }
-      }
+      "flow": ""
     },
     {
       "type": "vless",
@@ -311,11 +300,7 @@
       "server": "masterserver1.byte-server.ir",
       "server_port": 1331,
       "uuid": "34a89207-93fd-4df8-9cdf-355a0c3426e4",
-      "flow": "",
-      "transport": {
-        "type": "xhttp",
-        "path": "/@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1"
-      }
+      "flow": ""
     },
     {
       "type": "vless",
@@ -357,14 +342,7 @@
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "ce8cf26d-fce1-420d-854f-fc5fa71a3dd6",
-      "flow": "",
-      "transport": {
-        "type": "xhttp",
-        "path": "/@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam?ed=2048",
-        "headers": {
-          "Host": "Mahsazxshop.org"
-        }
-      }
+      "flow": ""
     },
     {
       "type": "vless",
@@ -625,11 +603,7 @@
       "server": "v2ngfast.byte-server.ir",
       "server_port": 1146,
       "uuid": "34a89207-93fd-4df8-9cdf-355a0c3426e4",
-      "flow": "",
-      "transport": {
-        "type": "xhttp",
-        "path": "/@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast"
-      }
+      "flow": ""
     },
     {
       "type": "vless",
