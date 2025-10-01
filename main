@@ -414,7 +414,7 @@
       "server": "githubtr.ip-venzo.com",
       "server_port": 8443,
       "uuid": "6b3a7034-39ec-f057-377d-cf6af57b4db4",
-      "flow": "xtls-rprx-visio"
+      "flow": ""
     },
     {
       "type": "vless",
