@@ -14,7 +14,7 @@ SUB_LINKS = ["https://raw.githubusercontent.com/Pun-Pun-03/v2ray-collector-tel/r
 BASE_CONFIG_PATH = "base_config.json"
 OUTPUT_PATH = "main"
 
-SUPPORTED_PROTOCOLS = ["vmess://", "vless://", "trojan://", "ssx://", "hysteria2x://", "hy2x://"]
+SUPPORTED_PROTOCOLS = ["vmess://", "vless://", "trojan://", "ss://", "hysteria2x://", "hy2x://"]
 VALID_TRANSPORT_TYPES = {
     "tcp", "ws", "grpc", "http", "h2", "quic", "tls", "xtls", "kcp", "domain", "reality"
 }
