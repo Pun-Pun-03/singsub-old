@@ -33,7 +33,7 @@ jobs:
     
     - name: Run config fetcher
       run: |
-        python subscon.py
+        python subs_con.py
       continue-on-error: false
     
     - name: Check if main exists
