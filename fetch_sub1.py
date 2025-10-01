@@ -12,11 +12,12 @@ SUB_LINK = "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/he
 BASE_CONFIG_PATH = "base_config.json"
 OUTPUT_PATH = "main"
 
-SUPPORTED_PROTOCOLS = ["vmess://", "vless://", "trojan://", "ss://", "hysteria2://", "hy2://"]
+SUPPORTED_PROTOCOLS = ["vmess://", "vless://", "trojan://", "ssx://", "hysteria2x://", "hy2x://"]
 VALID_TRANSPORT_TYPES = {
     "tcp", "ws", "grpc", "http", "h2", "quic", "tls", "xtls", "kcp", "domain", "reality"
 }
 PATH_SUPPORTED_TRANSPORTS = {"ws", "http"}
+VALID_FLOW_VALUES = {"xtls-rprx-vision", "xtls-rprx-direct", ""}
 
 def fetch_subscription(url):
     try:
@@ -95,13 +96,17 @@ def convert_vless(link):
     try:
         parsed = urlparse(link)
         params = parse_qs(parsed.query)
+        flow = params.get("flow", [""])[0]
+        if flow not in VALID_FLOW_VALUES:
+            logger.warning(f"Ignoring unsupported flow: {flow}")
+            flow = ""
         outbound = {
             "type": "vless",
             "tag": parsed.fragment or "vless",
             "server": parsed.hostname,
             "server_port": int(parsed.port),
             "uuid": parsed.username,
-            "flow": params.get("flow", [""])[0]
+            "flow": flow
         }
         transport = create_transport_from_params(params)
         if transport:
