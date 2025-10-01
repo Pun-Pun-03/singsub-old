@@ -63,9 +63,9 @@
         "Bee1",
         "Bee2"
       ],
-      "url": "https://cp.cloudflare.com/",
-      "interval": "15m",
-      "tolerance": 70
+      "url": "https://cp.cloudflare.com/cdn-cgi/trace",
+      "interval": "10m",
+      "tolerance": 55
     },
 
 {
