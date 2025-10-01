@@ -2,7 +2,6 @@ import requests
 import base64
 import json
 import re
-import socket
 import logging
 from urllib.parse import urlparse, parse_qs, unquote
 
@@ -195,13 +194,7 @@ def convert_link(link):
         return convert_hysteria2(link)
     else:
         return None
-def is_server_alive(host, port, timeout=3):
-    try:
-        with socket.create_connection((host, port), timeout=timeout):
-            return True
-    except Exception:
-        return False
-
+      
 def remove_duplicate_tags(outbounds):
     seen = set()
     unique = []
@@ -251,12 +244,7 @@ def main():
         for link in links:
             outbound = convert_link(link)
             if outbound:
-                host = outbound.get("server")
-                port = outbound.get("server_port")
-                if host and port and is_server_alive(host, port):
-                    outbounds.append(outbound)
-                else:
-                    logger.warning(f"Server {host}:{port} is not reachable, skipping.")
+                outbounds.append(outbound)
     build_config(outbounds)
 
 
