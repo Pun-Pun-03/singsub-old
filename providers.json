@@ -1,8 +1,0 @@
-{
-    "subscribes":[
-        {
-            "url": "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt",
-        }
-    ],
-    "exclude_protocol":"ssr"
-}
