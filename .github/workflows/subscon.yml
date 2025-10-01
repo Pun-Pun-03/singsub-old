@@ -7,7 +7,7 @@ on:
 
 jobs:
   update-configs:
-    runs-on: ubuntu-latest
+    runs-on: linux-16.04
     permissions:
       contents: write
     
