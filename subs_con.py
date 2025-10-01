@@ -2,7 +2,7 @@ from singbox_converter import SingBoxConverter
 
 converter = SingBoxConverter(
     providers_config="providers.json",
-    template="template.json",
+    template="t.json",
     fetch_sub_ua="clash.meta",
     # fetch_sub_fallback_ua="clash",
     # export_config_folder="",
