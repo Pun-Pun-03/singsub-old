@@ -39,25 +39,45 @@ def extract_links(text):
         links.extend(matches)
     return links
 
+def create_transport_from_data(data):
+    transport = {}
+    if data.get("net") and data["net"] != "tcp":
+        transport["type"] = data["net"]
+        if data.get("path"):
+            transport["path"] = data["path"]
+        if data.get("host"):
+            transport["headers"] = {"Host": data["host"]}
+    return transport
+
+def create_transport_from_params(params):
+    transport = {}
+    type_ = params.get("type", ["tcp"])[0]
+    if type_ != "tcp":
+        transport["type"] = type_
+        if params.get("path"):
+            transport["path"] = params["path"][0]
+        if params.get("host"):
+            transport["headers"] = {"Host": params["host"][0]}
+    return transport
+
 def convert_vmess(link):
     try:
         raw = link.replace("vmess://", "")
         decoded = base64.b64decode(raw + "==").decode("utf-8")
         data = json.loads(decoded)
-        return {
+        outbound = {
             "type": "vmess",
             "tag": data.get("ps", "vmess"),
             "server": data["add"],
             "server_port": int(data["port"]),
             "uuid": data["id"],
-            "security": "auto",
+            "security": data.get("scy", "auto"),
             "alter_id": int(data.get("aid", 0)),
-            "transport": {
-                "type": data.get("net", "tcp"),
-                "path": data.get("path", ""),
-                "headers": {"Host": data.get("host", "")}
-            }
         }
+        transport = create_transport_from_data(data)
+        if transport:
+            outbound["transport"] = transport
+        return outbound
     except Exception as e:
         logger.warning(f"Error converting vmess: {e}")
         return None
@@ -66,19 +86,18 @@ def convert_vless(link):
     try:
         parsed = urlparse(link)
         params = parse_qs(parsed.query)
-        return {
+        outbound = {
             "type": "vless",
             "tag": parsed.fragment or "vless",
             "server": parsed.hostname,
             "server_port": int(parsed.port),
             "uuid": parsed.username,
-            "flow": params.get("flow", [""])[0],
-            "transport": {
-                "type": params.get("type", ["tcp"])[0],
-                "path": params.get("path", [""])[0],
-                "headers": {"Host": params.get("host", [""])[0]}
-            }
+            "flow": params.get("flow", [""])[0]
         }
+        transport = create_transport_from_params(params)
+        if transport:
+            outbound["transport"] = transport
+        return outbound
     except Exception as e:
         logger.warning(f"Error converting vless: {e}")
         return None
@@ -86,16 +105,18 @@ def convert_vless(link):
 def convert_trojan(link):
     try:
         parsed = urlparse(link)
-        return {
+        params = parse_qs(parsed.query)
+        outbound = {
             "type": "trojan",
             "tag": parsed.fragment or "trojan",
             "server": parsed.hostname,
             "server_port": int(parsed.port),
-            "password": parsed.username,
-            "transport": {
-                "type": "tls"
-            }
+            "password": parsed.username
         }
+        transport = create_transport_from_params(params)
+        if transport:
+            outbound["transport"] = transport
+        return outbound
     except Exception as e:
         logger.warning(f"Error converting trojan: {e}")
         return None
@@ -129,7 +150,8 @@ def convert_ss(link):
 def convert_hysteria2(link):
     try:
         parsed = urlparse(link)
-        return {
+        params = parse_qs(parsed.query)
+        outbound = {
             "type": "hysteria2",
             "tag": parsed.fragment or "hysteria2",
             "server": parsed.hostname,
@@ -138,6 +160,7 @@ def convert_hysteria2(link):
             "up_mbps": 10,
             "down_mbps": 50
         }
+        return outbound
     except Exception as e:
         logger.warning(f"Error converting hysteria2: {e}")
         return None
@@ -173,8 +196,6 @@ def build_config(outbounds):
                 updated_outbounds.append(ob)
             elif ob["type"] in ("direct", "block"):
                 updated_outbounds.append(ob)
-            else:
-                pass
 
         updated_outbounds = outbounds + updated_outbounds
         base_config["outbounds"] = updated_outbounds
