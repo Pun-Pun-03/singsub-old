@@ -200,10 +200,12 @@ def remove_duplicate_tags(outbounds):
 
 def build_config(outbounds):
     try:
+        outbounds = remove_duplicate_tags(outbounds)
+        new_tags = [ob["tag"] for ob in outbounds]
+
         with open(BASE_CONFIG_PATH, "r", encoding="utf-8") as f:
             base_config = json.load(f)
 
-        new_tags = [ob["tag"] for ob in outbounds]
         updated_outbounds = []
 
         for ob in base_config["outbounds"]:
@@ -234,7 +236,6 @@ def main():
         outbound = convert_link(link)
         if outbound:
             outbounds.append(outbound)
-    outbounds = remove_duplicate_tags(outbounds)
     build_config(outbounds)
 
 if __name__ == "__main__":
