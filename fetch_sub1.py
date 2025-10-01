@@ -8,7 +8,8 @@ from urllib.parse import urlparse, parse_qs, unquote
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-SUB_LINK = "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt"
+SUB_LINKS = ["https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt"
+             ]
 BASE_CONFIG_PATH = "base_config.json"
 OUTPUT_PATH = "main"
 
@@ -235,14 +236,16 @@ def build_config(outbounds):
         logger.error(f"Error building final config: {e}")
 
 def main():
-    raw_text = fetch_subscription(SUB_LINK)
-    links = extract_links(raw_text)
     outbounds = []
-    for link in links:
-        outbound = convert_link(link)
-        if outbound:
-            outbounds.append(outbound)
+    for sub_url in SUB_LINKS:
+        raw_text = fetch_subscription(sub_url)
+        links = extract_links(raw_text)
+        for link in links:
+            outbound = convert_link(link)
+            if outbound:
+                outbounds.append(outbound)
     build_config(outbounds)
+
 
 if __name__ == "__main__":
     main()
