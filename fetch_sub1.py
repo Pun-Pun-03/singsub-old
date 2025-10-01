@@ -1,131 +1,200 @@
 import requests
-import logging
+import base64
 import json
-import sys
+import re
+import logging
+from urllib.parse import urlparse, parse_qs, unquote
 
-try:
-    from singbox_converter import SingBoxConverter
-except Exception as e:
-    print("PySingBoxConverter نصب نشده. لطفاً اجرا کنید: pip install PySingBoxConverter")
-    sys.exit(1)
-
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-SUB_URL = "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt"
-BASE_FILE = "base_config.json"
-OUT_FILE = "Project_Singbox.json"
-MAX_SERVERS = 14
+SUB_LINK = "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt"
+BASE_CONFIG_PATH = "base_config.json"
+OUTPUT_PATH = "main"
 
-def fetch_subscription(url: str) -> str:
+SUPPORTED_PROTOCOLS = ["vmess://", "vless://", "trojan://", "ss://", "hysteria2://", "hy2://"]
+
+def fetch_subscription(url):
     try:
-        resp = requests.get(url, timeout=20)
-        resp.raise_for_status()
-        return resp.text
+        res = requests.get(url, timeout=10)
+        res.raise_for_status()
+        content = res.text.strip()
+        return decode_if_base64(content)
     except Exception as e:
-        logger.error(f"Failed to fetch subscription: {e}")
-        sys.exit(1)
+        logger.error(f"Error fetching subscription: {e}")
+        return ""
 
-def convert_to_singbox_outbounds():
-    """
-    استفاده از PySingBoxConverter برای تبدیل لینک‌های ساب به ساختار sing-box
-    """
+def decode_if_base64(text):
     try:
-        converter = SingBoxConverter(
-            providers_config=None,
-            template=None,
-            fetch_sub_ua="clash.meta",
-            auto_fix_empty_outbound=True
-        )
-        # لینک ساب رو به عنوان provider اضافه می‌کنیم
-        converter.add_provider(
-            name="sub1",
-            url=SUB_URL,
-            type="http"
-        )
-        config = converter.singbox_config
-        outbounds = config.get("outbounds", [])
-        return outbounds
+        if text.startswith("data:") and "base64," in text:
+            text = text.split("base64,")[1]
+        return base64.b64decode(text + "==").decode("utf-8")
+    except Exception:
+        return text
+
+def extract_links(text):
+    links = []
+    for proto in SUPPORTED_PROTOCOLS:
+        matches = re.findall(rf'({proto}[^\s]+)', text)
+        links.extend(matches)
+    return links
+
+def convert_vmess(link):
+    try:
+        raw = link.replace("vmess://", "")
+        decoded = base64.b64decode(raw + "==").decode("utf-8")
+        data = json.loads(decoded)
+        return {
+            "type": "vmess",
+            "tag": data.get("ps", "vmess"),
+            "server": data["add"],
+            "server_port": int(data["port"]),
+            "uuid": data["id"],
+            "security": "auto",
+            "alter_id": int(data.get("aid", 0)),
+            "transport": {
+                "type": data.get("net", "tcp"),
+                "path": data.get("path", ""),
+                "headers": {"Host": data.get("host", "")}
+            }
+        }
     except Exception as e:
-        logger.error(f"Converter failed: {e}")
-        sys.exit(1)
+        logger.warning(f"Error converting vmess: {e}")
+        return None
 
-def filter_vless_trojan(outbounds):
-    """
-    فقط vless و trojan را نگه می‌داریم، تا سقف MAX_SERVERS.
-    """
-    filtered = []
-    n = 1
-    for ob in outbounds:
-        t = ob.get("type", "").lower()
-        if t not in ("vless", "trojan"):
-            continue
-        server = ob.get("server")
-        port = ob.get("server_port")
-        if not server or not port:
-            continue
-        tag = ob.get("tag")
-        if not tag:
-            tag = f"Server-{n}"
-            ob["tag"] = tag
-        filtered.append(ob)
-        n += 1
-        if len(filtered) >= MAX_SERVERS:
-            break
-    return filtered
+def convert_vless(link):
+    try:
+        parsed = urlparse(link)
+        params = parse_qs(parsed.query)
+        return {
+            "type": "vless",
+            "tag": parsed.fragment or "vless",
+            "server": parsed.hostname,
+            "server_port": int(parsed.port),
+            "uuid": parsed.username,
+            "flow": params.get("flow", [""])[0],
+            "transport": {
+                "type": params.get("type", ["tcp"])[0],
+                "path": params.get("path", [""])[0],
+                "headers": {"Host": params.get("host", [""])[0]}
+            }
+        }
+    except Exception as e:
+        logger.warning(f"Error converting vless: {e}")
+        return None
 
-def update_base_outbounds(base_config, new_servers):
-    """
-    - outbounds جدید را در ابتدای لیست قرار می‌دهیم.
-    - urltest با تگ Best-Ping فقط لیست تگ‌های سرورهای جدید را داشته باشد.
-    - selector با تگ proxy با Best-Ping شروع شود و سپس تگ‌های جدید.
-    - direct و block حفظ می‌شوند.
-    """
-    new_tags = [o["tag"] for o in new_servers]
-    updated = []
+def convert_trojan(link):
+    try:
+        parsed = urlparse(link)
+        return {
+            "type": "trojan",
+            "tag": parsed.fragment or "trojan",
+            "server": parsed.hostname,
+            "server_port": int(parsed.port),
+            "password": parsed.username,
+            "transport": {
+                "type": "tls"
+            }
+        }
+    except Exception as e:
+        logger.warning(f"Error converting trojan: {e}")
+        return None
 
-    for ob in base_config.get("outbounds", []):
-        typ = ob.get("type")
-        tag = ob.get("tag")
-        if typ == "urltest" and tag == "Best-Ping":
-            ob["outbounds"] = new_tags
-            updated.append(ob)
-        elif typ == "selector" and tag == "proxy":
-            ob["outbounds"] = ["Best-Ping"] + new_tags
-            updated.append(ob)
-        elif typ in ("direct", "block"):
-            updated.append(ob)
+def convert_ss(link):
+    try:
+        raw = link.replace("ss://", "")
+        if "#" in raw:
+            raw, tag = raw.split("#", 1)
         else:
-            continue
+            tag = "shadowsocks"
+        if "@" in raw:
+            method_pass, server_port = raw.split("@")
+            method, password = method_pass.split(":")
+            server, port = server_port.split(":")
+        else:
+            decoded = base64.b64decode(raw + "==").decode("utf-8")
+            method, password, server, port = re.split("[:@]", decoded)
+        return {
+            "type": "shadowsocks",
+            "tag": unquote(tag),
+            "server": server,
+            "server_port": int(port),
+            "method": method,
+            "password": password
+        }
+    except Exception as e:
+        logger.warning(f"Error converting ss: {e}")
+        return None
 
-    base_config["outbounds"] = new_servers + updated
-    return base_config
+def convert_hysteria2(link):
+    try:
+        parsed = urlparse(link)
+        return {
+            "type": "hysteria2",
+            "tag": parsed.fragment or "hysteria2",
+            "server": parsed.hostname,
+            "server_port": int(parsed.port),
+            "password": parsed.username,
+            "up_mbps": 10,
+            "down_mbps": 50
+        }
+    except Exception as e:
+        logger.warning(f"Error converting hysteria2: {e}")
+        return None
+
+def convert_link(link):
+    if link.startswith("vmess://"):
+        return convert_vmess(link)
+    elif link.startswith("vless://"):
+        return convert_vless(link)
+    elif link.startswith("trojan://"):
+        return convert_trojan(link)
+    elif link.startswith("ss://"):
+        return convert_ss(link)
+    elif link.startswith("hysteria2://") or link.startswith("hy2://"):
+        return convert_hysteria2(link)
+    else:
+        return None
+
+def build_config(outbounds):
+    try:
+        with open(BASE_CONFIG_PATH, "r", encoding="utf-8") as f:
+            base_config = json.load(f)
+
+        new_tags = [ob["tag"] for ob in outbounds]
+        updated_outbounds = []
+
+        for ob in base_config["outbounds"]:
+            if ob["type"] == "urltest" and ob["tag"] == "Best-Ping":
+                ob["outbounds"] = new_tags
+                updated_outbounds.append(ob)
+            elif ob["type"] == "selector" and ob["tag"] == "proxy":
+                ob["outbounds"] = ["Best-Ping"] + new_tags
+                updated_outbounds.append(ob)
+            elif ob["type"] in ("direct", "block"):
+                updated_outbounds.append(ob)
+            else:
+                pass
+
+        updated_outbounds = outbounds + updated_outbounds
+        base_config["outbounds"] = updated_outbounds
+
+        with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+            json.dump(base_config, f, indent=2, ensure_ascii=False)
+
+        logger.info(f"Config saved to: {OUTPUT_PATH}")
+    except Exception as e:
+        logger.error(f"Error building final config: {e}")
 
 def main():
-    # گرفتن اوتباندها از کانورتر
-    converted_outbounds = convert_to_singbox_outbounds()
-    servers = filter_vless_trojan(converted_outbounds)
-
-    if not servers:
-        logger.error("No valid vless/trojan servers after conversion")
-        sys.exit(1)
-
-    try:
-        with open(BASE_FILE, "r", encoding="utf-8") as f:
-            base_config = json.load(f)
-    except Exception as e:
-        logger.error(f"Failed to load base_config.json: {e}")
-        sys.exit(1)
-
-    final_config = update_base_outbounds(base_config, servers)
-
-    try:
-        with open(OUT_FILE, "w", encoding="utf-8") as f:
-            json.dump(final_config, f, indent=2, ensure_ascii=False)
-        logger.info(f"Saved {len(servers)} servers into {OUT_FILE}")
-    except Exception as e:
-        logger.error(f"Failed to write {OUT_FILE}: {e}")
-        sys.exit(1)
+    raw_text = fetch_subscription(SUB_LINK)
+    links = extract_links(raw_text)
+    outbounds = []
+    for link in links:
+        outbound = convert_link(link)
+        if outbound:
+            outbounds.append(outbound)
+    build_config(outbounds)
 
 if __name__ == "__main__":
     main()
