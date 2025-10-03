@@ -68,9 +68,9 @@
     {
       "type": "vless",
       "tag": "%40mehrosaboran",
-      "server": "141.227.140.74",
-      "server_port": 33468,
-      "uuid": "75c3f12%65-bdcd-43%650-%619bb-3f1d95911966",
+      "server": "141.227.166.78",
+      "server_port": 35728,
+      "uuid": "7bd98%65b6-5408-492c-%619f2-54776%6168%61%65b6",
       "flow": "",
       "transport": {
         "type": "grpc"
