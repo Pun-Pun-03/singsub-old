@@ -55,6 +55,22 @@
       "password": "IM4e0ZQNPU"
     },
     {
+      "type": "vmess",
+      "tag": "@proxy_kafee🇩🇪",
+      "server": "57.129.28.69",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "baradiha.com"
+        }
+      }
+    },
+    {
       "type": "vless",
       "tag": "%40mehrosaboran",
       "server": "141.227.166.78",
@@ -113,6 +129,7 @@
         "Best-Ping",
         "vless",
         "trojan",
+        "@proxy_kafee🇩🇪",
         "%40mehrosaboran",
         "%F0%9F%9F%A3%F0%9F%94%A5%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%D9%86%DA%AF%20%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%40ParsiV2ray%20%D9%BE%D8%B1%20%D8%B3%D8%B1%D8%B9%D8%AA",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
@@ -125,6 +142,7 @@
       "outbounds": [
         "vless",
         "trojan",
+        "@proxy_kafee🇩🇪",
         "%40mehrosaboran",
         "%F0%9F%9F%A3%F0%9F%94%A5%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%D9%86%DA%AF%20%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%40ParsiV2ray%20%D9%BE%D8%B1%20%D8%B3%D8%B1%D8%B9%D8%AA",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
