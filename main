@@ -72,6 +72,17 @@
     },
     {
       "type": "vless",
+      "tag": "@mehrosaboran",
+      "server": "141.227.168.52",
+      "server_port": 33287,
+      "uuid": "e2e4de5e-bd0a-4f68-a63e-93efb5b933ad",
+      "flow": "",
+      "transport": {
+        "type": "grpc"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "%40mehrosaboran",
       "server": "141.227.166.78",
       "server_port": 35728,
@@ -130,6 +141,7 @@
         "vless",
         "trojan",
         "@proxy_kafee🇩🇪",
+        "@mehrosaboran",
         "%40mehrosaboran",
         "%F0%9F%9F%A3%F0%9F%94%A5%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%D9%86%DA%AF%20%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%40ParsiV2ray%20%D9%BE%D8%B1%20%D8%B3%D8%B1%D8%B9%D8%AA",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
@@ -143,6 +155,7 @@
         "vless",
         "trojan",
         "@proxy_kafee🇩🇪",
+        "@mehrosaboran",
         "%40mehrosaboran",
         "%F0%9F%9F%A3%F0%9F%94%A5%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%D9%86%DA%AF%20%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%40ParsiV2ray%20%D9%BE%D8%B1%20%D8%B3%D8%B1%D8%B9%D8%AA",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
