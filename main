@@ -72,14 +72,6 @@
     },
     {
       "type": "vless",
-      "tag": "[",
-      "server": "m37a.vip784.com",
-      "server_port": 33801,
-      "uuid": "8e4ec018-b237-48ef-a09b-c8c2b2cee74b",
-      "flow": ""
-    },
-    {
-      "type": "vless",
       "tag": "%F0%9F%9F%A3%F0%9F%94%A5%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%D9%86%DA%AF%20%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%40ParsiV2ray%20%D9%BE%D8%B1%20%D8%B3%D8%B1%D8%B9%D8%AA",
       "server": "172.66.40.99",
       "server_port": 8443,
@@ -92,14 +84,6 @@
           "Host": "Rx2TfQ98lT.sOlEnTrAa.InFo"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "@meli_proxyy",
-      "server": "m35a.vip784.com",
-      "server_port": 33801,
-      "uuid": "c5d02fbd-13d9-4545-a70a-a987e5af020e",
-      "flow": ""
     },
     {
       "type": "vless",
@@ -124,9 +108,7 @@
         "vless",
         "trojan",
         "@proxy_kafee🇩🇪",
-        "[",
         "%F0%9F%9F%A3%F0%9F%94%A5%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%D9%86%DA%AF%20%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%40ParsiV2ray%20%D9%BE%D8%B1%20%D8%B3%D8%B1%D8%B9%D8%AA",
-        "@meli_proxyy",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
       ]
     },
@@ -137,9 +119,7 @@
         "vless",
         "trojan",
         "@proxy_kafee🇩🇪",
-        "[",
         "%F0%9F%9F%A3%F0%9F%94%A5%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%D9%86%DA%AF%20%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%40ParsiV2ray%20%D9%BE%D8%B1%20%D8%B3%D8%B1%D8%B9%D8%AA",
-        "@meli_proxyy",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
       ],
       "url": "https://cp.cloudflare.com/",
