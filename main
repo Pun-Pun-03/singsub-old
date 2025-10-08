@@ -97,6 +97,14 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "@meli_proxyy",
+      "server": "185.33.24.229",
+      "server_port": 28495,
+      "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
+      "flow": ""
+    },
+    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
@@ -105,7 +113,8 @@
         "trojan",
         "@proxy_kafee🇩🇪",
         "@Capoit",
-        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
+        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
+        "@meli_proxyy"
       ]
     },
     {
@@ -116,7 +125,8 @@
         "trojan",
         "@proxy_kafee🇩🇪",
         "@Capoit",
-        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
+        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
+        "@meli_proxyy"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
