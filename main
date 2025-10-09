@@ -83,6 +83,22 @@
     },
     {
       "type": "vless",
+      "tag": "proxy_kafee",
+      "server": "m32a.vip784.com",
+      "server_port": 33801,
+      "uuid": "af93dbb8-f28a-4734-944f-538287410fd2",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Channel%20id%3A%20%40proxy_kafee%20%F0%9F%87%AB%F0%9F%87%AE",
+      "server": "65.109.145.54",
+      "server_port": 443,
+      "uuid": "8f82acbe-f328-471a-8000-fbea349e6ce0",
+      "flow": ""
+    },
+    {
+      "type": "vless",
       "tag": "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
       "server": "104.21.3.219",
       "server_port": 8443,
@@ -113,6 +129,8 @@
         "trojan",
         "@proxy_kafee🇩🇪",
         "@Capoit",
+        "proxy_kafee",
+        "Channel%20id%3A%20%40proxy_kafee%20%F0%9F%87%AB%F0%9F%87%AE",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
         "@meli_proxyy"
       ]
@@ -125,6 +143,8 @@
         "trojan",
         "@proxy_kafee🇩🇪",
         "@Capoit",
+        "proxy_kafee",
+        "Channel%20id%3A%20%40proxy_kafee%20%F0%9F%87%AB%F0%9F%87%AE",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
         "@meli_proxyy"
       ],
