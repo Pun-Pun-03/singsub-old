@@ -107,10 +107,14 @@
     {
       "type": "vless",
       "tag": "@meli_proxyy",
-      "server": "185.33.24.229",
-      "server_port": 28495,
-      "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
-      "flow": ""
+      "server": "45.89.107.244",
+      "server_port": 443,
+      "uuid": "6fe4cdfd-11a8-4d3b-94a4-4b735da523de",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/ajnexnws"
+      }
     },
     {
       "type": "selector",
