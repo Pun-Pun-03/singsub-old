@@ -56,6 +56,22 @@
     },
     {
       "type": "vmess",
+      "tag": "Channel id: @proxy_kafee🇬🇧",
+      "server": "57.128.189.253",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "kapelleng.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "@proxy_kafee🇩🇪",
       "server": "57.129.25.22",
       "server_port": 443,
@@ -93,6 +109,7 @@
         "Best-Ping",
         "vless",
         "trojan",
+        "Channel id: @proxy_kafee🇬🇧",
         "@proxy_kafee🇩🇪",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
         "@meli_proxyy"
@@ -104,6 +121,7 @@
       "outbounds": [
         "vless",
         "trojan",
+        "Channel id: @proxy_kafee🇬🇧",
         "@proxy_kafee🇩🇪",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
         "@meli_proxyy"
