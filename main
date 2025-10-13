@@ -80,17 +80,6 @@
     },
     {
       "type": "vless",
-      "tag": "@mehrosaboran",
-      "server": "141.94.168.171",
-      "server_port": 32647,
-      "uuid": "edd716ae-7d5a-44f7-a0ed-a615eab0c766",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "@meli_proxyy",
       "server": "185.33.24.229",
       "server_port": 28495,
@@ -106,7 +95,6 @@
         "trojan",
         "@proxy_kafee🇩🇪",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
-        "@mehrosaboran",
         "@meli_proxyy"
       ]
     },
@@ -118,7 +106,6 @@
         "trojan",
         "@proxy_kafee🇩🇪",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
-        "@mehrosaboran",
         "@meli_proxyy"
       ],
       "url": "https://cp.cloudflare.com/",
