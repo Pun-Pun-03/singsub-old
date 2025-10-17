@@ -57,7 +57,7 @@
     {
       "type": "vmess",
       "tag": "@proxy_kafee🇩🇪",
-      "server": "57.129.25.22",
+      "server": "57.129.28.69",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
@@ -66,8 +66,19 @@
         "type": "ws",
         "path": "/linkvws",
         "headers": {
-          "Host": "o.metuji.com"
+          "Host": "baradiha.com"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "%40Daily_Configs",
+      "server": "65.109.216.38",
+      "server_port": 2087,
+      "uuid": "7310ccbb-3940-4264-88cc-b3da92877395",
+      "flow": "",
+      "transport": {
+        "type": "grpc"
       }
     },
     {
@@ -94,6 +105,14 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "@meli_proxyy",
+      "server": "185.33.24.229",
+      "server_port": 28495,
+      "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
+      "flow": ""
+    },
+    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
@@ -101,8 +120,10 @@
         "vless",
         "trojan",
         "@proxy_kafee🇩🇪",
+        "%40Daily_Configs",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
-        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
+        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
+        "@meli_proxyy"
       ]
     },
     {
@@ -112,8 +133,10 @@
         "vless",
         "trojan",
         "@proxy_kafee🇩🇪",
+        "%40Daily_Configs",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
-        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
+        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
+        "@meli_proxyy"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
