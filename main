@@ -72,17 +72,6 @@
     },
     {
       "type": "vless",
-      "tag": "%40Daily_Configs",
-      "server": "65.109.216.38",
-      "server_port": 2087,
-      "uuid": "7310ccbb-3940-4264-88cc-b3da92877395",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "%40meli_proxyy",
       "server": "pic2.zarashop0.ir",
       "server_port": 2087,
@@ -131,7 +120,6 @@
         "vless",
         "trojan",
         "@proxy_kafee🇩🇪",
-        "%40Daily_Configs",
         "%40meli_proxyy",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
@@ -145,7 +133,6 @@
         "vless",
         "trojan",
         "@proxy_kafee🇩🇪",
-        "%40Daily_Configs",
         "%40meli_proxyy",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
