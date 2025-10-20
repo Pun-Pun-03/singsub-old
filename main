@@ -83,14 +83,6 @@
     },
     {
       "type": "vless",
-      "tag": "@meli_proxyy",
-      "server": "m21a.vip784.com",
-      "server_port": 33801,
-      "uuid": "750c5087-ca8d-4878-a30a-15bc8bbadfac",
-      "flow": ""
-    },
-    {
-      "type": "vless",
       "tag": "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
       "server": "91.98.133.38",
       "server_port": 443,
@@ -121,7 +113,6 @@
         "trojan",
         "@proxy_kafee🇩🇪",
         "%40meli_proxyy",
-        "@meli_proxyy",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
       ]
@@ -134,7 +125,6 @@
         "trojan",
         "@proxy_kafee🇩🇪",
         "%40meli_proxyy",
-        "@meli_proxyy",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
       ],
