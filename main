@@ -120,6 +120,17 @@
     },
     {
       "type": "vless",
+      "tag": "proxy_kafee",
+      "server": "195.42.233.146",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "flow": "",
+      "transport": {
+        "type": "grpc"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
       "server": "104.21.3.219",
       "server_port": 8443,
@@ -152,6 +163,7 @@
         "Channel id: @proxy_kafee🇬🇧",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
+        "proxy_kafee",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
         "@meli_proxyy"
       ]
@@ -166,6 +178,7 @@
         "Channel id: @proxy_kafee🇬🇧",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
+        "proxy_kafee",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
         "@meli_proxyy"
       ],
