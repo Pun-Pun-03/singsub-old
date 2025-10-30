@@ -120,29 +120,6 @@
     },
     {
       "type": "vless",
-      "tag": "Channel:@free_v2rayyy",
-      "server": "m21a.vip784.com",
-      "server_port": 33801,
-      "uuid": "750c5087-ca8d-4878-a30a-15bc8bbadfac",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7",
-      "server": "51.38.237.113",
-      "server_port": 80,
-      "uuid": "2b7c27b9-dfba-430b-9ee7-88eb1c85af27",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/vless/",
-        "headers": {
-          "Host": "---@ShadowProxy66"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "@meli_proxyy",
       "server": "185.33.24.229",
       "server_port": 28495,
@@ -160,8 +137,6 @@
         "Channel id: @proxy_kafee🇬🇧",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
-        "Channel:@free_v2rayyy",
-        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7",
         "@meli_proxyy"
       ]
     },
@@ -175,8 +150,6 @@
         "Channel id: @proxy_kafee🇬🇧",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
-        "Channel:@free_v2rayyy",
-        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7",
         "@meli_proxyy"
       ],
       "url": "https://cp.cloudflare.com/",
