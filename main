@@ -103,17 +103,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "%F0%9F%8C%9558%40oneclickvpnkeys",
-      "server": "pqf2v8.fyipdirect.shop",
-      "server_port": 80,
-      "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
@@ -122,8 +111,7 @@
         "trojan",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "Channel id: @proxy_kafee🇩🇪",
-        "@proxy_kafee🇩🇪",
-        "%F0%9F%8C%9558%40oneclickvpnkeys"
+        "@proxy_kafee🇩🇪"
       ]
     },
     {
@@ -134,8 +122,7 @@
         "trojan",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "Channel id: @proxy_kafee🇩🇪",
-        "@proxy_kafee🇩🇪",
-        "%F0%9F%8C%9558%40oneclickvpnkeys"
+        "@proxy_kafee🇩🇪"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
