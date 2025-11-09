@@ -56,6 +56,22 @@
     },
     {
       "type": "vmess",
+      "tag": "Channel id: @proxy_kafee🇩🇪",
+      "server": "57.129.28.216",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "fapeng.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "@proxy_kafee🇩🇪",
       "server": "57.129.25.22",
       "server_port": 443,
@@ -88,6 +104,7 @@
         "Best-Ping",
         "vless",
         "trojan",
+        "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
         "%F0%9F%8E%8348%40oneclickvpnkeys"
       ]
@@ -98,6 +115,7 @@
       "outbounds": [
         "vless",
         "trojan",
+        "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
         "%F0%9F%8E%8348%40oneclickvpnkeys"
       ],
