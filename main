@@ -82,14 +82,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "%40meli_proxyy",
-      "server": "91.98.88.131",
-      "server_port": 443,
-      "uuid": "56dc390e-bfac-4642-9300-b3deb4c4644a",
-      "flow": ""
-    },
-    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
@@ -97,8 +89,7 @@
         "vless",
         "trojan",
         "@proxy_kafee🇩🇪",
-        "%F0%9F%8E%8348%40oneclickvpnkeys",
-        "%40meli_proxyy"
+        "%F0%9F%8E%8348%40oneclickvpnkeys"
       ]
     },
     {
@@ -108,8 +99,7 @@
         "vless",
         "trojan",
         "@proxy_kafee🇩🇪",
-        "%F0%9F%8E%8348%40oneclickvpnkeys",
-        "%40meli_proxyy"
+        "%F0%9F%8E%8348%40oneclickvpnkeys"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
