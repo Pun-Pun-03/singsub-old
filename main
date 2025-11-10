@@ -98,22 +98,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "proxy_kafee",
-      "server": "m32a.vip784.com",
-      "server_port": 33801,
-      "uuid": "af93dbb8-f28a-4734-944f-538287410fd2",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "@meli_proxyy",
-      "server": "m36a.vip784.com",
-      "server_port": 33801,
-      "uuid": "75916ff8-2f80-43dc-ba9a-34464e1bd340",
-      "flow": ""
-    },
-    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
@@ -122,9 +106,7 @@
         "trojan",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "@proxy_kafee🇩🇪",
-        "%F0%9F%8E%8348%40oneclickvpnkeys",
-        "proxy_kafee",
-        "@meli_proxyy"
+        "%F0%9F%8E%8348%40oneclickvpnkeys"
       ]
     },
     {
@@ -135,9 +117,7 @@
         "trojan",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "@proxy_kafee🇩🇪",
-        "%F0%9F%8E%8348%40oneclickvpnkeys",
-        "proxy_kafee",
-        "@meli_proxyy"
+        "%F0%9F%8E%8348%40oneclickvpnkeys"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
