@@ -57,7 +57,7 @@
     {
       "type": "vmess",
       "tag": "@proxy_kafee🇩🇪",
-      "server": "57.129.25.22",
+      "server": "57.129.28.69",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
@@ -66,7 +66,7 @@
         "type": "ws",
         "path": "/linkvws",
         "headers": {
-          "Host": "o.metuji.com"
+          "Host": "baradiha.com"
         }
       }
     },
@@ -82,6 +82,21 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
+      "server": "104.21.3.219",
+      "server_port": 8443,
+      "uuid": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/57ba2ab1",
+        "headers": {
+          "Host": "ovhwuxian.pai50288.uk"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
@@ -89,7 +104,8 @@
         "vless",
         "trojan",
         "@proxy_kafee🇩🇪",
-        "%F0%9F%8E%8348%40oneclickvpnkeys"
+        "%F0%9F%8E%8348%40oneclickvpnkeys",
+        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
       ]
     },
     {
@@ -99,7 +115,8 @@
         "vless",
         "trojan",
         "@proxy_kafee🇩🇪",
-        "%F0%9F%8E%8348%40oneclickvpnkeys"
+        "%F0%9F%8E%8348%40oneclickvpnkeys",
+        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
