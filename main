@@ -56,6 +56,22 @@
     },
     {
       "type": "vmess",
+      "tag": "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
+      "server": "57.129.28.63",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "fapeng.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "@proxy_kafee🇩🇪",
       "server": "57.129.25.22",
       "server_port": 443,
@@ -79,26 +95,15 @@
       "flow": ""
     },
     {
-      "type": "vless",
-      "tag": "%F0%9F%8E%8348%40oneclickvpnkeys",
-      "server": "185.231.205.164",
-      "server_port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
         "Best-Ping",
         "vless",
         "trojan",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "@proxy_kafee🇩🇪",
-        "%F0%9F%A7%B834%40oneclickvpnkeys",
-        "%F0%9F%8E%8348%40oneclickvpnkeys"
+        "%F0%9F%A7%B834%40oneclickvpnkeys"
       ]
     },
     {
@@ -107,9 +112,9 @@
       "outbounds": [
         "vless",
         "trojan",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "@proxy_kafee🇩🇪",
-        "%F0%9F%A7%B834%40oneclickvpnkeys",
-        "%F0%9F%8E%8348%40oneclickvpnkeys"
+        "%F0%9F%A7%B834%40oneclickvpnkeys"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
