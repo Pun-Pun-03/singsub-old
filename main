@@ -71,22 +71,13 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "%F0%9F%A7%B834%40oneclickvpnkeys",
-      "server": "65.109.177.74",
-      "server_port": 443,
-      "uuid": "f03f6ac6-8f00-44e7-b3ff-af05cb6dfcca",
-      "flow": ""
-    },
-    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
         "Best-Ping",
         "vless",
         "trojan",
-        "@proxy_kafee🇩🇪",
-        "%F0%9F%A7%B834%40oneclickvpnkeys"
+        "@proxy_kafee🇩🇪"
       ]
     },
     {
@@ -95,8 +86,7 @@
       "outbounds": [
         "vless",
         "trojan",
-        "@proxy_kafee🇩🇪",
-        "%F0%9F%A7%B834%40oneclickvpnkeys"
+        "@proxy_kafee🇩🇪"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
