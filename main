@@ -88,6 +88,21 @@
     },
     {
       "type": "vless",
+      "tag": "MTMVPN%20%E3%80%BD%EF%B8%8F",
+      "server": "104.17.147.22",
+      "server_port": 8880,
+      "uuid": "%50%61%72%73%61%73%68%6F%6E%61%6D-%42%6F%74-36",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056",
+        "headers": {
+          "Host": "Fi.Parsashonam.CfD."
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "%F0%9F%A7%B834%40oneclickvpnkeys",
       "server": "65.109.177.74",
       "server_port": 443,
@@ -114,6 +129,7 @@
         "trojan",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "@proxy_kafee🇩🇪",
+        "MTMVPN%20%E3%80%BD%EF%B8%8F",
         "%F0%9F%A7%B834%40oneclickvpnkeys",
         "%F0%9F%8E%8348%40oneclickvpnkeys"
       ]
@@ -126,6 +142,7 @@
         "trojan",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "@proxy_kafee🇩🇪",
+        "MTMVPN%20%E3%80%BD%EF%B8%8F",
         "%F0%9F%A7%B834%40oneclickvpnkeys",
         "%F0%9F%8E%8348%40oneclickvpnkeys"
       ],
