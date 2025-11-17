@@ -88,6 +88,33 @@
     },
     {
       "type": "vless",
+      "tag": "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
+      "server": "8.39.125.194",
+      "server_port": 443,
+      "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "snippets.nneko.netlib.re"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "TELEGRAM%20%40MTMVPN",
+      "server": "198.41.223.140",
+      "server_port": 443,
+      "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "@meli_proxyy",
       "server": "173.245.58.113",
       "server_port": 443,
@@ -110,6 +137,8 @@
         "trojan",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
+        "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
+        "TELEGRAM%20%40MTMVPN",
         "@meli_proxyy"
       ]
     },
@@ -121,6 +150,8 @@
         "trojan",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
+        "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
+        "TELEGRAM%20%40MTMVPN",
         "@meli_proxyy"
       ],
       "url": "https://cp.cloudflare.com/",
