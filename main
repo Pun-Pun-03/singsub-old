@@ -96,31 +96,16 @@
     },
     {
       "type": "vless",
-      "tag": "%40meli_proxyy",
-      "server": "8.39.125.85",
-      "server_port": 443,
-      "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
+      "tag": "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
+      "server": "104.21.3.219",
+      "server_port": 8443,
+      "uuid": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
       "flow": "",
       "transport": {
         "type": "ws",
-        "path": "/?ed",
+        "path": "/57ba2ab1",
         "headers": {
-          "Host": "snippets.nneko.netlib.re"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "@meli_proxyy",
-      "server": "173.245.58.113",
-      "server_port": 443,
-      "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "snippets.nneko.netlib.re"
+          "Host": "ovhwuxian.pai50288.uk"
         }
       }
     },
@@ -134,8 +119,7 @@
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
         "%F0%9F%87%B5%F0%9F%87%BEtelegram%20%E2%9E%A0%20%40v2rayNG_Matsuri",
-        "%40meli_proxyy",
-        "@meli_proxyy"
+        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
       ]
     },
     {
@@ -147,8 +131,7 @@
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
         "%F0%9F%87%B5%F0%9F%87%BEtelegram%20%E2%9E%A0%20%40v2rayNG_Matsuri",
-        "%40meli_proxyy",
-        "@meli_proxyy"
+        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
