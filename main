@@ -88,11 +88,14 @@
     },
     {
       "type": "vless",
-      "tag": "%F0%9F%A7%B834%40oneclickvpnkeys",
-      "server": "65.109.177.74",
-      "server_port": 443,
-      "uuid": "f03f6ac6-8f00-44e7-b3ff-af05cb6dfcca",
-      "flow": ""
+      "tag": "%40mehrosaboran",
+      "server": "194.182.79.236",
+      "server_port": 24560,
+      "uuid": "5%652d5%6578-19b4-4b81-9513-9988%61%650309bf",
+      "flow": "",
+      "transport": {
+        "type": "grpc"
+      }
     },
     {
       "type": "selector",
@@ -103,7 +106,7 @@
         "trojan",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
-        "%F0%9F%A7%B834%40oneclickvpnkeys"
+        "%40mehrosaboran"
       ]
     },
     {
@@ -114,7 +117,7 @@
         "trojan",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
-        "%F0%9F%A7%B834%40oneclickvpnkeys"
+        "%40mehrosaboran"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
