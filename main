@@ -110,6 +110,14 @@
     },
     {
       "type": "vless",
+      "tag": "[",
+      "server": "37.18.14.103",
+      "server_port": 443,
+      "uuid": "4feab863-0b04-444d-87e5-4375adca92cf",
+      "flow": ""
+    },
+    {
+      "type": "vless",
       "tag": "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
       "server": "104.21.3.219",
       "server_port": 8443,
@@ -134,6 +142,7 @@
         "@proxy_kafee🇩🇪",
         "%40mehrosaboran",
         "@Capoit",
+        "[",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
       ]
     },
@@ -147,6 +156,7 @@
         "@proxy_kafee🇩🇪",
         "%40mehrosaboran",
         "@Capoit",
+        "[",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
       ],
       "url": "https://cp.cloudflare.com/",
