@@ -110,10 +110,26 @@
     },
     {
       "type": "vless",
+      "tag": "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20MTMVPN%40",
+      "server": "m32a.vip784.com",
+      "server_port": 33801,
+      "uuid": "e148ba9b-7f4b-40d8-adc4-e1a2b8d2c0c1",
+      "flow": ""
+    },
+    {
+      "type": "vless",
       "tag": "[",
       "server": "37.18.14.103",
       "server_port": 443,
       "uuid": "4feab863-0b04-444d-87e5-4375adca92cf",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "%F0%9F%A7%B839%40oneclickvpnkeys",
+      "server": "65.109.179.90",
+      "server_port": 443,
+      "uuid": "18881ae6-1e7d-48db-9c2f-27da9a58d63e",
       "flow": ""
     },
     {
@@ -142,7 +158,9 @@
         "@proxy_kafee🇩🇪",
         "%40mehrosaboran",
         "@Capoit",
+        "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20MTMVPN%40",
         "[",
+        "%F0%9F%A7%B839%40oneclickvpnkeys",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
       ]
     },
@@ -156,7 +174,9 @@
         "@proxy_kafee🇩🇪",
         "%40mehrosaboran",
         "@Capoit",
+        "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20MTMVPN%40",
         "[",
+        "%F0%9F%A7%B839%40oneclickvpnkeys",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
       ],
       "url": "https://cp.cloudflare.com/",
