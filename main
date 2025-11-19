@@ -72,6 +72,22 @@
     },
     {
       "type": "vmess",
+      "tag": "Channel id: @proxy_kafee🇩🇪",
+      "server": "57.129.28.216",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "fapeng.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "@proxy_kafee🇩🇪",
       "server": "57.129.25.22",
       "server_port": 443,
@@ -85,6 +101,14 @@
           "Host": "o.metuji.com"
         }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "telegram%20%40mtmvpn",
+      "server": "128.140.61.203",
+      "server_port": 443,
+      "uuid": "%57%61%72%70%69%2D%46%72%65%65%2D%56%70%6E%2D%49%6E%2D%47%6F%6F%67%6C%65%50%6C%61%79",
+      "flow": ""
     },
     {
       "type": "vless",
@@ -158,7 +182,9 @@
         "vless",
         "trojan",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
+        "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
+        "telegram%20%40mtmvpn",
         "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20mtmvpn%40",
         "%40mehrosaboran",
         "@Capoit",
@@ -174,7 +200,9 @@
         "vless",
         "trojan",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
+        "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
+        "telegram%20%40mtmvpn",
         "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20mtmvpn%40",
         "%40mehrosaboran",
         "@Capoit",
