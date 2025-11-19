@@ -99,6 +99,14 @@
     },
     {
       "type": "vless",
+      "tag": "%F0%9F%93%9F9%40oneclickvpnkeys",
+      "server": "91.98.153.140",
+      "server_port": 443,
+      "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+      "flow": ""
+    },
+    {
+      "type": "vless",
       "tag": "%F0%9F%87%AB%F0%9F%87%AEtelegram%20%E2%9E%A0%20%40v2rayNG_Matsuri",
       "server": "fx.ircloudmarket.com",
       "server_port": 80,
@@ -177,6 +185,7 @@
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
         "%F0%9F%93%9F15%40oneclickvpnkeys",
+        "%F0%9F%93%9F9%40oneclickvpnkeys",
         "%F0%9F%87%AB%F0%9F%87%AEtelegram%20%E2%9E%A0%20%40v2rayNG_Matsuri",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
         "telegram%20%40mtmvpn",
@@ -195,6 +204,7 @@
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
         "%F0%9F%93%9F15%40oneclickvpnkeys",
+        "%F0%9F%93%9F9%40oneclickvpnkeys",
         "%F0%9F%87%AB%F0%9F%87%AEtelegram%20%E2%9E%A0%20%40v2rayNG_Matsuri",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
         "telegram%20%40mtmvpn",
