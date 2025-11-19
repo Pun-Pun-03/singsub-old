@@ -56,6 +56,22 @@
     },
     {
       "type": "vmess",
+      "tag": "Channel id: @proxy_kafee🇩🇪",
+      "server": "57.129.28.216",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "fapeng.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "@proxy_kafee🇩🇪",
       "server": "57.129.25.22",
       "server_port": 443,
@@ -69,6 +85,25 @@
           "Host": "o.metuji.com"
         }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "%F0%9F%93%9F15%40oneclickvpnkeys",
+      "server": "94.131.110.117",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "flow": "",
+      "transport": {
+        "type": "grpc"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "%F0%9F%87%AB%F0%9F%87%AEtelegram%20%E2%9E%A0%20%40v2rayNG_Matsuri",
+      "server": "fx.ircloudmarket.com",
+      "server_port": 80,
+      "uuid": "b4f3041b-e939-4c1a-8f1d-70e8369b25eb",
+      "flow": ""
     },
     {
       "type": "vless",
@@ -127,7 +162,10 @@
         "Best-Ping",
         "vless",
         "trojan",
+        "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
+        "%F0%9F%93%9F15%40oneclickvpnkeys",
+        "%F0%9F%87%AB%F0%9F%87%AEtelegram%20%E2%9E%A0%20%40v2rayNG_Matsuri",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
         "telegram%20%40mtmvpn",
         "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20mtmvpn%40",
@@ -141,7 +179,10 @@
       "outbounds": [
         "vless",
         "trojan",
+        "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
+        "%F0%9F%93%9F15%40oneclickvpnkeys",
+        "%F0%9F%87%AB%F0%9F%87%AEtelegram%20%E2%9E%A0%20%40v2rayNG_Matsuri",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
         "telegram%20%40mtmvpn",
         "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20mtmvpn%40",
