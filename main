@@ -105,7 +105,7 @@
     {
       "type": "vless",
       "tag": "telegram%20%40mtmvpn",
-      "server": "128.140.61.203",
+      "server": "78.47.80.152",
       "server_port": 443,
       "uuid": "%57%61%72%70%69%2D%46%72%65%65%2D%56%70%6E%2D%49%6E%2D%47%6F%6F%67%6C%65%50%6C%61%79",
       "flow": ""
@@ -153,14 +153,6 @@
     },
     {
       "type": "vless",
-      "tag": "%F0%9F%A7%B839%40oneclickvpnkeys",
-      "server": "65.109.179.90",
-      "server_port": 443,
-      "uuid": "18881ae6-1e7d-48db-9c2f-27da9a58d63e",
-      "flow": ""
-    },
-    {
-      "type": "vless",
       "tag": "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
       "server": "104.21.3.219",
       "server_port": 8443,
@@ -189,7 +181,6 @@
         "%40mehrosaboran",
         "@Capoit",
         "[",
-        "%F0%9F%A7%B839%40oneclickvpnkeys",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
       ]
     },
@@ -207,7 +198,6 @@
         "%40mehrosaboran",
         "@Capoit",
         "[",
-        "%F0%9F%A7%B839%40oneclickvpnkeys",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6"
       ],
       "url": "https://cp.cloudflare.com/",
