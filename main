@@ -89,10 +89,13 @@
     {
       "type": "vless",
       "tag": "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20mtmvpn%40",
-      "server": "m41a.vip784.com",
-      "server_port": 33801,
-      "uuid": "423a02e9-2e50-4609-9ea7-572b64226afe",
-      "flow": ""
+      "server": "107.161.168.148",
+      "server_port": 28882,
+      "uuid": "b62e676f-ef16-4083-a046-b710e26b2a08",
+      "flow": "",
+      "transport": {
+        "type": "grpc"
+      }
     },
     {
       "type": "vless",
