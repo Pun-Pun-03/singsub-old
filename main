@@ -158,6 +158,14 @@
       "flow": ""
     },
     {
+      "type": "vless",
+      "tag": "%40meli_proxyy",
+      "server": "91.99.150.7",
+      "server_port": 443,
+      "uuid": "56dc390e-bfac-4642-9300-b3deb4c4644a",
+      "flow": ""
+    },
+    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
@@ -172,7 +180,8 @@
         "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20mtmvpn%40",
         "@meli_proxyy",
         "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20MTMVPN%40",
-        "["
+        "[",
+        "%40meli_proxyy"
       ]
     },
     {
@@ -189,7 +198,8 @@
         "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20mtmvpn%40",
         "@meli_proxyy",
         "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20MTMVPN%40",
-        "["
+        "[",
+        "%40meli_proxyy"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
