@@ -88,6 +88,21 @@
     },
     {
       "type": "vless",
+      "tag": "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
+      "server": "25.25.25.253",
+      "server_port": 2096,
+      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram @sinavm/?ed=2560",
+        "headers": {
+          "Host": "gaosir.unfeeling.sbs"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "@meli_proxyy",
       "server": "91.99.191.47",
       "server_port": 80,
@@ -169,6 +184,7 @@
         "trojan",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
+        "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
         "@meli_proxyy",
         "%F0%9F%93%9F44%40oneclickvpnkeys",
         "%F0%9F%93%9F9%40oneclickvpnkeys",
@@ -187,6 +203,7 @@
         "trojan",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
+        "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
         "@meli_proxyy",
         "%F0%9F%93%9F44%40oneclickvpnkeys",
         "%F0%9F%93%9F9%40oneclickvpnkeys",
