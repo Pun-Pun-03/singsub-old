@@ -150,14 +150,6 @@
       "flow": ""
     },
     {
-      "type": "vless",
-      "tag": "%F0%9F%A7%B834%40oneclickvpnkeys",
-      "server": "65.109.177.74",
-      "server_port": 443,
-      "uuid": "f03f6ac6-8f00-44e7-b3ff-af05cb6dfcca",
-      "flow": ""
-    },
-    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
@@ -171,8 +163,7 @@
         "telegram%20%40mtmvpn",
         "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20mtmvpn%40",
         "@meli_proxyy",
-        "[",
-        "%F0%9F%A7%B834%40oneclickvpnkeys"
+        "["
       ]
     },
     {
@@ -188,8 +179,7 @@
         "telegram%20%40mtmvpn",
         "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20mtmvpn%40",
         "@meli_proxyy",
-        "[",
-        "%F0%9F%A7%B834%40oneclickvpnkeys"
+        "["
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
