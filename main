@@ -56,22 +56,6 @@
     },
     {
       "type": "vmess",
-      "tag": "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
-      "server": "57.129.28.63",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "fapeng.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "Channel id: @proxy_kafee🇩🇪",
       "server": "57.129.28.216",
       "server_port": 443,
@@ -104,6 +88,33 @@
     },
     {
       "type": "vless",
+      "tag": "@meli_proxyy",
+      "server": "91.99.191.47",
+      "server_port": 80,
+      "uuid": "1c9054be-74c1-472e-948a-f915de932c8e",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "%F0%9F%93%9F44%40oneclickvpnkeys",
+      "server": "162.217.248.62",
+      "server_port": 34886,
+      "uuid": "04886592-934b-4914-a044-e65135940520",
+      "flow": "",
+      "transport": {
+        "type": "grpc"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "%F0%9F%93%9F9%40oneclickvpnkeys",
+      "server": "91.98.153.140",
+      "server_port": 443,
+      "uuid": "Warpi-Free-Vpn-In-GooglePlay",
+      "flow": ""
+    },
+    {
+      "type": "vless",
       "tag": "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
       "server": "128.140.61.203",
       "server_port": 443,
@@ -116,37 +127,6 @@
       "server": "78.47.80.152",
       "server_port": 443,
       "uuid": "%57%61%72%70%69%2D%46%72%65%65%2D%56%70%6E%2D%49%6E%2D%47%6F%6F%67%6C%65%50%6C%61%79",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20mtmvpn%40",
-      "server": "107.161.168.148",
-      "server_port": 28882,
-      "uuid": "b62e676f-ef16-4083-a046-b710e26b2a08",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "@meli_proxyy",
-      "server": "37.221.125.227",
-      "server_port": 443,
-      "uuid": "ca72617f-337c-4b0e-84f0-d3c29f82d2b7",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20MTMVPN%40",
-      "server": "m32a.vip784.com",
-      "server_port": 33801,
-      "uuid": "e148ba9b-7f4b-40d8-adc4-e1a2b8d2c0c1",
       "flow": ""
     },
     {
@@ -166,22 +146,37 @@
       "flow": ""
     },
     {
+      "type": "vless",
+      "tag": "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7",
+      "server": "51.38.237.113",
+      "server_port": 80,
+      "uuid": "2b7c27b9-dfba-430b-9ee7-88eb1c85af27",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/",
+        "headers": {
+          "Host": "---@ShadowProxy66"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
         "Best-Ping",
         "vless",
         "trojan",
-        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
+        "@meli_proxyy",
+        "%F0%9F%93%9F44%40oneclickvpnkeys",
+        "%F0%9F%93%9F9%40oneclickvpnkeys",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
         "telegram%20%40mtmvpn",
-        "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20mtmvpn%40",
-        "@meli_proxyy",
-        "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20MTMVPN%40",
         "[",
-        "%40meli_proxyy"
+        "%40meli_proxyy",
+        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7"
       ]
     },
     {
@@ -190,16 +185,16 @@
       "outbounds": [
         "vless",
         "trojan",
-        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
+        "@meli_proxyy",
+        "%F0%9F%93%9F44%40oneclickvpnkeys",
+        "%F0%9F%93%9F9%40oneclickvpnkeys",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
         "telegram%20%40mtmvpn",
-        "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20mtmvpn%40",
-        "@meli_proxyy",
-        "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20MTMVPN%40",
         "[",
-        "%40meli_proxyy"
+        "%40meli_proxyy",
+        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
