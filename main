@@ -88,25 +88,6 @@
     },
     {
       "type": "vless",
-      "tag": "@Capoit",
-      "server": "194.182.79.240",
-      "server_port": 22731,
-      "uuid": "a51baee1-262a-4de1-bcd1-a7376a4feb70",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "%F0%9F%93%9F9%40oneclickvpnkeys",
-      "server": "91.98.153.140",
-      "server_port": 443,
-      "uuid": "Warpi-Free-Vpn-In-GooglePlay",
-      "flow": ""
-    },
-    {
-      "type": "vless",
       "tag": "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
       "server": "128.140.61.203",
       "server_port": 443,
@@ -134,6 +115,18 @@
     },
     {
       "type": "vless",
+      "tag": "@meli_proxyy",
+      "server": "37.221.125.227",
+      "server_port": 443,
+      "uuid": "ca72617f-337c-4b0e-84f0-d3c29f82d2b7",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "[",
       "server": "37.18.14.103",
       "server_port": 443,
@@ -149,11 +142,10 @@
         "trojan",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
-        "@Capoit",
-        "%F0%9F%93%9F9%40oneclickvpnkeys",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
         "telegram%20%40mtmvpn",
         "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20mtmvpn%40",
+        "@meli_proxyy",
         "["
       ]
     },
@@ -165,11 +157,10 @@
         "trojan",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
-        "@Capoit",
-        "%F0%9F%93%9F9%40oneclickvpnkeys",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
         "telegram%20%40mtmvpn",
         "%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20mtmvpn%40",
+        "@meli_proxyy",
         "["
       ],
       "url": "https://cp.cloudflare.com/",
