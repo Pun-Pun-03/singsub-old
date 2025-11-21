@@ -104,25 +104,6 @@
     },
     {
       "type": "vless",
-      "tag": "%F0%9F%93%9F44%40oneclickvpnkeys",
-      "server": "162.217.248.62",
-      "server_port": 34886,
-      "uuid": "04886592-934b-4914-a044-e65135940520",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "%F0%9F%93%9F9%40oneclickvpnkeys",
-      "server": "91.98.153.140",
-      "server_port": 443,
-      "uuid": "Warpi-Free-Vpn-In-GooglePlay",
-      "flow": ""
-    },
-    {
-      "type": "vless",
       "tag": "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
       "server": "128.140.61.203",
       "server_port": 443,
@@ -198,8 +179,6 @@
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
-        "%F0%9F%93%9F44%40oneclickvpnkeys",
-        "%F0%9F%93%9F9%40oneclickvpnkeys",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
         "telegram%20%40mtmvpn",
         "@meli_proxyy",
@@ -218,8 +197,6 @@
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
-        "%F0%9F%93%9F44%40oneclickvpnkeys",
-        "%F0%9F%93%9F9%40oneclickvpnkeys",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
         "telegram%20%40mtmvpn",
         "@meli_proxyy",
