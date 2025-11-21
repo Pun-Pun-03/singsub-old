@@ -120,14 +120,6 @@
     },
     {
       "type": "vless",
-      "tag": "telegram%20%40mtmvpn",
-      "server": "78.47.80.152",
-      "server_port": 443,
-      "uuid": "%57%61%72%70%69%2D%46%72%65%65%2D%56%70%6E%2D%49%6E%2D%47%6F%6F%67%6C%65%50%6C%61%79",
-      "flow": ""
-    },
-    {
-      "type": "vless",
       "tag": "@meli_proxyy",
       "server": "37.221.125.227",
       "server_port": 443,
@@ -189,7 +181,6 @@
         "@proxy_kafee🇩🇪",
         "%F0%9F%93%9F9%40oneclickvpnkeys",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
-        "telegram%20%40mtmvpn",
         "@meli_proxyy",
         "[",
         "%F0%9F%A7%B839%40oneclickvpnkeys",
@@ -208,7 +199,6 @@
         "@proxy_kafee🇩🇪",
         "%F0%9F%93%9F9%40oneclickvpnkeys",
         "%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig",
-        "telegram%20%40mtmvpn",
         "@meli_proxyy",
         "[",
         "%F0%9F%A7%B839%40oneclickvpnkeys",
