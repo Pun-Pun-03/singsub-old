@@ -89,7 +89,7 @@
     {
       "type": "vmess",
       "tag": "@proxy_kafee🇩🇪",
-      "server": "57.129.25.22",
+      "server": "57.129.24.125",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
@@ -98,7 +98,7 @@
         "type": "ws",
         "path": "/linkvws",
         "headers": {
-          "Host": "o.metuji.com"
+          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
         }
       }
     },
@@ -130,14 +130,6 @@
     },
     {
       "type": "vless",
-      "tag": "%F0%9F%93%9F9%40oneclickvpnkeys",
-      "server": "91.98.153.140",
-      "server_port": 443,
-      "uuid": "Warpi-Free-Vpn-In-GooglePlay",
-      "flow": ""
-    },
-    {
-      "type": "vless",
       "tag": "@meli_proxyy",
       "server": "37.221.125.227",
       "server_port": 443,
@@ -154,14 +146,6 @@
       "server": "37.18.14.103",
       "server_port": 443,
       "uuid": "4feab863-0b04-444d-87e5-4375adca92cf",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "%F0%9F%A7%B839%40oneclickvpnkeys",
-      "server": "65.109.179.90",
-      "server_port": 443,
-      "uuid": "18881ae6-1e7d-48db-9c2f-27da9a58d63e",
       "flow": ""
     },
     {
@@ -199,10 +183,8 @@
         "@proxy_kafee🇩🇪",
         "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
         "%F0%9F%93%9F44%40oneclickvpnkeys",
-        "%F0%9F%93%9F9%40oneclickvpnkeys",
         "@meli_proxyy",
         "[",
-        "%F0%9F%A7%B839%40oneclickvpnkeys",
         "%40meli_proxyy",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7"
       ]
@@ -218,10 +200,8 @@
         "@proxy_kafee🇩🇪",
         "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
         "%F0%9F%93%9F44%40oneclickvpnkeys",
-        "%F0%9F%93%9F9%40oneclickvpnkeys",
         "@meli_proxyy",
         "[",
-        "%F0%9F%A7%B839%40oneclickvpnkeys",
         "%40meli_proxyy",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7"
       ],
