@@ -148,6 +148,14 @@
     },
     {
       "type": "vless",
+      "tag": "%F0%9F%A7%B829%40oneclickvpnkeys",
+      "server": "65.21.240.236",
+      "server_port": 443,
+      "uuid": "22948aee-4981-4ba1-b8df-7a2b494a8a28",
+      "flow": ""
+    },
+    {
+      "type": "vless",
       "tag": "%40meli_proxyy",
       "server": "91.99.150.7",
       "server_port": 443,
@@ -184,6 +192,7 @@
         "@meli_proxyy",
         "[",
         "%F0%9F%A7%B839%40oneclickvpnkeys",
+        "%F0%9F%A7%B829%40oneclickvpnkeys",
         "%40meli_proxyy",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7"
       ]
@@ -202,6 +211,7 @@
         "@meli_proxyy",
         "[",
         "%F0%9F%A7%B839%40oneclickvpnkeys",
+        "%F0%9F%A7%B829%40oneclickvpnkeys",
         "%40meli_proxyy",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7"
       ],
