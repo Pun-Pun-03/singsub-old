@@ -73,7 +73,7 @@
     {
       "type": "vmess",
       "tag": "@proxy_kafee🇩🇪",
-      "server": "57.129.24.125",
+      "server": "57.129.25.22",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
@@ -82,7 +82,7 @@
         "type": "ws",
         "path": "/linkvws",
         "headers": {
-          "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+          "Host": "o.metuji.com"
         }
       }
     },
