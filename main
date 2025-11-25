@@ -135,6 +135,21 @@
     },
     {
       "type": "vless",
+      "tag": "[",
+      "server": "40.160.4.106",
+      "server_port": 8080,
+      "uuid": "9dc11620-987c-4344-9088-f46fdfae4054",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed",
+        "headers": {
+          "Host": "Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
       "server": "25.25.25.253",
       "server_port": 2096,
@@ -175,6 +190,7 @@
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
         "@meli_proxyy",
+        "[",
         "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7"
       ]
@@ -190,6 +206,7 @@
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
         "@meli_proxyy",
+        "[",
         "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7"
       ],
