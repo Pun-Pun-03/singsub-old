@@ -88,22 +88,6 @@
     },
     {
       "type": "vmess",
-      "tag": "Channel id: @proxy_kafee🇩🇪",
-      "server": "57.129.28.216",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "fapeng.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "@proxy_kafee🇩🇪",
       "server": "57.129.25.22",
       "server_port": 443,
@@ -130,21 +114,6 @@
         "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
         "headers": {
           "Host": "gaosir.unfeeling.sbs"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[",
-      "server": "40.160.4.106",
-      "server_port": 8080,
-      "uuid": "9dc11620-987c-4344-9088-f46fdfae4054",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed",
-        "headers": {
-          "Host": "Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET"
         }
       }
     },
@@ -187,10 +156,8 @@
         "trojan",
         "🇨🇦@FreakConfig",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
-        "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
         "@meli_proxyy",
-        "[",
         "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7"
       ]
@@ -203,10 +170,8 @@
         "trojan",
         "🇨🇦@FreakConfig",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
-        "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
         "@meli_proxyy",
-        "[",
         "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7"
       ],
