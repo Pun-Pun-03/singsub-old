@@ -72,22 +72,6 @@
     },
     {
       "type": "vmess",
-      "tag": "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
-      "server": "57.129.28.63",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "fapeng.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "Channel id: @proxy_kafee🇩🇪",
       "server": "57.129.28.216",
       "server_port": 443,
@@ -150,6 +134,14 @@
     },
     {
       "type": "vless",
+      "tag": "[",
+      "server": "advertisement.app-browser.org",
+      "server_port": 443,
+      "uuid": "22948aee-4981-4ba1-b8df-7a2b494a8a28",
+      "flow": ""
+    },
+    {
+      "type": "vless",
       "tag": "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7",
       "server": "51.38.237.113",
       "server_port": 80,
@@ -171,11 +163,11 @@
         "vless",
         "trojan",
         "🇨🇦@FreakConfig",
-        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
         "@meli_proxyy",
         "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
+        "[",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7"
       ]
     },
@@ -186,11 +178,11 @@
         "vless",
         "trojan",
         "🇨🇦@FreakConfig",
-        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
         "@meli_proxyy",
         "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
+        "[",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7"
       ],
       "url": "https://cp.cloudflare.com/",
