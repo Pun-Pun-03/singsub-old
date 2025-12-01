@@ -118,6 +118,14 @@
     },
     {
       "type": "vless",
+      "tag": "%F0%9F%A7%B839%40oneclickvpnkeys",
+      "server": "65.109.179.90",
+      "server_port": 443,
+      "uuid": "18881ae6-1e7d-48db-9c2f-27da9a58d63e",
+      "flow": ""
+    },
+    {
+      "type": "vless",
       "tag": "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7",
       "server": "51.38.237.113",
       "server_port": 80,
@@ -142,6 +150,7 @@
         "@proxy_kafee🇩🇪",
         "@meli_proxyy",
         "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
+        "%F0%9F%A7%B839%40oneclickvpnkeys",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7"
       ]
     },
@@ -155,6 +164,7 @@
         "@proxy_kafee🇩🇪",
         "@meli_proxyy",
         "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
+        "%F0%9F%A7%B839%40oneclickvpnkeys",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7"
       ],
       "url": "https://cp.cloudflare.com/",
