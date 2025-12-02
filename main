@@ -133,6 +133,21 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7",
+      "server": "51.38.237.113",
+      "server_port": 80,
+      "uuid": "2b7c27b9-dfba-430b-9ee7-88eb1c85af27",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/",
+        "headers": {
+          "Host": "---@ShadowProxy66"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
@@ -143,7 +158,8 @@
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
         "@meli_proxyy",
-        "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig"
+        "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
+        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7"
       ]
     },
     {
@@ -156,7 +172,8 @@
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
         "@meli_proxyy",
-        "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig"
+        "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
+        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%AB%F0%9F%87%B7"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
