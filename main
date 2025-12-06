@@ -88,6 +88,22 @@
     },
     {
       "type": "vmess",
+      "tag": "Channel id: @proxy_kafee🇩🇪",
+      "server": "57.129.28.216",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "fapeng.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "@proxy_kafee🇩🇪",
       "server": "57.129.25.22",
       "server_port": 443,
@@ -103,36 +119,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "@meli_proxyy",
-      "server": "25.25.25.253",
-      "server_port": 2096,
-      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
-        "headers": {
-          "Host": "gaosir.unfeeling.sbs"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig",
-      "server": "25.25.25.253",
-      "server_port": 2096,
-      "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram @sinavm/?ed=2560",
-        "headers": {
-          "Host": "gaosir.unfeeling.sbs"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
@@ -141,9 +127,8 @@
         "trojan",
         "🇨🇦@FreakConfig",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
-        "@proxy_kafee🇩🇪",
-        "@meli_proxyy",
-        "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig"
+        "Channel id: @proxy_kafee🇩🇪",
+        "@proxy_kafee🇩🇪"
       ]
     },
     {
@@ -154,9 +139,8 @@
         "trojan",
         "🇨🇦@FreakConfig",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
-        "@proxy_kafee🇩🇪",
-        "@meli_proxyy",
-        "%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%40FreakConfig"
+        "Channel id: @proxy_kafee🇩🇪",
+        "@proxy_kafee🇩🇪"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
