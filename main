@@ -119,6 +119,18 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "@meli_proxyy",
+      "server": "37.221.125.227",
+      "server_port": 443,
+      "uuid": "ca72617f-337c-4b0e-84f0-d3c29f82d2b7",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
@@ -128,7 +140,8 @@
         "🇨🇦@FreakConfig",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "Channel id: @proxy_kafee🇩🇪",
-        "@proxy_kafee🇩🇪"
+        "@proxy_kafee🇩🇪",
+        "@meli_proxyy"
       ]
     },
     {
@@ -140,7 +153,8 @@
         "🇨🇦@FreakConfig",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "Channel id: @proxy_kafee🇩🇪",
-        "@proxy_kafee🇩🇪"
+        "@proxy_kafee🇩🇪",
+        "@meli_proxyy"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
