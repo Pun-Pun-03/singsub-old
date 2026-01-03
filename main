@@ -56,24 +56,8 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇦@FreakConfig",
-      "server": "158.51.121.63",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "seribus.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "@proxy_kafee🇩🇪",
-      "server": "57.129.25.22",
+      "server": "57.129.28.69",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
@@ -82,7 +66,7 @@
         "type": "ws",
         "path": "/linkvws",
         "headers": {
-          "Host": "o.metuji.com"
+          "Host": "baradiha.com"
         }
       }
     },
@@ -93,7 +77,6 @@
         "Best-Ping",
         "vless",
         "trojan",
-        "🇨🇦@FreakConfig",
         "@proxy_kafee🇩🇪"
       ]
     },
@@ -103,7 +86,6 @@
       "outbounds": [
         "vless",
         "trojan",
-        "🇨🇦@FreakConfig",
         "@proxy_kafee🇩🇪"
       ],
       "url": "https://cp.cloudflare.com/",
