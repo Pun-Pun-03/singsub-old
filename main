@@ -56,19 +56,19 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇦@FreakConfig",
-      "server": "158.51.121.63",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "tag": "t.me/v2Line | Free | 3263 | United States",
+      "server": "82.198.246.97",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
       "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "seribus.org"
-        }
-      }
+      "alter_id": 0
+    },
+    {
+      "type": "trojan",
+      "tag": "%F0%9F%8E%8464%40oneclickvpnkeys",
+      "server": "45.129.3.220",
+      "server_port": 10668,
+      "password": "oUFBC3Vs2rYmN8_bR-P7quoL"
     },
     {
       "type": "selector",
@@ -77,7 +77,8 @@
         "Best-Ping",
         "vless",
         "trojan",
-        "🇨🇦@FreakConfig"
+        "t.me/v2Line | Free | 3263 | United States",
+        "%F0%9F%8E%8464%40oneclickvpnkeys"
       ]
     },
     {
@@ -86,7 +87,8 @@
       "outbounds": [
         "vless",
         "trojan",
-        "🇨🇦@FreakConfig"
+        "t.me/v2Line | Free | 3263 | United States",
+        "%F0%9F%8E%8464%40oneclickvpnkeys"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
