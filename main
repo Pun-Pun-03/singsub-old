@@ -56,19 +56,26 @@
     },
     {
       "type": "vmess",
-      "tag": "t.me/v2Line | Free | 3263 | United States",
-      "server": "82.198.246.97",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "tag": "Channel id: @proxy_kafee🇩🇪",
+      "server": "57.129.28.216",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
-      "alter_id": 0
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "fapeng.org"
+        }
+      }
     },
     {
       "type": "trojan",
-      "tag": "%F0%9F%8E%8464%40oneclickvpnkeys",
-      "server": "45.129.3.220",
-      "server_port": 10668,
-      "password": "oUFBC3Vs2rYmN8_bR-P7quoL"
+      "tag": "POL%20%F0%9F%87%B5%F0%9F%87%B1%20%E2%9C%8C%F0%9F%8F%BC%20%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%84",
+      "server": "45.144.51.35",
+      "server_port": 7390,
+      "password": "zL7CpPYxhvFtYqm2yAbHrw"
     },
     {
       "type": "selector",
@@ -77,8 +84,8 @@
         "Best-Ping",
         "vless",
         "trojan",
-        "t.me/v2Line | Free | 3263 | United States",
-        "%F0%9F%8E%8464%40oneclickvpnkeys"
+        "Channel id: @proxy_kafee🇩🇪",
+        "POL%20%F0%9F%87%B5%F0%9F%87%B1%20%E2%9C%8C%F0%9F%8F%BC%20%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%84"
       ]
     },
     {
@@ -87,8 +94,8 @@
       "outbounds": [
         "vless",
         "trojan",
-        "t.me/v2Line | Free | 3263 | United States",
-        "%F0%9F%8E%8464%40oneclickvpnkeys"
+        "Channel id: @proxy_kafee🇩🇪",
+        "POL%20%F0%9F%87%B5%F0%9F%87%B1%20%E2%9C%8C%F0%9F%8F%BC%20%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%84"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
