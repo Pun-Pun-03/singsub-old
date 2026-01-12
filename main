@@ -55,27 +55,12 @@
       "password": "IM4e0ZQNPU"
     },
     {
-      "type": "vmess",
-      "tag": "Channel id: @proxy_kafee🇩🇪",
-      "server": "57.129.28.216",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "fapeng.org"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "POL%20%F0%9F%87%B5%F0%9F%87%B1%20%E2%9C%8C%F0%9F%8F%BC%20%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%84",
-      "server": "45.144.51.35",
-      "server_port": 7390,
-      "password": "zL7CpPYxhvFtYqm2yAbHrw"
+      "type": "vless",
+      "tag": "[",
+      "server": "94.131.8.19",
+      "server_port": 45448,
+      "uuid": "96fcf8cc-535d-46c4-b8f9-76058df48e3b",
+      "flow": ""
     },
     {
       "type": "selector",
@@ -84,8 +69,7 @@
         "Best-Ping",
         "vless",
         "trojan",
-        "Channel id: @proxy_kafee🇩🇪",
-        "POL%20%F0%9F%87%B5%F0%9F%87%B1%20%E2%9C%8C%F0%9F%8F%BC%20%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%84"
+        "["
       ]
     },
     {
@@ -94,8 +78,7 @@
       "outbounds": [
         "vless",
         "trojan",
-        "Channel id: @proxy_kafee🇩🇪",
-        "POL%20%F0%9F%87%B5%F0%9F%87%B1%20%E2%9C%8C%F0%9F%8F%BC%20%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%84"
+        "["
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
