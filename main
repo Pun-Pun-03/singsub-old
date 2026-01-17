@@ -56,10 +56,10 @@
     },
     {
       "type": "vless",
-      "tag": "[",
-      "server": "94.131.8.19",
-      "server_port": 45448,
-      "uuid": "96fcf8cc-535d-46c4-b8f9-76058df48e3b",
+      "tag": "telegram%40V2rayBaaz%E2%97%87%E2%83%9F%F0%9F%92%9C",
+      "server": "25.26.27.28",
+      "server_port": 2052,
+      "uuid": "cb522244-ff63-4883-ae1f-87d883fb2da7",
       "flow": ""
     },
     {
@@ -69,7 +69,7 @@
         "Best-Ping",
         "vless",
         "trojan",
-        "["
+        "telegram%40V2rayBaaz%E2%97%87%E2%83%9F%F0%9F%92%9C"
       ]
     },
     {
@@ -78,7 +78,7 @@
       "outbounds": [
         "vless",
         "trojan",
-        "["
+        "telegram%40V2rayBaaz%E2%97%87%E2%83%9F%F0%9F%92%9C"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
