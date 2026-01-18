@@ -56,15 +56,6 @@
     },
     {
       "type": "vmess",
-      "tag": "[🇳🇱]t.me/ConfigsHub",
-      "server": "45.90.106.24",
-      "server_port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "aes-128-gcm",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
       "tag": "France",
       "server": "146.59.70.146",
       "server_port": 443,
@@ -92,6 +83,22 @@
         "path": "linkvws",
         "headers": {
           "Host": "seribus.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇩🇪@FreakConfig",
+      "server": "57.129.59.193",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "serkat.org"
         }
       }
     },
@@ -188,14 +195,6 @@
     },
     {
       "type": "vless",
-      "tag": "%F0%9F%94%B624%40oneclickvpnkeys",
-      "server": "51.158.206.26",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
       "tag": "%F0%9F%A7%B841%40oneclickvpnkeys",
       "server": "104.21.86.253",
       "server_port": 443,
@@ -234,9 +233,9 @@
         "Best-Ping",
         "vless",
         "trojan",
-        "[🇳🇱]t.me/ConfigsHub",
         "France",
         "🇨🇦@FreakConfig",
+        "🇩🇪@FreakConfig",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
@@ -245,7 +244,6 @@
         "%E2%9B%8460%40oneclickvpnkeys",
         "%F0%9F%8E%8488%40oneclickvpnkeys",
         "%40Daily_Configs",
-        "%F0%9F%94%B624%40oneclickvpnkeys",
         "%F0%9F%A7%B841%40oneclickvpnkeys",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
         "%E2%9C%8598%40oneclickvpnkeys"
@@ -257,9 +255,9 @@
       "outbounds": [
         "vless",
         "trojan",
-        "[🇳🇱]t.me/ConfigsHub",
         "France",
         "🇨🇦@FreakConfig",
+        "🇩🇪@FreakConfig",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
@@ -268,7 +266,6 @@
         "%E2%9B%8460%40oneclickvpnkeys",
         "%F0%9F%8E%8488%40oneclickvpnkeys",
         "%40Daily_Configs",
-        "%F0%9F%94%B624%40oneclickvpnkeys",
         "%F0%9F%A7%B841%40oneclickvpnkeys",
         "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
         "%E2%9C%8598%40oneclickvpnkeys"
