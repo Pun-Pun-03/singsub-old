@@ -55,12 +55,74 @@
       "password": "IM4e0ZQNPU"
     },
     {
+      "type": "vmess",
+      "tag": "France",
+      "server": "146.59.70.146",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "yichueng.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "@proxy_kafee🇩🇪",
+      "server": "57.129.28.69",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "baradiha.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[",
+      "server": "104.21.96.1",
+      "server_port": 2096,
+      "uuid": "7bcb7241-33f9-48e0-8660-b33aed2bff7a",
+      "flow": "",
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "%F0%9F%87%B3%F0%9F%87%B4%40FreakConfig",
+      "server": "80.173.230.196",
+      "server_port": 26279,
+      "password": "a5inYFE%3DJGV89%2BhjxIqgDp1tcWBd6"
+    },
+    {
+      "type": "trojan",
+      "tag": "%E2%9C%8598%40oneclickvpnkeys",
+      "server": "83.143.87.9",
+      "server_port": 18581,
+      "password": "RPyW62_b9aH.ztJKeArou"
+    },
+    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
         "Best-Ping",
         "vless",
-        "trojan"
+        "trojan",
+        "France",
+        "@proxy_kafee🇩🇪",
+        "[",
+        "%F0%9F%87%B3%F0%9F%87%B4%40FreakConfig",
+        "%E2%9C%8598%40oneclickvpnkeys"
       ]
     },
     {
@@ -68,7 +130,12 @@
       "tag": "Best-Ping",
       "outbounds": [
         "vless",
-        "trojan"
+        "trojan",
+        "France",
+        "@proxy_kafee🇩🇪",
+        "[",
+        "%F0%9F%87%B3%F0%9F%87%B4%40FreakConfig",
+        "%E2%9C%8598%40oneclickvpnkeys"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
