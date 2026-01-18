@@ -205,21 +205,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
-      "server": "104.21.3.219",
-      "server_port": 8443,
-      "uuid": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/57ba2ab1",
-        "headers": {
-          "Host": "ovhwuxian.pai50288.uk"
-        }
-      }
-    },
-    {
       "type": "trojan",
       "tag": "%E2%9C%8598%40oneclickvpnkeys",
       "server": "83.143.87.9",
@@ -245,7 +230,6 @@
         "%F0%9F%8E%8488%40oneclickvpnkeys",
         "%40Daily_Configs",
         "%F0%9F%A7%B841%40oneclickvpnkeys",
-        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
         "%E2%9C%8598%40oneclickvpnkeys"
       ]
     },
@@ -267,7 +251,6 @@
         "%F0%9F%8E%8488%40oneclickvpnkeys",
         "%40Daily_Configs",
         "%F0%9F%A7%B841%40oneclickvpnkeys",
-        "Channel%20id%3A%20%40@proxy_kafee%20%F0%9F%87%A8%F0%9F%87%A6",
         "%E2%9C%8598%40oneclickvpnkeys"
       ],
       "url": "https://cp.cloudflare.com/",
