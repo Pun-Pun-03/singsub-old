@@ -63,28 +63,13 @@
       "flow": ""
     },
     {
-      "type": "trojan",
-      "tag": "%F0%9F%9F%A936%40oneclickvpnkeys",
-      "server": "cf.090227.xyz",
-      "server_port": 443,
-      "password": "87d1bfd4-574e-4c96-ad42-0426f27461ff",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "_acme-challenge.2go.cloudns.be"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
         "Best-Ping",
         "vless",
         "trojan",
-        "[",
-        "%F0%9F%9F%A936%40oneclickvpnkeys"
+        "["
       ]
     },
     {
@@ -93,8 +78,7 @@
       "outbounds": [
         "vless",
         "trojan",
-        "[",
-        "%F0%9F%9F%A936%40oneclickvpnkeys"
+        "["
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
