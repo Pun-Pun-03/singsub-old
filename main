@@ -56,15 +56,18 @@
     },
     {
       "type": "vmess",
-      "tag": "France",
-      "server": "91.134.8.101",
+      "tag": "🎄89@oneclickvpnkeys",
+      "server": "209.126.84.189",
       "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "uuid": "2c981164-9b93-4bca-94ff-b78d3f8498d7",
       "security": "auto",
       "alter_id": 0,
       "transport": {
         "type": "ws",
-        "path": "/linkvws"
+        "path": "/vmessws",
+        "headers": {
+          "Host": "209.126.84.189"
+        }
       }
     },
     {
@@ -141,17 +144,6 @@
     },
     {
       "type": "vless",
-      "tag": "Channel%20:%20@vmessorg",
-      "server": "pqh29v3.globalfymain.com",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "%F0%9F%8C%A8%EF%B8%8F43%40oneclickvpnkeys",
       "server": "37.120.186.241",
       "server_port": 80,
@@ -176,10 +168,13 @@
     {
       "type": "vless",
       "tag": "%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig",
-      "server": "15.204.97.164",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision"
+      "server": "all.tellmethetrue.shop",
+      "server_port": 443,
+      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
+      "flow": "",
+      "transport": {
+        "type": "grpc"
+      }
     },
     {
       "type": "vless",
@@ -200,24 +195,31 @@
       "password": "ZblhWr0mqMakCPg.N"
     },
     {
+      "type": "trojan",
+      "tag": "t.me/v2Line",
+      "server": "167.17.185.228",
+      "server_port": 10889,
+      "password": "cTv.9PDdCt-wybBrG1qlxI5UJuaEj"
+    },
+    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
         "Best-Ping",
         "vless",
         "trojan",
-        "France",
+        "🎄89@oneclickvpnkeys",
         "🇨🇦@FreakConfig",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
         "[",
-        "Channel%20:%20@vmessorg",
         "%F0%9F%8C%A8%EF%B8%8F43%40oneclickvpnkeys",
         "%F0%9F%9F%A950%40oneclickvpnkeys",
         "%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig",
         "%E2%99%BE%EF%B8%8F20%40oneclickvpnkeys",
-        "%E2%99%BE%EF%B8%8F82%40oneclickvpnkeys"
+        "%E2%99%BE%EF%B8%8F82%40oneclickvpnkeys",
+        "t.me/v2Line"
       ]
     },
     {
@@ -226,18 +228,18 @@
       "outbounds": [
         "vless",
         "trojan",
-        "France",
+        "🎄89@oneclickvpnkeys",
         "🇨🇦@FreakConfig",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "Channel id: @proxy_kafee🇩🇪",
         "@proxy_kafee🇩🇪",
         "[",
-        "Channel%20:%20@vmessorg",
         "%F0%9F%8C%A8%EF%B8%8F43%40oneclickvpnkeys",
         "%F0%9F%9F%A950%40oneclickvpnkeys",
         "%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig",
         "%E2%99%BE%EF%B8%8F20%40oneclickvpnkeys",
-        "%E2%99%BE%EF%B8%8F82%40oneclickvpnkeys"
+        "%E2%99%BE%EF%B8%8F82%40oneclickvpnkeys",
+        "t.me/v2Line"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
