@@ -140,6 +140,21 @@
     },
     {
       "type": "vless",
+      "tag": "%F0%9F%8E%A71%40oneclickvpnkeys",
+      "server": "104.18.28.7",
+      "server_port": 2095,
+      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "freedom.pusytroller.cf"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig",
       "server": "all.tellmethetrue.shop",
       "server_port": 443,
@@ -185,6 +200,7 @@
         "@proxy_kafee🇩🇪",
         "%40V2raysCollector%20%F0%9F%8F%B5%EF%B8%8F",
         "%E2%99%BE%EF%B8%8F69%40oneclickvpnkeys",
+        "%F0%9F%8E%A71%40oneclickvpnkeys",
         "%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig",
         "%F0%9F%87%A6%F0%9F%87%BA%40FreakConfig",
         "@Capoit",
@@ -203,6 +219,7 @@
         "@proxy_kafee🇩🇪",
         "%40V2raysCollector%20%F0%9F%8F%B5%EF%B8%8F",
         "%E2%99%BE%EF%B8%8F69%40oneclickvpnkeys",
+        "%F0%9F%8E%A71%40oneclickvpnkeys",
         "%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig",
         "%F0%9F%87%A6%F0%9F%87%BA%40FreakConfig",
         "@Capoit",
