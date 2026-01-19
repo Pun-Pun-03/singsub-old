@@ -55,161 +55,26 @@
       "password": "IM4e0ZQNPU"
     },
     {
-      "type": "vmess",
-      "tag": "France",
-      "server": "146.59.70.146",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "yichueng.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇦@FreakConfig",
-      "server": "158.51.121.63",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "seribus.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇩🇪@FreakConfig",
-      "server": "57.129.59.193",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "serkat.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
-      "server": "57.129.28.63",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "fapeng.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "Channel id: @proxy_kafee🇩🇪",
-      "server": "57.129.28.216",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "fapeng.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "@proxy_kafee🇩🇪",
-      "server": "57.129.25.22",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "o.metuji.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "%40V2raysCollector%20%F0%9F%92%96",
-      "server": "doprax.fxgoldensignals.com",
-      "server_port": 50904,
-      "uuid": "d4795cd9-cd7b-4cea-edfb-20cdcca5837b",
-      "flow": ""
-    },
-    {
       "type": "vless",
       "tag": "[",
-      "server": "45.83.143.28",
+      "server": "181.214.231.8",
       "server_port": 443,
-      "uuid": "ad475ad1-e80f-4e63-89e6-4120a3387377",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "%E2%9B%8460%40oneclickvpnkeys",
-      "server": "172.234.130.82",
-      "server_port": 10001,
-      "uuid": "53cd8178-2ee6-43d9-a2a7-881f287fd408",
+      "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
       "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "%F0%9F%8E%8488%40oneclickvpnkeys",
-      "server": "107.174.82.65",
-      "server_port": 32068,
-      "uuid": "bd7444d1-5f08-43bd-a332-f9058ad15010",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "%40Daily_Configs",
-      "server": "104.21.86.253",
-      "server_port": 443,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "%F0%9F%A7%B841%40oneclickvpnkeys",
-      "server": "104.21.86.253",
-      "server_port": 443,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
     },
     {
       "type": "trojan",
-      "tag": "%E2%9C%8598%40oneclickvpnkeys",
-      "server": "83.143.87.9",
-      "server_port": 18581,
-      "password": "RPyW62_b9aH.ztJKeArou"
+      "tag": "%F0%9F%9F%A936%40oneclickvpnkeys",
+      "server": "cf.090227.xyz",
+      "server_port": 443,
+      "password": "87d1bfd4-574e-4c96-ad42-0426f27461ff",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "_acme-challenge.2go.cloudns.be"
+        }
+      }
     },
     {
       "type": "selector",
@@ -218,19 +83,8 @@
         "Best-Ping",
         "vless",
         "trojan",
-        "France",
-        "🇨🇦@FreakConfig",
-        "🇩🇪@FreakConfig",
-        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
-        "Channel id: @proxy_kafee🇩🇪",
-        "@proxy_kafee🇩🇪",
-        "%40V2raysCollector%20%F0%9F%92%96",
         "[",
-        "%E2%9B%8460%40oneclickvpnkeys",
-        "%F0%9F%8E%8488%40oneclickvpnkeys",
-        "%40Daily_Configs",
-        "%F0%9F%A7%B841%40oneclickvpnkeys",
-        "%E2%9C%8598%40oneclickvpnkeys"
+        "%F0%9F%9F%A936%40oneclickvpnkeys"
       ]
     },
     {
@@ -239,19 +93,8 @@
       "outbounds": [
         "vless",
         "trojan",
-        "France",
-        "🇨🇦@FreakConfig",
-        "🇩🇪@FreakConfig",
-        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
-        "Channel id: @proxy_kafee🇩🇪",
-        "@proxy_kafee🇩🇪",
-        "%40V2raysCollector%20%F0%9F%92%96",
         "[",
-        "%E2%9B%8460%40oneclickvpnkeys",
-        "%F0%9F%8E%8488%40oneclickvpnkeys",
-        "%40Daily_Configs",
-        "%F0%9F%A7%B841%40oneclickvpnkeys",
-        "%E2%9C%8598%40oneclickvpnkeys"
+        "%F0%9F%9F%A936%40oneclickvpnkeys"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
