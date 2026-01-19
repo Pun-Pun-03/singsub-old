@@ -72,6 +72,35 @@
     },
     {
       "type": "vmess",
+      "tag": "France",
+      "server": "57.129.28.212",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "fapeng.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "t.me/v2Line | Free | 3228 | Canada",
+      "server": "23.162.200.227",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws"
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "🇨🇦@FreakConfig",
       "server": "158.51.121.63",
       "server_port": 443,
@@ -99,38 +128,6 @@
         "path": "linkvws",
         "headers": {
           "Host": "fapeng.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "Channel id: @proxy_kafee🇩🇪",
-      "server": "57.129.28.216",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "fapeng.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "@proxy_kafee🇩🇪",
-      "server": "57.129.25.22",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "o.metuji.com"
         }
       }
     },
@@ -177,24 +174,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "%E2%99%BE%EF%B8%8F20%40oneclickvpnkeys",
-      "server": "91.107.179.81",
-      "server_port": 41647,
-      "uuid": "e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "%E2%99%BE%EF%B8%8F82%40oneclickvpnkeys",
-      "server": "212.193.18.144",
-      "server_port": 36158,
-      "password": "ZblhWr0mqMakCPg.N"
-    },
-    {
       "type": "trojan",
       "tag": "t.me/v2Line",
       "server": "167.17.185.228",
@@ -209,16 +188,14 @@
         "vless",
         "trojan",
         "🎄89@oneclickvpnkeys",
+        "France",
+        "t.me/v2Line | Free | 3228 | Canada",
         "🇨🇦@FreakConfig",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
-        "Channel id: @proxy_kafee🇩🇪",
-        "@proxy_kafee🇩🇪",
         "[",
         "%F0%9F%8C%A8%EF%B8%8F43%40oneclickvpnkeys",
         "%F0%9F%9F%A950%40oneclickvpnkeys",
         "%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig",
-        "%E2%99%BE%EF%B8%8F20%40oneclickvpnkeys",
-        "%E2%99%BE%EF%B8%8F82%40oneclickvpnkeys",
         "t.me/v2Line"
       ]
     },
@@ -229,16 +206,14 @@
         "vless",
         "trojan",
         "🎄89@oneclickvpnkeys",
+        "France",
+        "t.me/v2Line | Free | 3228 | Canada",
         "🇨🇦@FreakConfig",
         "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
-        "Channel id: @proxy_kafee🇩🇪",
-        "@proxy_kafee🇩🇪",
         "[",
         "%F0%9F%8C%A8%EF%B8%8F43%40oneclickvpnkeys",
         "%F0%9F%9F%A950%40oneclickvpnkeys",
         "%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig",
-        "%E2%99%BE%EF%B8%8F20%40oneclickvpnkeys",
-        "%E2%99%BE%EF%B8%8F82%40oneclickvpnkeys",
         "t.me/v2Line"
       ],
       "url": "https://cp.cloudflare.com/",
