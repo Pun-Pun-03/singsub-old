@@ -65,6 +65,22 @@
     },
     {
       "type": "vmess",
+      "tag": "Poland",
+      "server": "146.59.55.50",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "o.metuji.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "🇨🇦@FreakConfig",
       "server": "148.113.153.112",
       "server_port": 443,
@@ -80,12 +96,55 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "%E2%99%BE%EF%B8%8F69%40oneclickvpnkeys",
-      "server": "84.252.138.63",
+      "type": "vmess",
+      "tag": "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
+      "server": "57.129.28.63",
       "server_port": 443,
-      "uuid": "4371ad14-b981-4699-bedf-83fb79bde3e6",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "fapeng.org"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@Parsashonam",
+      "server": "23.235.33.81",
+      "server_port": 80,
+      "uuid": "Parsashonam-338",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "[",
+      "server": "57.129.53.180",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "%40V2raysCollector%20%F0%9F%99%89",
+      "server": "57.129.53.180",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "%F0%9F%9B%A0%EF%B8%8F91%40oneclickvpnkeys",
+      "server": "45.82.251.141",
+      "server_port": 443,
+      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
+      "flow": "",
+      "transport": {
+        "type": "grpc"
+      }
     },
     {
       "type": "vless",
@@ -104,25 +163,6 @@
     },
     {
       "type": "vless",
-      "tag": "%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig",
-      "server": "all.tellmethetrue.shop",
-      "server_port": 443,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "%F0%9F%87%A6%F0%9F%87%BA%40FreakConfig",
-      "server": "45.15.185.69",
-      "server_port": 8443,
-      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
       "tag": "@Capoit",
       "server": "5.182.38.91",
       "server_port": 17267,
@@ -137,11 +177,14 @@
         "vless",
         "trojan",
         "United States",
+        "Poland",
         "🇨🇦@FreakConfig",
-        "%E2%99%BE%EF%B8%8F69%40oneclickvpnkeys",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
+        "@Parsashonam",
+        "[",
+        "%40V2raysCollector%20%F0%9F%99%89",
+        "%F0%9F%9B%A0%EF%B8%8F91%40oneclickvpnkeys",
         "%F0%9F%8E%A71%40oneclickvpnkeys",
-        "%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig",
-        "%F0%9F%87%A6%F0%9F%87%BA%40FreakConfig",
         "@Capoit"
       ]
     },
@@ -152,11 +195,14 @@
         "vless",
         "trojan",
         "United States",
+        "Poland",
         "🇨🇦@FreakConfig",
-        "%E2%99%BE%EF%B8%8F69%40oneclickvpnkeys",
+        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
+        "@Parsashonam",
+        "[",
+        "%40V2raysCollector%20%F0%9F%99%89",
+        "%F0%9F%9B%A0%EF%B8%8F91%40oneclickvpnkeys",
         "%F0%9F%8E%A71%40oneclickvpnkeys",
-        "%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig",
-        "%F0%9F%87%A6%F0%9F%87%BA%40FreakConfig",
         "@Capoit"
       ],
       "url": "https://cp.cloudflare.com/",
