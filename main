@@ -70,13 +70,46 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "[",
+      "server": "145.249.109.184",
+      "server_port": 24971,
+      "uuid": "dac9a640-0098-45b1-b79f-dc14efb99237",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "%E2%9B%8489%40oneclickvpnkeys",
+      "server": "15.204.97.146",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "trojan",
+      "tag": "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C",
+      "server": "chatgpt.com",
+      "server_port": 443,
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.gossipglove.com"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
         "Best-Ping",
         "vless",
         "trojan",
-        "Net_meli%F0%9F%87%AE%F0%9F%87%B7%5B@DarkTeam_VPN%5D"
+        "Net_meli%F0%9F%87%AE%F0%9F%87%B7%5B@DarkTeam_VPN%5D",
+        "[",
+        "%E2%9B%8489%40oneclickvpnkeys",
+        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ]
     },
     {
@@ -85,7 +118,10 @@
       "outbounds": [
         "vless",
         "trojan",
-        "Net_meli%F0%9F%87%AE%F0%9F%87%B7%5B@DarkTeam_VPN%5D"
+        "Net_meli%F0%9F%87%AE%F0%9F%87%B7%5B@DarkTeam_VPN%5D",
+        "[",
+        "%E2%9B%8489%40oneclickvpnkeys",
+        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
