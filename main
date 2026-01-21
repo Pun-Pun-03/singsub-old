@@ -65,24 +65,8 @@
     },
     {
       "type": "vmess",
-      "tag": "Poland",
-      "server": "146.59.55.50",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "o.metuji.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇦@FreakConfig",
-      "server": "148.113.153.112",
+      "tag": "@meli_proxyy",
+      "server": "57.129.24.130",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
@@ -97,8 +81,8 @@
     },
     {
       "type": "vmess",
-      "tag": "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
-      "server": "57.129.28.63",
+      "tag": "Channel id: @proxy_kafee🇩🇪",
+      "server": "57.129.28.216",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
@@ -113,61 +97,29 @@
     },
     {
       "type": "vless",
-      "tag": "@Parsashonam",
-      "server": "23.235.33.81",
-      "server_port": 80,
-      "uuid": "Parsashonam-338",
-      "flow": ""
+      "tag": "Net_meli%F0%9F%87%AE%F0%9F%87%B7%5B@DarkTeam_VPN%5D",
+      "server": "104.18.32.47",
+      "server_port": 443,
+      "uuid": "ea3f180c-8141-4e03-b11c-4d542767a417",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoidmo5SG5sY2oyMGNKYiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560",
+        "headers": {
+          "Host": "e4xf3l6qfdu-shhc8axat6695v4t9e6p.pages.dev"
+        }
+      }
     },
     {
       "type": "vless",
-      "tag": "[",
-      "server": "57.129.53.180",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "%40V2raysCollector%20%F0%9F%99%89",
-      "server": "57.129.53.180",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "%F0%9F%9B%A0%EF%B8%8F91%40oneclickvpnkeys",
-      "server": "45.82.251.141",
+      "tag": "%40V2raysCollector%20%F0%9F%A5%B8",
+      "server": "all.tellmethetrue.shop",
       "server_port": 443,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
       "flow": "",
       "transport": {
         "type": "grpc"
       }
-    },
-    {
-      "type": "vless",
-      "tag": "%F0%9F%8E%A71%40oneclickvpnkeys",
-      "server": "104.18.28.7",
-      "server_port": 2095,
-      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "freedom.pusytroller.cf"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "@Capoit",
-      "server": "5.182.38.91",
-      "server_port": 17267,
-      "uuid": "1c7fcc38-e6be-43c5-875f-b8de2516b9f2",
-      "flow": ""
     },
     {
       "type": "selector",
@@ -177,15 +129,10 @@
         "vless",
         "trojan",
         "United States",
-        "Poland",
-        "🇨🇦@FreakConfig",
-        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
-        "@Parsashonam",
-        "[",
-        "%40V2raysCollector%20%F0%9F%99%89",
-        "%F0%9F%9B%A0%EF%B8%8F91%40oneclickvpnkeys",
-        "%F0%9F%8E%A71%40oneclickvpnkeys",
-        "@Capoit"
+        "@meli_proxyy",
+        "Channel id: @proxy_kafee🇩🇪",
+        "Net_meli%F0%9F%87%AE%F0%9F%87%B7%5B@DarkTeam_VPN%5D",
+        "%40V2raysCollector%20%F0%9F%A5%B8"
       ]
     },
     {
@@ -195,15 +142,10 @@
         "vless",
         "trojan",
         "United States",
-        "Poland",
-        "🇨🇦@FreakConfig",
-        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
-        "@Parsashonam",
-        "[",
-        "%40V2raysCollector%20%F0%9F%99%89",
-        "%F0%9F%9B%A0%EF%B8%8F91%40oneclickvpnkeys",
-        "%F0%9F%8E%A71%40oneclickvpnkeys",
-        "@Capoit"
+        "@meli_proxyy",
+        "Channel id: @proxy_kafee🇩🇪",
+        "Net_meli%F0%9F%87%AE%F0%9F%87%B7%5B@DarkTeam_VPN%5D",
+        "%40V2raysCollector%20%F0%9F%A5%B8"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
