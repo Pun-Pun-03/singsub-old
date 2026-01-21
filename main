@@ -55,47 +55,6 @@
       "password": "IM4e0ZQNPU"
     },
     {
-      "type": "vmess",
-      "tag": "United States",
-      "server": "165.140.216.141",
-      "server_port": 443,
-      "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "@meli_proxyy",
-      "server": "57.129.24.130",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "serkat.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "Channel id: @proxy_kafee🇩🇪",
-      "server": "57.129.28.216",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "fapeng.org"
-        }
-      }
-    },
-    {
       "type": "vless",
       "tag": "Net_meli%F0%9F%87%AE%F0%9F%87%B7%5B@DarkTeam_VPN%5D",
       "server": "104.18.32.47",
@@ -111,28 +70,13 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "%40V2raysCollector%20%F0%9F%A5%B8",
-      "server": "all.tellmethetrue.shop",
-      "server_port": 443,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
         "Best-Ping",
         "vless",
         "trojan",
-        "United States",
-        "@meli_proxyy",
-        "Channel id: @proxy_kafee🇩🇪",
-        "Net_meli%F0%9F%87%AE%F0%9F%87%B7%5B@DarkTeam_VPN%5D",
-        "%40V2raysCollector%20%F0%9F%A5%B8"
+        "Net_meli%F0%9F%87%AE%F0%9F%87%B7%5B@DarkTeam_VPN%5D"
       ]
     },
     {
@@ -141,11 +85,7 @@
       "outbounds": [
         "vless",
         "trojan",
-        "United States",
-        "@meli_proxyy",
-        "Channel id: @proxy_kafee🇩🇪",
-        "Net_meli%F0%9F%87%AE%F0%9F%87%B7%5B@DarkTeam_VPN%5D",
-        "%40V2raysCollector%20%F0%9F%A5%B8"
+        "Net_meli%F0%9F%87%AE%F0%9F%87%B7%5B@DarkTeam_VPN%5D"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
