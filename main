@@ -144,13 +144,6 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "t.me/v2Line",
-      "server": "167.17.185.228",
-      "server_port": 10889,
-      "password": "cTv.9PDdCt-wybBrG1qlxI5UJuaEj"
-    },
-    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
@@ -162,8 +155,7 @@
         "Channel id: @proxy_kafee🇩🇪",
         "%40FarazV2ray%20All",
         "%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%F0%9F%91%88vpnowl%40",
-        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C",
-        "t.me/v2Line"
+        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ]
     },
     {
@@ -177,8 +169,7 @@
         "Channel id: @proxy_kafee🇩🇪",
         "%40FarazV2ray%20All",
         "%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%F0%9F%91%88vpnowl%40",
-        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C",
-        "t.me/v2Line"
+        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
