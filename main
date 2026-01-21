@@ -55,17 +55,47 @@
       "password": "IM4e0ZQNPU"
     },
     {
-      "type": "vless",
-      "tag": "Net_meli%F0%9F%87%AE%F0%9F%87%B7%5B@DarkTeam_VPN%5D",
-      "server": "104.18.32.47",
+      "type": "vmess",
+      "tag": "🇨🇦@FreakConfig",
+      "server": "158.51.121.63",
       "server_port": 443,
-      "uuid": "ea3f180c-8141-4e03-b11c-4d542767a417",
-      "flow": "",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoidmo5SG5sY2oyMGNKYiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560",
+        "path": "linkvws",
         "headers": {
-          "Host": "e4xf3l6qfdu-shhc8axat6695v4t9e6p.pages.dev"
+          "Host": "seribus.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "[🇨🇦]t.me/ConfigsHub",
+      "server": "148.113.176.192",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "linkvws"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "Channel id: @proxy_kafee🇩🇪",
+      "server": "57.129.59.195",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "kampong.org"
         }
       }
     },
@@ -86,19 +116,18 @@
     },
     {
       "type": "vless",
-      "tag": "[",
-      "server": "145.249.109.184",
-      "server_port": 24971,
-      "uuid": "dac9a640-0098-45b1-b79f-dc14efb99237",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "%E2%9B%8489%40oneclickvpnkeys",
-      "server": "15.204.97.146",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision"
+      "tag": "%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%F0%9F%91%88vpnowl%40",
+      "server": "104.18.32.47",
+      "server_port": 443,
+      "uuid": "2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560",
+        "headers": {
+          "Host": "digikalaa.dpdns.org"
+        }
+      }
     },
     {
       "type": "trojan",
@@ -115,17 +144,26 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "t.me/v2Line",
+      "server": "167.17.185.228",
+      "server_port": 10889,
+      "password": "cTv.9PDdCt-wybBrG1qlxI5UJuaEj"
+    },
+    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
         "Best-Ping",
         "vless",
         "trojan",
-        "Net_meli%F0%9F%87%AE%F0%9F%87%B7%5B@DarkTeam_VPN%5D",
+        "🇨🇦@FreakConfig",
+        "[🇨🇦]t.me/ConfigsHub",
+        "Channel id: @proxy_kafee🇩🇪",
         "%40FarazV2ray%20All",
-        "[",
-        "%E2%9B%8489%40oneclickvpnkeys",
-        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
+        "%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%F0%9F%91%88vpnowl%40",
+        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C",
+        "t.me/v2Line"
       ]
     },
     {
@@ -134,11 +172,13 @@
       "outbounds": [
         "vless",
         "trojan",
-        "Net_meli%F0%9F%87%AE%F0%9F%87%B7%5B@DarkTeam_VPN%5D",
+        "🇨🇦@FreakConfig",
+        "[🇨🇦]t.me/ConfigsHub",
+        "Channel id: @proxy_kafee🇩🇪",
         "%40FarazV2ray%20All",
-        "[",
-        "%E2%9B%8489%40oneclickvpnkeys",
-        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
+        "%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%F0%9F%91%88vpnowl%40",
+        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C",
+        "t.me/v2Line"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
