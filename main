@@ -72,21 +72,8 @@
     },
     {
       "type": "vmess",
-      "tag": "[🇨🇦]t.me/ConfigsHub",
-      "server": "148.113.176.192",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws"
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "Channel id: @proxy_kafee🇩🇪",
-      "server": "57.129.59.195",
+      "server": "57.129.28.216",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
@@ -95,37 +82,22 @@
         "type": "ws",
         "path": "linkvws",
         "headers": {
-          "Host": "kampong.org"
+          "Host": "fapeng.org"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "%40FarazV2ray%20All",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "uuid": "2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d",
+      "tag": "@Capoit",
+      "server": "162.159.152.4",
+      "server_port": 2096,
+      "uuid": "12345678-1234-1234-1234-123456789123",
       "flow": "",
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560",
+        "path": "/snippets",
         "headers": {
-          "Host": "digikalaa.dpdns.org"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%F0%9F%91%88vpnowl%40",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "uuid": "2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560",
-        "headers": {
-          "Host": "digikalaa.dpdns.org"
+          "Host": "vless.hubp.de"
         }
       }
     },
@@ -151,10 +123,8 @@
         "vless",
         "trojan",
         "🇨🇦@FreakConfig",
-        "[🇨🇦]t.me/ConfigsHub",
         "Channel id: @proxy_kafee🇩🇪",
-        "%40FarazV2ray%20All",
-        "%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%F0%9F%91%88vpnowl%40",
+        "@Capoit",
         "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ]
     },
@@ -165,10 +135,8 @@
         "vless",
         "trojan",
         "🇨🇦@FreakConfig",
-        "[🇨🇦]t.me/ConfigsHub",
         "Channel id: @proxy_kafee🇩🇪",
-        "%40FarazV2ray%20All",
-        "%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%F0%9F%91%88vpnowl%40",
+        "@Capoit",
         "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ],
       "url": "https://cp.cloudflare.com/",
