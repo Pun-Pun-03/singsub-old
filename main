@@ -100,6 +100,38 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "Channel id: @proxy_kafee🇩🇪",
+      "server": "57.129.28.216",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "fapeng.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "@proxy_kafee🇩🇪",
+      "server": "57.129.25.22",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "o.metuji.com"
+        }
+      }
+    },
+    {
       "type": "vless",
       "tag": "%40V2raysCollector%20%F0%9F%8F%B4",
       "server": "8.6.112.0",
@@ -160,6 +192,28 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "%F0%9F%9F%A975%40oneclickvpnkeys",
+      "server": "83.222.23.81",
+      "server_port": 38065,
+      "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0",
+      "flow": ""
+    },
+    {
+      "type": "trojan",
+      "tag": "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C",
+      "server": "chatgpt.com",
+      "server_port": 443,
+      "password": "humanity",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.gossipglove.com"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
@@ -169,10 +223,14 @@
         "@V2raysCollector 👺=👳",
         "[🇺🇸]t.me/ConfigsHub",
         "🇨🇦@FreakConfig",
+        "Channel id: @proxy_kafee🇩🇪",
+        "@proxy_kafee🇩🇪",
         "%40V2raysCollector%20%F0%9F%8F%B4",
         "%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%20%DA%AF%D9%BE%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D8%B9%D8%B6%D9%88%D8%B4%DB%8C%D8%AF%20proxy_kafee%40",
         "%40flyv2ray",
-        "["
+        "[",
+        "%F0%9F%9F%A975%40oneclickvpnkeys",
+        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ]
     },
     {
@@ -184,10 +242,14 @@
         "@V2raysCollector 👺=👳",
         "[🇺🇸]t.me/ConfigsHub",
         "🇨🇦@FreakConfig",
+        "Channel id: @proxy_kafee🇩🇪",
+        "@proxy_kafee🇩🇪",
         "%40V2raysCollector%20%F0%9F%8F%B4",
         "%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%20%DA%AF%D9%BE%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D8%B9%D8%B6%D9%88%D8%B4%DB%8C%D8%AF%20proxy_kafee%40",
         "%40flyv2ray",
-        "["
+        "[",
+        "%F0%9F%9F%A975%40oneclickvpnkeys",
+        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
