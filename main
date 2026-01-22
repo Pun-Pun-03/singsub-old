@@ -55,6 +55,19 @@
       "password": "IM4e0ZQNPU"
     },
     {
+      "type": "vmess",
+      "tag": "@V2raysCollector 👺=👳",
+      "server": "8.6.112.0",
+      "server_port": 2053,
+      "uuid": "8b23a6c9-0ca6-4134-83f2-39d42da0d648",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
       "type": "vless",
       "tag": "%40flyv2ray",
       "server": "chatgpt.com",
@@ -101,6 +114,7 @@
         "Best-Ping",
         "vless",
         "trojan",
+        "@V2raysCollector 👺=👳",
         "%40flyv2ray",
         "[",
         "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
@@ -112,6 +126,7 @@
       "outbounds": [
         "vless",
         "trojan",
+        "@V2raysCollector 👺=👳",
         "%40flyv2ray",
         "[",
         "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
