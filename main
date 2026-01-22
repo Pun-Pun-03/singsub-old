@@ -55,50 +55,29 @@
       "password": "IM4e0ZQNPU"
     },
     {
-      "type": "vmess",
-      "tag": "🇨🇦@FreakConfig",
-      "server": "158.51.121.63",
+      "type": "vless",
+      "tag": "%40flyv2ray",
+      "server": "chatgpt.com",
       "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
+      "uuid": "1a09f2d5-20d6-4cac-f855-807c82e04766",
+      "flow": "",
       "transport": {
         "type": "ws",
-        "path": "linkvws",
+        "path": "/",
         "headers": {
-          "Host": "seribus.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "Channel id: @proxy_kafee🇩🇪",
-      "server": "57.129.28.216",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "fapeng.org"
+          "Host": "Emergency.electrov2ray.store"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "@Capoit",
-      "server": "162.159.152.4",
-      "server_port": 2096,
-      "uuid": "12345678-1234-1234-1234-123456789123",
+      "tag": "[",
+      "server": "45.82.251.95",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "flow": "",
       "transport": {
-        "type": "ws",
-        "path": "/snippets",
-        "headers": {
-          "Host": "vless.hubp.de"
-        }
+        "type": "grpc"
       }
     },
     {
@@ -122,9 +101,8 @@
         "Best-Ping",
         "vless",
         "trojan",
-        "🇨🇦@FreakConfig",
-        "Channel id: @proxy_kafee🇩🇪",
-        "@Capoit",
+        "%40flyv2ray",
+        "[",
         "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ]
     },
@@ -134,9 +112,8 @@
       "outbounds": [
         "vless",
         "trojan",
-        "🇨🇦@FreakConfig",
-        "Channel id: @proxy_kafee🇩🇪",
-        "@Capoit",
+        "%40flyv2ray",
+        "[",
         "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ],
       "url": "https://cp.cloudflare.com/",
