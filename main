@@ -115,6 +115,14 @@
     },
     {
       "type": "vless",
+      "tag": "VPNBaz",
+      "server": "94.141.123.12",
+      "server_port": 558,
+      "uuid": "be695a55-8ac5-40a1-92c2-cc864651360a",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
       "tag": "t.me%2FV2raysCollector%20%20%2B%20xt",
       "server": "149.115.110.173",
       "server_port": 443,
@@ -147,34 +155,11 @@
     },
     {
       "type": "vless",
-      "tag": "%F0%9F%87%B9%F0%9F%87%B7%40FreakConfig",
-      "server": "152.53.33.43",
-      "server_port": 443,
-      "uuid": "057b649c-54b1-4f68-86b1-90381637a2cf",
-      "flow": ""
-    },
-    {
-      "type": "vless",
       "tag": "%40proxy_kafee7",
       "server": "23.81.34.138",
       "server_port": 443,
       "uuid": "85571fb3-6d15-49b0-e1d6-cf8b6dbd623e",
       "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "@proxy_kafee",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "uuid": "495c0dad-3268-4470-ac57-887c5089db0d",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "asuka.boringdad.netlib.re"
-        }
-      }
     },
     {
       "type": "vless",
@@ -245,20 +230,6 @@
     },
     {
       "type": "trojan",
-      "tag": "@lrnbymaa",
-      "server": "cdn1.turbooserver.com",
-      "server_port": 80,
-      "password": "TurbooServer",
-      "transport": {
-        "type": "ws",
-        "path": "/ed",
-        "headers": {
-          "Host": "turboo-server.online"
-        }
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "%40V2raysCollector%20%F0%9F%A7%BF",
       "server": "104.18.32.47",
       "server_port": 443,
@@ -311,13 +282,12 @@
         "[🇨🇦]t.me/ConfigsHub",
         "t.me/v2Line | Free | 3191 | Canada",
         "@Capoit",
+        "VPNBaz",
         "t.me%2FV2raysCollector%20%20%2B%20xt",
         "%F0%9F%A5%87%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%DB%8C%DA%98%D9%87%202%20%F0%9F%87%A9%F0%9F%87%AA",
         "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
         "Ee%201%20join%20%40Outline_Vpn",
-        "%F0%9F%87%B9%F0%9F%87%B7%40FreakConfig",
         "%40proxy_kafee7",
-        "@proxy_kafee",
         "%40V2raysCollector%20%F0%9F%8C%A8",
         "%40V2raysCollector%20%F0%9F%8F%80",
         "[",
@@ -326,7 +296,6 @@
         "%F0%9F%9F%A950%40oneclickvpnkeys",
         "%F0%9F%8E%8477%40oneclickvpnkeys",
         "%F0%9F%8E%8472%40oneclickvpnkeys",
-        "@lrnbymaa",
         "%40V2raysCollector%20%F0%9F%A7%BF",
         "lrnbymaa",
         "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
@@ -343,13 +312,12 @@
         "[🇨🇦]t.me/ConfigsHub",
         "t.me/v2Line | Free | 3191 | Canada",
         "@Capoit",
+        "VPNBaz",
         "t.me%2FV2raysCollector%20%20%2B%20xt",
         "%F0%9F%A5%87%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%DB%8C%DA%98%D9%87%202%20%F0%9F%87%A9%F0%9F%87%AA",
         "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
         "Ee%201%20join%20%40Outline_Vpn",
-        "%F0%9F%87%B9%F0%9F%87%B7%40FreakConfig",
         "%40proxy_kafee7",
-        "@proxy_kafee",
         "%40V2raysCollector%20%F0%9F%8C%A8",
         "%40V2raysCollector%20%F0%9F%8F%80",
         "[",
@@ -358,7 +326,6 @@
         "%F0%9F%9F%A950%40oneclickvpnkeys",
         "%F0%9F%8E%8477%40oneclickvpnkeys",
         "%F0%9F%8E%8472%40oneclickvpnkeys",
-        "@lrnbymaa",
         "%40V2raysCollector%20%F0%9F%A7%BF",
         "lrnbymaa",
         "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
