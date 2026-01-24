@@ -93,6 +93,27 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "t.me/v2Line | Free | 3191 | Canada",
+      "server": "158.51.121.63",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "linkvws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@Capoit",
+      "server": "canada1.pmcooo.com",
+      "server_port": 461,
+      "uuid": "dd326466-0d62-40b6-9958-72ca35cf0a99",
+      "flow": ""
+    },
+    {
       "type": "vless",
       "tag": "t.me%2FV2raysCollector%20%20%2B%20xt",
       "server": "149.115.110.173",
@@ -102,43 +123,27 @@
     },
     {
       "type": "vless",
-      "tag": "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
-      "server": "144.31.130.1",
-      "server_port": 8443,
-      "uuid": "0ee2d410-3e64-4c41-a571-3e5d2b5b8982",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
-      "server": "iran.zone-server-irani.ir",
-      "server_port": 2053,
-      "uuid": "0524840c-b9c9-4994-82db-129ac8caeac5",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "MehradLearn",
-      "server": "iran.zone-server-irani.ir",
-      "server_port": 2053,
-      "uuid": "0524840c-b9c9-4994-82db-129ac8caeac5",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Lrnbymaa",
-      "server": "in.direct.aabbccdde.org",
-      "server_port": 81,
-      "uuid": "58c9cbd0-7f3c-4b75-ad46-6b5f1c5d9d18",
+      "tag": "%F0%9F%A5%87%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%DB%8C%DA%98%D9%87%202%20%F0%9F%87%A9%F0%9F%87%AA",
+      "server": "vim3.svhamrah.shop",
+      "server_port": 20582,
+      "uuid": "47c89f9a-8525-4a0a-93a7-346e367aa7ce",
       "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
+      "server": "152.53.33.43",
+      "server_port": 443,
+      "uuid": "057b649c-54b1-4f68-86b1-90381637a2cf",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Ee%201%20join%20%40Outline_Vpn",
+      "server": "morgentop.ru",
+      "server_port": 52006,
+      "uuid": "4dcfab42-4703-07d0-b56d-0965380a532e",
+      "flow": "xtls-rprx-vision"
     },
     {
       "type": "vless",
@@ -147,6 +152,40 @@
       "server_port": 443,
       "uuid": "057b649c-54b1-4f68-86b1-90381637a2cf",
       "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "%40proxy_kafee7",
+      "server": "23.81.34.138",
+      "server_port": 443,
+      "uuid": "85571fb3-6d15-49b0-e1d6-cf8b6dbd623e",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@proxy_kafee",
+      "server": "104.18.32.47",
+      "server_port": 443,
+      "uuid": "495c0dad-3268-4470-ac57-887c5089db0d",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "asuka.boringdad.netlib.re"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "%40V2raysCollector%20%F0%9F%8C%A8",
+      "server": "ab.fxgoldensignals.com",
+      "server_port": 51269,
+      "uuid": "0341d8f2-99e0-4f6c-af0a-345ac26815cf",
+      "flow": "",
+      "transport": {
+        "type": "grpc"
+      }
     },
     {
       "type": "vless",
@@ -171,6 +210,38 @@
       "server_port": 8443,
       "uuid": "787ae54e-40ad-4caf-899b-ad3a19ff1103",
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "%F0%9F%9F%A975%40oneclickvpnkeys",
+      "server": "83.222.23.81",
+      "server_port": 38065,
+      "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "%F0%9F%9F%A950%40oneclickvpnkeys",
+      "server": "37.233.82.140",
+      "server_port": 40478,
+      "uuid": "e977d854-33f3-4345-abee-bf3fa9a6d880",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "%F0%9F%8E%8477%40oneclickvpnkeys",
+      "server": "77.73.232.61",
+      "server_port": 19747,
+      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "%F0%9F%8E%8472%40oneclickvpnkeys",
+      "server": "178.236.16.98",
+      "server_port": 35728,
+      "uuid": "a00d89f6-ab7e-4e30-a5e5-54c701d62c93",
+      "flow": ""
     },
     {
       "type": "trojan",
@@ -229,13 +300,6 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "t.me/v2Line",
-      "server": "167.17.185.228",
-      "server_port": 10889,
-      "password": "cTv.9PDdCt-wybBrG1qlxI5UJuaEj"
-    },
-    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
@@ -245,20 +309,27 @@
         "@V2raysCollector 👺=👳",
         "@V2raysCollector 💩=👳",
         "[🇨🇦]t.me/ConfigsHub",
+        "t.me/v2Line | Free | 3191 | Canada",
+        "@Capoit",
         "t.me%2FV2raysCollector%20%20%2B%20xt",
+        "%F0%9F%A5%87%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%DB%8C%DA%98%D9%87%202%20%F0%9F%87%A9%F0%9F%87%AA",
         "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
-        "%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
-        "MehradLearn",
-        "Lrnbymaa",
+        "Ee%201%20join%20%40Outline_Vpn",
         "%F0%9F%87%B9%F0%9F%87%B7%40FreakConfig",
+        "%40proxy_kafee7",
+        "@proxy_kafee",
+        "%40V2raysCollector%20%F0%9F%8C%A8",
         "%40V2raysCollector%20%F0%9F%8F%80",
         "[",
         "%F0%9F%8C%A8%EF%B8%8F47%40oneclickvpnkeys",
+        "%F0%9F%9F%A975%40oneclickvpnkeys",
+        "%F0%9F%9F%A950%40oneclickvpnkeys",
+        "%F0%9F%8E%8477%40oneclickvpnkeys",
+        "%F0%9F%8E%8472%40oneclickvpnkeys",
         "@lrnbymaa",
         "%40V2raysCollector%20%F0%9F%A7%BF",
         "lrnbymaa",
-        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C",
-        "t.me/v2Line"
+        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ]
     },
     {
@@ -270,20 +341,27 @@
         "@V2raysCollector 👺=👳",
         "@V2raysCollector 💩=👳",
         "[🇨🇦]t.me/ConfigsHub",
+        "t.me/v2Line | Free | 3191 | Canada",
+        "@Capoit",
         "t.me%2FV2raysCollector%20%20%2B%20xt",
+        "%F0%9F%A5%87%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%DB%8C%DA%98%D9%87%202%20%F0%9F%87%A9%F0%9F%87%AA",
         "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
-        "%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
-        "MehradLearn",
-        "Lrnbymaa",
+        "Ee%201%20join%20%40Outline_Vpn",
         "%F0%9F%87%B9%F0%9F%87%B7%40FreakConfig",
+        "%40proxy_kafee7",
+        "@proxy_kafee",
+        "%40V2raysCollector%20%F0%9F%8C%A8",
         "%40V2raysCollector%20%F0%9F%8F%80",
         "[",
         "%F0%9F%8C%A8%EF%B8%8F47%40oneclickvpnkeys",
+        "%F0%9F%9F%A975%40oneclickvpnkeys",
+        "%F0%9F%9F%A950%40oneclickvpnkeys",
+        "%F0%9F%8E%8477%40oneclickvpnkeys",
+        "%F0%9F%8E%8472%40oneclickvpnkeys",
         "@lrnbymaa",
         "%40V2raysCollector%20%F0%9F%A7%BF",
         "lrnbymaa",
-        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C",
-        "t.me/v2Line"
+        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
