@@ -56,6 +56,15 @@
     },
     {
       "type": "vmess",
+      "tag": "United States",
+      "server": "172.233.229.91",
+      "server_port": 14102,
+      "uuid": "27ba87fc-583f-4763-9060-83cf0b9264db",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
       "tag": "@V2raysCollector 👺=👳",
       "server": "8.6.112.0",
       "server_port": 2053,
@@ -93,17 +102,47 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "t.me/v2Line | Free | 3191 | Canada",
-      "server": "158.51.121.63",
+      "type": "vless",
+      "tag": "%E2%9C%85%20%20WS%20TLS%20%40vpnbaz",
+      "server": "cf2.asdasdqasd.ir",
       "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
+      "uuid": "9598ddca-ff1e-4f6f-a86e-152513f661ae",
+      "flow": "",
       "transport": {
         "type": "ws",
-        "path": "linkvws"
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "91.20tick.ir"
+        }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "https://t.me/VIPV2rayNGNP",
+      "server": "all.golnar-clod.ir",
+      "server_port": 2052,
+      "uuid": "65b59b8a-02cd-4319-a4cd-9c58f32f2628",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
+      "server": "fair.iranis.art",
+      "server_port": 8088,
+      "uuid": "fbe0d38f-5d9c-4d4e-9dbd-8f96584989e0",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
+      "server": "5.255.105.235",
+      "server_port": 8009,
+      "uuid": "49b8d2a1-b44f-4f0f-909d-28ea0f5c1f48",
+      "flow": ""
     },
     {
       "type": "vless",
@@ -139,14 +178,6 @@
     },
     {
       "type": "vless",
-      "tag": "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
-      "server": "152.53.33.43",
-      "server_port": 443,
-      "uuid": "057b649c-54b1-4f68-86b1-90381637a2cf",
-      "flow": ""
-    },
-    {
-      "type": "vless",
       "tag": "Ee%201%20join%20%40Outline_Vpn",
       "server": "morgentop.ru",
       "server_port": 52006,
@@ -155,22 +186,11 @@
     },
     {
       "type": "vless",
-      "tag": "%40proxy_kafee7",
-      "server": "23.81.34.138",
-      "server_port": 443,
-      "uuid": "85571fb3-6d15-49b0-e1d6-cf8b6dbd623e",
+      "tag": "4%20%7C%20%40proxy_kafee",
+      "server": "spain.torprospeed.ir",
+      "server_port": 587,
+      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
       "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "%40V2raysCollector%20%F0%9F%8C%A8",
-      "server": "ab.fxgoldensignals.com",
-      "server_port": 51269,
-      "uuid": "0341d8f2-99e0-4f6c-af0a-345ac26815cf",
-      "flow": "",
-      "transport": {
-        "type": "grpc"
-      }
     },
     {
       "type": "vless",
@@ -277,18 +297,20 @@
         "Best-Ping",
         "vless",
         "trojan",
+        "United States",
         "@V2raysCollector 👺=👳",
         "@V2raysCollector 💩=👳",
         "[🇨🇦]t.me/ConfigsHub",
-        "t.me/v2Line | Free | 3191 | Canada",
+        "%E2%9C%85%20%20WS%20TLS%20%40vpnbaz",
+        "https://t.me/VIPV2rayNGNP",
+        "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
+        "%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
         "@Capoit",
         "VPNBaz",
         "t.me%2FV2raysCollector%20%20%2B%20xt",
         "%F0%9F%A5%87%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%DB%8C%DA%98%D9%87%202%20%F0%9F%87%A9%F0%9F%87%AA",
-        "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
         "Ee%201%20join%20%40Outline_Vpn",
-        "%40proxy_kafee7",
-        "%40V2raysCollector%20%F0%9F%8C%A8",
+        "4%20%7C%20%40proxy_kafee",
         "%40V2raysCollector%20%F0%9F%8F%80",
         "[",
         "%F0%9F%8C%A8%EF%B8%8F47%40oneclickvpnkeys",
@@ -307,18 +329,20 @@
       "outbounds": [
         "vless",
         "trojan",
+        "United States",
         "@V2raysCollector 👺=👳",
         "@V2raysCollector 💩=👳",
         "[🇨🇦]t.me/ConfigsHub",
-        "t.me/v2Line | Free | 3191 | Canada",
+        "%E2%9C%85%20%20WS%20TLS%20%40vpnbaz",
+        "https://t.me/VIPV2rayNGNP",
+        "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
+        "%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
         "@Capoit",
         "VPNBaz",
         "t.me%2FV2raysCollector%20%20%2B%20xt",
         "%F0%9F%A5%87%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%DB%8C%DA%98%D9%87%202%20%F0%9F%87%A9%F0%9F%87%AA",
-        "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
         "Ee%201%20join%20%40Outline_Vpn",
-        "%40proxy_kafee7",
-        "%40V2raysCollector%20%F0%9F%8C%A8",
+        "4%20%7C%20%40proxy_kafee",
         "%40V2raysCollector%20%F0%9F%8F%80",
         "[",
         "%F0%9F%8C%A8%EF%B8%8F47%40oneclickvpnkeys",
