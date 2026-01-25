@@ -65,19 +65,6 @@
     },
     {
       "type": "vmess",
-      "tag": "@V2raysCollector 👺=👳",
-      "server": "8.6.112.0",
-      "server_port": 2053,
-      "uuid": "8b23a6c9-0ca6-4134-83f2-39d42da0d648",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "@V2raysCollector 💩=👳",
       "server": "47.251.91.241",
       "server_port": 42899,
@@ -298,7 +285,6 @@
         "vless",
         "trojan",
         "United States",
-        "@V2raysCollector 👺=👳",
         "@V2raysCollector 💩=👳",
         "[🇨🇦]t.me/ConfigsHub",
         "%E2%9C%85%20%20WS%20TLS%20%40vpnbaz",
@@ -330,7 +316,6 @@
         "vless",
         "trojan",
         "United States",
-        "@V2raysCollector 👺=👳",
         "@V2raysCollector 💩=👳",
         "[🇨🇦]t.me/ConfigsHub",
         "%E2%9C%85%20%20WS%20TLS%20%40vpnbaz",
