@@ -65,15 +65,6 @@
     },
     {
       "type": "vmess",
-      "tag": "@V2raysCollector 💩=👳",
-      "server": "47.251.91.241",
-      "server_port": 42899,
-      "uuid": "0925b355-2bcd-4eae-9720-d2709e4f7e36",
-      "security": null,
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
       "tag": "[🇨🇦]t.me/ConfigsHub",
       "server": "158.51.121.63",
       "server_port": 443,
@@ -89,55 +80,79 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "%E2%9C%85%20%20WS%20TLS%20%40vpnbaz",
-      "server": "cf2.asdasdqasd.ir",
+      "type": "vmess",
+      "tag": "t.me/v2Line | Free | 3191 | Canada",
+      "server": "158.51.121.63",
       "server_port": 443,
-      "uuid": "9598ddca-ff1e-4f6f-a86e-152513f661ae",
-      "flow": "",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
       "transport": {
         "type": "ws",
-        "path": "/?ed=2560",
+        "path": "linkvws"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇦@FreakConfig",
+      "server": "158.51.121.63",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
         "headers": {
-          "Host": "91.20tick.ir"
+          "Host": "seribus.org"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "https://t.me/VIPV2rayNGNP",
-      "server": "all.golnar-clod.ir",
-      "server_port": 2052,
-      "uuid": "65b59b8a-02cd-4319-a4cd-9c58f32f2628",
+      "tag": "%F0%9F%87%A9%F0%9F%87%AA%20%F0%9D%97%9A%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%BB%F0%9D%98%86%20%F0%9D%9F%AE",
+      "server": "ert-3.v-sub.site",
+      "server_port": 8880,
+      "uuid": "71b46b68-295a-40fa-9fc5-49519218e67c",
       "flow": ""
     },
     {
       "type": "vless",
-      "tag": "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
-      "server": "fair.iranis.art",
-      "server_port": 8088,
-      "uuid": "fbe0d38f-5d9c-4d4e-9dbd-8f96584989e0",
+      "tag": "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40Daily_Configs%20%E2%98%84%EF%B8%8F",
+      "server": "iran.zone-server-irani.ir",
+      "server_port": 443,
+      "uuid": "0f1b6d8d-3f8c-4713-b32d-c94947083485",
       "flow": "",
       "transport": {
         "type": "ws",
-        "path": "/"
+        "path": "/43.218.77.16=1443",
+        "headers": {
+          "Host": "apexbhao1.qzz.io"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
-      "server": "5.255.105.235",
-      "server_port": 8009,
-      "uuid": "49b8d2a1-b44f-4f0f-909d-28ea0f5c1f48",
-      "flow": ""
+      "tag": "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
+      "server": "ge-1.bot-iphone.ru",
+      "server_port": 8443,
+      "uuid": "123d4832-db2b-4376-be63-f60858cc328e",
+      "flow": "xtls-rprx-vision"
     },
     {
       "type": "vless",
-      "tag": "@Capoit",
-      "server": "canada1.pmcooo.com",
-      "server_port": 461,
-      "uuid": "dd326466-0d62-40b6-9958-72ca35cf0a99",
-      "flow": ""
+      "tag": "9%D8%B3%D8%B1%D9%88%D8%B1%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%3A%20%40customv2ray",
+      "server": "iran.zone-server-irani.ir",
+      "server_port": 443,
+      "uuid": "0f1b6d8d-3f8c-4713-b32d-c94947083485",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/43.218.77.16=1443",
+        "headers": {
+          "Host": "apexbhao1.qzz.io"
+        }
+      }
     },
     {
       "type": "vless",
@@ -149,34 +164,18 @@
     },
     {
       "type": "vless",
-      "tag": "t.me%2FV2raysCollector%20%20%2B%20xt",
-      "server": "149.115.110.173",
-      "server_port": 443,
-      "uuid": "cb33f36c-b531-4318-9be3-568e8d6c56c7",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "%F0%9F%A5%87%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%DB%8C%DA%98%D9%87%202%20%F0%9F%87%A9%F0%9F%87%AA",
-      "server": "vim3.svhamrah.shop",
-      "server_port": 20582,
-      "uuid": "47c89f9a-8525-4a0a-93a7-346e367aa7ce",
+      "tag": "%40V2raysCollector%20%E2%9D%A3%EF%B8%8F",
+      "server": "77.73.232.61",
+      "server_port": 19747,
+      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
       "flow": ""
     },
     {
       "type": "vless",
-      "tag": "Ee%201%20join%20%40Outline_Vpn",
-      "server": "morgentop.ru",
-      "server_port": 52006,
-      "uuid": "4dcfab42-4703-07d0-b56d-0965380a532e",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "4%20%7C%20%40proxy_kafee",
-      "server": "spain.torprospeed.ir",
-      "server_port": 587,
-      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
+      "tag": "%40V2raysCollector%20%F0%9F%97%BB",
+      "server": "77.91.68.70",
+      "server_port": 55983,
+      "uuid": "f667a096-5231-4cfb-8759-92bb32473139",
       "flow": ""
     },
     {
@@ -205,22 +204,6 @@
     },
     {
       "type": "vless",
-      "tag": "%F0%9F%9F%A975%40oneclickvpnkeys",
-      "server": "83.222.23.81",
-      "server_port": 38065,
-      "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "%F0%9F%9F%A950%40oneclickvpnkeys",
-      "server": "37.233.82.140",
-      "server_port": 40478,
-      "uuid": "e977d854-33f3-4345-abee-bf3fa9a6d880",
-      "flow": ""
-    },
-    {
-      "type": "vless",
       "tag": "%F0%9F%8E%8477%40oneclickvpnkeys",
       "server": "77.73.232.61",
       "server_port": 19747,
@@ -236,44 +219,38 @@
       "flow": ""
     },
     {
+      "type": "vless",
+      "tag": "%40meli_proxyy",
+      "server": "157.173.127.225",
+      "server_port": 443,
+      "uuid": "11beaf11-726d-4c11-8ce9-27308c1c608c",
+      "flow": ""
+    },
+    {
       "type": "trojan",
-      "tag": "%40V2raysCollector%20%F0%9F%A7%BF",
-      "server": "104.18.32.47",
+      "tag": "%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
+      "server": "free1.aattaash.com",
       "server_port": 443,
       "password": "humanity",
       "transport": {
         "type": "ws",
         "path": "/assignment",
         "headers": {
-          "Host": "www.multiplydose.com"
+          "Host": "www.creationlong.org"
         }
       }
     },
     {
       "type": "trojan",
-      "tag": "lrnbymaa",
-      "server": "cdn.turbooserver.com",
-      "server_port": 80,
-      "password": "TurbooServer",
-      "transport": {
-        "type": "ws",
-        "path": "/ed=25",
-        "headers": {
-          "Host": "jone-turboo-server.com"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C",
-      "server": "chatgpt.com",
+      "tag": "%5B%F0%9F%87%BA%F0%9F%87%B8%5D%40proxy_kafee",
+      "server": "208.103.161.110",
       "server_port": 443,
       "password": "humanity",
       "transport": {
         "type": "ws",
         "path": "/assignment",
         "headers": {
-          "Host": "www.gossipglove.com"
+          "Host": "www.creationlong.org"
         }
       }
     },
@@ -285,28 +262,24 @@
         "vless",
         "trojan",
         "United States",
-        "@V2raysCollector 💩=👳",
         "[🇨🇦]t.me/ConfigsHub",
-        "%E2%9C%85%20%20WS%20TLS%20%40vpnbaz",
-        "https://t.me/VIPV2rayNGNP",
+        "t.me/v2Line | Free | 3191 | Canada",
+        "🇨🇦@FreakConfig",
+        "%F0%9F%87%A9%F0%9F%87%AA%20%F0%9D%97%9A%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%BB%F0%9D%98%86%20%F0%9D%9F%AE",
+        "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40Daily_Configs%20%E2%98%84%EF%B8%8F",
         "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
-        "%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
-        "@Capoit",
+        "9%D8%B3%D8%B1%D9%88%D8%B1%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%3A%20%40customv2ray",
         "VPNBaz",
-        "t.me%2FV2raysCollector%20%20%2B%20xt",
-        "%F0%9F%A5%87%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%DB%8C%DA%98%D9%87%202%20%F0%9F%87%A9%F0%9F%87%AA",
-        "Ee%201%20join%20%40Outline_Vpn",
-        "4%20%7C%20%40proxy_kafee",
+        "%40V2raysCollector%20%E2%9D%A3%EF%B8%8F",
+        "%40V2raysCollector%20%F0%9F%97%BB",
         "%40V2raysCollector%20%F0%9F%8F%80",
         "[",
         "%F0%9F%8C%A8%EF%B8%8F47%40oneclickvpnkeys",
-        "%F0%9F%9F%A975%40oneclickvpnkeys",
-        "%F0%9F%9F%A950%40oneclickvpnkeys",
         "%F0%9F%8E%8477%40oneclickvpnkeys",
         "%F0%9F%8E%8472%40oneclickvpnkeys",
-        "%40V2raysCollector%20%F0%9F%A7%BF",
-        "lrnbymaa",
-        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
+        "%40meli_proxyy",
+        "%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
+        "%5B%F0%9F%87%BA%F0%9F%87%B8%5D%40proxy_kafee"
       ]
     },
     {
@@ -316,28 +289,24 @@
         "vless",
         "trojan",
         "United States",
-        "@V2raysCollector 💩=👳",
         "[🇨🇦]t.me/ConfigsHub",
-        "%E2%9C%85%20%20WS%20TLS%20%40vpnbaz",
-        "https://t.me/VIPV2rayNGNP",
+        "t.me/v2Line | Free | 3191 | Canada",
+        "🇨🇦@FreakConfig",
+        "%F0%9F%87%A9%F0%9F%87%AA%20%F0%9D%97%9A%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%BB%F0%9D%98%86%20%F0%9D%9F%AE",
+        "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40Daily_Configs%20%E2%98%84%EF%B8%8F",
         "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
-        "%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
-        "@Capoit",
+        "9%D8%B3%D8%B1%D9%88%D8%B1%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%3A%20%40customv2ray",
         "VPNBaz",
-        "t.me%2FV2raysCollector%20%20%2B%20xt",
-        "%F0%9F%A5%87%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%88%DB%8C%DA%98%D9%87%202%20%F0%9F%87%A9%F0%9F%87%AA",
-        "Ee%201%20join%20%40Outline_Vpn",
-        "4%20%7C%20%40proxy_kafee",
+        "%40V2raysCollector%20%E2%9D%A3%EF%B8%8F",
+        "%40V2raysCollector%20%F0%9F%97%BB",
         "%40V2raysCollector%20%F0%9F%8F%80",
         "[",
         "%F0%9F%8C%A8%EF%B8%8F47%40oneclickvpnkeys",
-        "%F0%9F%9F%A975%40oneclickvpnkeys",
-        "%F0%9F%9F%A950%40oneclickvpnkeys",
         "%F0%9F%8E%8477%40oneclickvpnkeys",
         "%F0%9F%8E%8472%40oneclickvpnkeys",
-        "%40V2raysCollector%20%F0%9F%A7%BF",
-        "lrnbymaa",
-        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
+        "%40meli_proxyy",
+        "%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
+        "%5B%F0%9F%87%BA%F0%9F%87%B8%5D%40proxy_kafee"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
