@@ -56,24 +56,6 @@
     },
     {
       "type": "vmess",
-      "tag": "United States",
-      "server": "172.233.229.91",
-      "server_port": 14102,
-      "uuid": "27ba87fc-583f-4763-9060-83cf0b9264db",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸[@proxystore11]vmess-US",
-      "server": "47.251.91.241",
-      "server_port": 42899,
-      "uuid": "0925b355-2bcd-4eae-9720-d2709e4f7e36",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
       "tag": "[🇨🇦]t.me/ConfigsHub",
       "server": "158.51.121.63",
       "server_port": 443,
@@ -102,140 +84,34 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "%F0%9F%87%A9%F0%9F%87%AA%20%F0%9D%97%9A%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%BB%F0%9D%98%86%20%F0%9D%9F%AE",
-      "server": "ert-3.v-sub.site",
-      "server_port": 8880,
-      "uuid": "71b46b68-295a-40fa-9fc5-49519218e67c",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40Daily_Configs%20%E2%98%84%EF%B8%8F",
-      "server": "iran.zone-server-irani.ir",
+      "type": "vmess",
+      "tag": "🇨🇦@FreakConfig",
+      "server": "158.51.121.63",
       "server_port": 443,
-      "uuid": "0f1b6d8d-3f8c-4713-b32d-c94947083485",
-      "flow": "",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
       "transport": {
         "type": "ws",
-        "path": "/43.218.77.16=1443",
+        "path": "linkvws",
         "headers": {
-          "Host": "apexbhao1.qzz.io"
+          "Host": "seribus.org"
         }
       }
     },
     {
-      "type": "vless",
-      "tag": "9%D8%B3%D8%B1%D9%88%D8%B1%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%3A%20%40customv2ray",
-      "server": "iran.zone-server-irani.ir",
+      "type": "vmess",
+      "tag": "Channel id: @proxy_kafee🇩🇪",
+      "server": "57.129.28.216",
       "server_port": 443,
-      "uuid": "0f1b6d8d-3f8c-4713-b32d-c94947083485",
-      "flow": "",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
       "transport": {
         "type": "ws",
-        "path": "/43.218.77.16=1443",
+        "path": "linkvws",
         "headers": {
-          "Host": "apexbhao1.qzz.io"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "VPNBaz",
-      "server": "94.141.123.12",
-      "server_port": 558,
-      "uuid": "be695a55-8ac5-40a1-92c2-cc864651360a",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "4%20%7C%20%40proxy_kafee",
-      "server": "spain.torprospeed.ir",
-      "server_port": 587,
-      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "%40V2raysCollector%20%E2%9D%A3%EF%B8%8F",
-      "server": "77.73.232.61",
-      "server_port": 19747,
-      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "%40V2raysCollector%20%F0%9F%91%B3%F0%9F%94%AB",
-      "server": "157.173.127.225",
-      "server_port": 443,
-      "uuid": "11beaf11-726d-4c11-8ce9-27308c1c608c",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "%40V2raysCollector%20%F0%9F%8F%80",
-      "server": "spain.torprospeed.ir",
-      "server_port": 587,
-      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "[",
-      "server": "45.144.48.192",
-      "server_port": 8443,
-      "uuid": "787ae54e-40ad-4caf-899b-ad3a19ff1103",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "%F0%9F%8C%A8%EF%B8%8F47%40oneclickvpnkeys",
-      "server": "45.144.48.192",
-      "server_port": 8443,
-      "uuid": "787ae54e-40ad-4caf-899b-ad3a19ff1103",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "%F0%9F%8E%8477%40oneclickvpnkeys",
-      "server": "77.73.232.61",
-      "server_port": 19747,
-      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "%F0%9F%8E%8472%40oneclickvpnkeys",
-      "server": "178.236.16.98",
-      "server_port": 35728,
-      "uuid": "a00d89f6-ab7e-4e30-a5e5-54c701d62c93",
-      "flow": ""
-    },
-    {
-      "type": "trojan",
-      "tag": "%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
-      "server": "free1.aattaash.com",
-      "server_port": 443,
-      "password": "humanity",
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.creationlong.org"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "%5B%F0%9F%87%BA%F0%9F%87%B8%5D%40proxy_kafee",
-      "server": "208.103.161.110",
-      "server_port": 443,
-      "password": "humanity",
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.creationlong.org"
+          "Host": "fapeng.org"
         }
       }
     },
@@ -246,24 +122,10 @@
         "Best-Ping",
         "vless",
         "trojan",
-        "United States",
-        "🇺🇸[@proxystore11]vmess-US",
         "[🇨🇦]t.me/ConfigsHub",
         "t.me/v2Line | Free | 3191 | Canada",
-        "%F0%9F%87%A9%F0%9F%87%AA%20%F0%9D%97%9A%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%BB%F0%9D%98%86%20%F0%9D%9F%AE",
-        "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40Daily_Configs%20%E2%98%84%EF%B8%8F",
-        "9%D8%B3%D8%B1%D9%88%D8%B1%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%3A%20%40customv2ray",
-        "VPNBaz",
-        "4%20%7C%20%40proxy_kafee",
-        "%40V2raysCollector%20%E2%9D%A3%EF%B8%8F",
-        "%40V2raysCollector%20%F0%9F%91%B3%F0%9F%94%AB",
-        "%40V2raysCollector%20%F0%9F%8F%80",
-        "[",
-        "%F0%9F%8C%A8%EF%B8%8F47%40oneclickvpnkeys",
-        "%F0%9F%8E%8477%40oneclickvpnkeys",
-        "%F0%9F%8E%8472%40oneclickvpnkeys",
-        "%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
-        "%5B%F0%9F%87%BA%F0%9F%87%B8%5D%40proxy_kafee"
+        "🇨🇦@FreakConfig",
+        "Channel id: @proxy_kafee🇩🇪"
       ]
     },
     {
@@ -272,24 +134,10 @@
       "outbounds": [
         "vless",
         "trojan",
-        "United States",
-        "🇺🇸[@proxystore11]vmess-US",
         "[🇨🇦]t.me/ConfigsHub",
         "t.me/v2Line | Free | 3191 | Canada",
-        "%F0%9F%87%A9%F0%9F%87%AA%20%F0%9D%97%9A%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%BB%F0%9D%98%86%20%F0%9D%9F%AE",
-        "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40Daily_Configs%20%E2%98%84%EF%B8%8F",
-        "9%D8%B3%D8%B1%D9%88%D8%B1%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%3A%20%40customv2ray",
-        "VPNBaz",
-        "4%20%7C%20%40proxy_kafee",
-        "%40V2raysCollector%20%E2%9D%A3%EF%B8%8F",
-        "%40V2raysCollector%20%F0%9F%91%B3%F0%9F%94%AB",
-        "%40V2raysCollector%20%F0%9F%8F%80",
-        "[",
-        "%F0%9F%8C%A8%EF%B8%8F47%40oneclickvpnkeys",
-        "%F0%9F%8E%8477%40oneclickvpnkeys",
-        "%F0%9F%8E%8472%40oneclickvpnkeys",
-        "%E2%9C%85%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%D8%AF%D8%B1%DA%A9%D8%A7%D9%86%D8%A7%D9%84%3Aprrofile_purple%40%E2%9C%85",
-        "%5B%F0%9F%87%BA%F0%9F%87%B8%5D%40proxy_kafee"
+        "🇨🇦@FreakConfig",
+        "Channel id: @proxy_kafee🇩🇪"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
