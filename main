@@ -142,6 +142,21 @@
     },
     {
       "type": "vless",
+      "tag": "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
+        "headers": {
+          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "%40IP_CF",
       "server": "104.18.32.47",
       "server_port": 443,
@@ -151,6 +166,14 @@
         "type": "ws",
         "path": "/test"
       }
+    },
+    {
+      "type": "vless",
+      "tag": "[",
+      "server": "57.131.19.236",
+      "server_port": 5058,
+      "uuid": "9273eeed-bc0a-463a-9556-54d50674c91a",
+      "flow": ""
     },
     {
       "type": "selector",
@@ -165,7 +188,9 @@
         "[🇺🇸]t.me/ConfigsHub",
         "🇨🇦@FreakConfig",
         "Channel id: @proxy_kafee🇩🇪",
-        "%40IP_CF"
+        "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
+        "%40IP_CF",
+        "["
       ]
     },
     {
@@ -180,7 +205,9 @@
         "[🇺🇸]t.me/ConfigsHub",
         "🇨🇦@FreakConfig",
         "Channel id: @proxy_kafee🇩🇪",
-        "%40IP_CF"
+        "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
+        "%40IP_CF",
+        "["
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
