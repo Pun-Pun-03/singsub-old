@@ -56,6 +56,15 @@
     },
     {
       "type": "vmess",
+      "tag": "@V2raysCollector 💩=👳",
+      "server": "47.251.91.241",
+      "server_port": 42899,
+      "uuid": "0925b355-2bcd-4eae-9720-d2709e4f7e36",
+      "security": null,
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
       "tag": "[🇨🇦]t.me/ConfigsHub",
       "server": "158.51.121.63",
       "server_port": 443,
@@ -81,6 +90,22 @@
       "transport": {
         "type": "ws",
         "path": "linkvws"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "[🇺🇸]t.me/ConfigsHub",
+      "server": "40.160.16.216",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "fapeng.org"
+        }
       }
     },
     {
@@ -116,16 +141,31 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "%40IP_CF",
+      "server": "104.18.32.47",
+      "server_port": 443,
+      "uuid": "c94f3cf9-7aa5-4b6d-b153-baea45280c64",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/test"
+      }
+    },
+    {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
         "Best-Ping",
         "vless",
         "trojan",
+        "@V2raysCollector 💩=👳",
         "[🇨🇦]t.me/ConfigsHub",
         "t.me/v2Line | Free | 3191 | Canada",
+        "[🇺🇸]t.me/ConfigsHub",
         "🇨🇦@FreakConfig",
-        "Channel id: @proxy_kafee🇩🇪"
+        "Channel id: @proxy_kafee🇩🇪",
+        "%40IP_CF"
       ]
     },
     {
@@ -134,10 +174,13 @@
       "outbounds": [
         "vless",
         "trojan",
+        "@V2raysCollector 💩=👳",
         "[🇨🇦]t.me/ConfigsHub",
         "t.me/v2Line | Free | 3191 | Canada",
+        "[🇺🇸]t.me/ConfigsHub",
         "🇨🇦@FreakConfig",
-        "Channel id: @proxy_kafee🇩🇪"
+        "Channel id: @proxy_kafee🇩🇪",
+        "%40IP_CF"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
