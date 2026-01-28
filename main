@@ -81,19 +81,6 @@
     },
     {
       "type": "vmess",
-      "tag": "t.me/v2Line | Free | 3191 | Canada",
-      "server": "158.51.121.63",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws"
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "[🇺🇸]t.me/ConfigsHub",
       "server": "40.160.16.216",
       "server_port": 443,
@@ -142,6 +129,21 @@
     },
     {
       "type": "vless",
+      "tag": "%E2%9A%A1Telegram%20%3D%20%40prrofile_purple",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
+        "headers": {
+          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "%40vpnbaz%20%E2%98%95",
       "server": "66.81.247.155",
       "server_port": 443,
@@ -183,14 +185,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "[",
-      "server": "57.131.19.236",
-      "server_port": 5058,
-      "uuid": "9273eeed-bc0a-463a-9556-54d50674c91a",
-      "flow": ""
-    },
-    {
       "type": "trojan",
       "tag": "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C",
       "server": "chatgpt.com",
@@ -213,14 +207,13 @@
         "trojan",
         "@V2raysCollector 💩=👳",
         "[🇨🇦]t.me/ConfigsHub",
-        "t.me/v2Line | Free | 3191 | Canada",
         "[🇺🇸]t.me/ConfigsHub",
         "🇨🇦@FreakConfig",
         "Channel id: @proxy_kafee🇩🇪",
+        "%E2%9A%A1Telegram%20%3D%20%40prrofile_purple",
         "%40vpnbaz%20%E2%98%95",
         "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
         "%40IP_CF",
-        "[",
         "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ]
     },
@@ -232,14 +225,13 @@
         "trojan",
         "@V2raysCollector 💩=👳",
         "[🇨🇦]t.me/ConfigsHub",
-        "t.me/v2Line | Free | 3191 | Canada",
         "[🇺🇸]t.me/ConfigsHub",
         "🇨🇦@FreakConfig",
         "Channel id: @proxy_kafee🇩🇪",
+        "%E2%9A%A1Telegram%20%3D%20%40prrofile_purple",
         "%40vpnbaz%20%E2%98%95",
         "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
         "%40IP_CF",
-        "[",
         "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ],
       "url": "https://cp.cloudflare.com/",
