@@ -56,47 +56,6 @@
     },
     {
       "type": "vmess",
-      "tag": "@V2raysCollector 💩=👳",
-      "server": "47.251.91.241",
-      "server_port": 42899,
-      "uuid": "0925b355-2bcd-4eae-9720-d2709e4f7e36",
-      "security": null,
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "[🇨🇦]t.me/ConfigsHub",
-      "server": "158.51.121.63",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "seribus.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "[🇺🇸]t.me/ConfigsHub",
-      "server": "40.160.16.216",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "fapeng.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "🇨🇦@FreakConfig",
       "server": "158.51.121.63",
       "server_port": 443,
@@ -124,6 +83,36 @@
         "path": "linkvws",
         "headers": {
           "Host": "fapeng.org"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "%40@V2rayng_Fast",
+      "server": "ip.ali.lat",
+      "server_port": 2083,
+      "uuid": "0f4dacd7-8f8f-4326-a849-1b1593e8e711",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "temp3.ali.lat"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "@V2rayng_Fast",
+      "server": "66.81.247.155",
+      "server_port": 443,
+      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=512",
+        "headers": {
+          "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
         }
       }
     },
@@ -173,18 +162,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "%40IP_CF",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "uuid": "c94f3cf9-7aa5-4b6d-b153-baea45280c64",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/test"
-      }
-    },
-    {
       "type": "trojan",
       "tag": "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C",
       "server": "chatgpt.com",
@@ -205,15 +182,13 @@
         "Best-Ping",
         "vless",
         "trojan",
-        "@V2raysCollector 💩=👳",
-        "[🇨🇦]t.me/ConfigsHub",
-        "[🇺🇸]t.me/ConfigsHub",
         "🇨🇦@FreakConfig",
         "Channel id: @proxy_kafee🇩🇪",
+        "%40@V2rayng_Fast",
+        "@V2rayng_Fast",
         "%E2%9A%A1Telegram%20%3D%20%40prrofile_purple",
         "%40vpnbaz%20%E2%98%95",
         "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
-        "%40IP_CF",
         "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ]
     },
@@ -223,15 +198,13 @@
       "outbounds": [
         "vless",
         "trojan",
-        "@V2raysCollector 💩=👳",
-        "[🇨🇦]t.me/ConfigsHub",
-        "[🇺🇸]t.me/ConfigsHub",
         "🇨🇦@FreakConfig",
         "Channel id: @proxy_kafee🇩🇪",
+        "%40@V2rayng_Fast",
+        "@V2rayng_Fast",
         "%E2%9A%A1Telegram%20%3D%20%40prrofile_purple",
         "%40vpnbaz%20%E2%98%95",
         "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
-        "%40IP_CF",
         "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ],
       "url": "https://cp.cloudflare.com/",
