@@ -147,16 +147,16 @@
     },
     {
       "type": "vless",
-      "tag": "%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%3A%20%40customv2ray",
-      "server": "cf.narton.ir",
+      "tag": "%40Lrnbymaa%20%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85",
+      "server": "ipbaz.ping-box.com",
       "server_port": 8443,
-      "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
+      "uuid": "8f1a15bf-a352-4c32-aee2-957039a6847b",
       "flow": "",
       "transport": {
         "type": "ws",
-        "path": "/?ed",
+        "path": "/??ed=2560",
         "headers": {
-          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
+          "Host": "6nwf5rauksz8126xm.zjde5.de5.net"
         }
       }
     },
@@ -181,7 +181,7 @@
         "%E2%9A%A1Telegram%20%3D%20%40prrofile_purple",
         "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
         "%40mehrosaboran",
-        "%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%3A%20%40customv2ray",
+        "%40Lrnbymaa%20%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85",
         "@V2rayng_Fast"
       ]
     },
@@ -197,7 +197,7 @@
         "%E2%9A%A1Telegram%20%3D%20%40prrofile_purple",
         "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
         "%40mehrosaboran",
-        "%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%3A%20%40customv2ray",
+        "%40Lrnbymaa%20%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85",
         "@V2rayng_Fast"
       ],
       "url": "https://cp.cloudflare.com/",
