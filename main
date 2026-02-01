@@ -71,102 +71,18 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "%F0%9F%94%A5%20Telegram%3A%20%40wiki_tajrobe",
-      "server": "ipbaz.ping-box.com",
-      "server_port": 8443,
-      "uuid": "8f1a15bf-a352-4c32-aee2-957039a6847b",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/@OnNetVpn",
-        "headers": {
-          "Host": "6nwf5rauksz8126xm.zjde5.de5.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "%40bored_vpn",
-      "server": "ipbaz.ping-box.com",
-      "server_port": 8443,
-      "uuid": "829658bf-03c4-4c28-81e9-dd6ea141b2d0",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "bored_vpn?ed=2560",
-        "headers": {
-          "Host": "5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "%E2%9A%A1Telegram%20%3D%20%40prrofile_purple",
-      "server": "ipbaz.ping-box.com",
-      "server_port": 8443,
-      "uuid": "8f1a15bf-a352-4c32-aee2-957039a6847b",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN?ed=2560",
-        "headers": {
-          "Host": "6nwf5rauksz8126xm.zjde5.de5.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
-      "server": "ipbaz.ping-box.com",
+      "type": "trojan",
+      "tag": "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C",
+      "server": "chatgpt.com",
       "server_port": 443,
-      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
-      "flow": "",
+      "password": "humanity",
       "transport": {
         "type": "ws",
-        "path": "/@OnNetVpn",
+        "path": "/assignment",
         "headers": {
-          "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+          "Host": "www.gossipglove.com"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "%40mehrosaboran",
-      "server": "ipbaz.ping-box.com",
-      "server_port": 8443,
-      "uuid": "8f1a15bf-a352-4c32-aee2-957039a6847b",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "mehrosaboran?ed=2560",
-        "headers": {
-          "Host": "6nwf5rauksz8126xm.zjde5.de5.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "%40Lrnbymaa%20%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85",
-      "server": "ipbaz.ping-box.com",
-      "server_port": 8443,
-      "uuid": "8f1a15bf-a352-4c32-aee2-957039a6847b",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/??ed=2560",
-        "headers": {
-          "Host": "6nwf5rauksz8126xm.zjde5.de5.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "@V2rayng_Fast",
-      "server": "python.org",
-      "server_port": 80,
-      "uuid": "4d63dcc0-d836-4101-9618-a15306d5d8ba",
-      "flow": ""
     },
     {
       "type": "selector",
@@ -176,13 +92,7 @@
         "vless",
         "trojan",
         "Channel id: @proxy_kafee🇩🇪",
-        "%F0%9F%94%A5%20Telegram%3A%20%40wiki_tajrobe",
-        "%40bored_vpn",
-        "%E2%9A%A1Telegram%20%3D%20%40prrofile_purple",
-        "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
-        "%40mehrosaboran",
-        "%40Lrnbymaa%20%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85",
-        "@V2rayng_Fast"
+        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ]
     },
     {
@@ -192,13 +102,7 @@
         "vless",
         "trojan",
         "Channel id: @proxy_kafee🇩🇪",
-        "%F0%9F%94%A5%20Telegram%3A%20%40wiki_tajrobe",
-        "%40bored_vpn",
-        "%E2%9A%A1Telegram%20%3D%20%40prrofile_purple",
-        "%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%20%E2%9E%A0%20%40vpnplusee_free%20%7C%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7",
-        "%40mehrosaboran",
-        "%40Lrnbymaa%20%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85",
-        "@V2rayng_Fast"
+        "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "10m",
