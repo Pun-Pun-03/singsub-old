@@ -56,22 +56,6 @@
     },
     {
       "type": "vmess",
-      "tag": "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
-      "server": "57.129.28.63",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "fapeng.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "Channel id: @proxy_kafee🇩🇪",
       "server": "57.129.28.216",
       "server_port": 443,
@@ -87,16 +71,17 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "%F0%9F%9F%A2%20telegram%3A%20%40tajrobe_wiki%20%F0%9F%9F%A2",
-      "server": "188.114.98.0",
+      "type": "vless",
+      "tag": "%E2%9A%A1Telegram%20%3D%20%40prrofile_purple",
+      "server": "fsl.narton.ir",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
+      "flow": "",
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/--Telegram---MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN",
         "headers": {
-          "Host": "www.creationlong.org"
+          "Host": "mitivpn3.global.ssl.fastly.net"
         }
       }
     },
@@ -121,9 +106,8 @@
         "Best-Ping",
         "vless",
         "trojan",
-        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "Channel id: @proxy_kafee🇩🇪",
-        "%F0%9F%9F%A2%20telegram%3A%20%40tajrobe_wiki%20%F0%9F%9F%A2",
+        "%E2%9A%A1Telegram%20%3D%20%40prrofile_purple",
         "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ]
     },
@@ -133,9 +117,8 @@
       "outbounds": [
         "vless",
         "trojan",
-        "(@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪",
         "Channel id: @proxy_kafee🇩🇪",
-        "%F0%9F%9F%A2%20telegram%3A%20%40tajrobe_wiki%20%F0%9F%9F%A2",
+        "%E2%9A%A1Telegram%20%3D%20%40prrofile_purple",
         "%40vpnbaz%20%7C%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C"
       ],
       "url": "https://cp.cloudflare.com/",
